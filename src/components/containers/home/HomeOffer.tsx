@@ -41,15 +41,18 @@ const HomeOffer = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                Giving Your Business Some Great Ideas
+                Your Trusted Partner in Fast, Quality Graphic Design Services
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                  At Any Graphics Today, we pride ourselves on delivering fast
+                  and timely service without sacrificing quality, offering
+                  competitive pricing, and providing a broad array of
+                  customizable services tailored to your brand's identity. Our
+                  team excels in direct communication, ensuring your vision
+                  comes to life with professionalism and precision, backed by
+                  our extensive experience and a commitment to
+                  reliability and trust.
                 </p>
               </div>
               <div className="section__content-cta">
@@ -68,7 +71,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    uI / uX experience
+                    Custom Logo Design
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -83,7 +86,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    web development
+                    Business Branding
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -98,7 +101,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    digital marketing
+                    Web Development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>

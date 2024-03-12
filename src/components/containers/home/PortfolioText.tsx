@@ -33,6 +33,7 @@ const PortfolioText = () => {
           }}
           className="portfolio__text-slider"
         >
+          
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
@@ -132,7 +133,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing 1</Link>
+                  <Link href="portfolio">UI/UX Design </Link>
                 </h4>
               </div>
             </div>
@@ -162,7 +163,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Marketing Design</Link>
                 </h4>
               </div>
             </div>
@@ -192,7 +193,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio"> Publication Design</Link>
                 </h4>
               </div>
             </div>
@@ -222,7 +223,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Packaging Design</Link>
                 </h4>
               </div>
             </div>
@@ -252,7 +253,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Environmental Design </Link>
                 </h4>
               </div>
             </div>
@@ -282,7 +283,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio"> Advertisement Design </Link>
                 </h4>
               </div>
             </div>
@@ -326,7 +327,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio"> Food Menu Design</Link>
                 </h4>
               </div>
             </div>

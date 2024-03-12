@@ -61,10 +61,9 @@ const HomeOneBanner = () => {
                 </h1>
                 <div className="banner__content-inner">
                   <p>
-                    From branding and logo design to marketing materials and
-                    digital graphics, no task is too big or too small. Our
-                    commitment is to deliver high-quality, custom designs within
-                    a 24-hour timeframe.
+                    Get stunning, custom graphic designs delivered today. Call
+                    now and elevate your brand with our fast, high-quality
+                    service, ready for any task, big or small, around the clock
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">
@@ -72,7 +71,7 @@ const HomeOneBanner = () => {
                       <p className="fw-5">years of experience</p>
                     </div>
                     <div className="single">
-                      <h5 className="fw-7">25k</h5>
+                      <h5 className="fw-7">2k</h5>
                       <p className="fw-5">completed projects</p>
                     </div>
                   </div>
@@ -90,17 +89,19 @@ const HomeOneBanner = () => {
         />
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com">mail : info@xpovio.com</Link>
-          <Link href="tel:99-2158-003-6980">Call : +99 2158 003 6980</Link>
+          <Link href="mailto:INFO@ANYGRAPHICSTODAY.COM">
+            mail : INFO@ANYGRAPHICSTODAY.COM
+          </Link>
+          <Link href="tel:+18882073469">Call : +18882073469</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
-          <Link href="https://www.instagram.com/" target="_blank">
+          <Link href="/" target="_blank">
             instagram
           </Link>
-          <Link href="https://www.pinterest.com/" target="_blank">
+          <Link href="/" target="_blank">
             Linkedin
           </Link>
-          <Link href="https://www.facebook.com/" target="_blank">
+          <Link href="/" target="_blank">
             facebook
           </Link>
         </div>

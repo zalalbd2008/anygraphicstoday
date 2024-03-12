@@ -50,7 +50,6 @@
 .btn--secondary {
   z-index: 1;
   color: var(--primary-color);
- mix-blend-mode: difference;
   border: 1px solid #414141;
   &::before {
     content: '';

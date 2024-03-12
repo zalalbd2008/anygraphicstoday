@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import thumbone from "public/images/agency/thumb-one.png";
+import thumbone from 'public/images/agency/image_1.jpg';
 import thumbtwo from "public/images/agency/thumb-two.png";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
@@ -100,15 +100,16 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                We are digital creative agency in London
+                Unlock Creative Excellence with Any Graphics Today
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                  Any Graphics Today is a top choice for creative design in the
+                  US, specializing in custom logo design and a wide range of
+                  services from UI/UX to packaging design. With 1-1 live
+                  designer interaction and competitive pricing, we cater to
+                  businesses of all sizes, ensuring personalized,
+                  top-quality designs.
                 </p>
               </div>
               <div className="skill-wrap">
@@ -126,7 +127,7 @@ const Agency = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
+                    <p className="primary-text">Business Branding</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="75%">
                     <div className="skill-bar">
@@ -138,9 +139,9 @@ const Agency = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p className="primary-text">Digital Marketing</p>
+                    <p className="primary-text">Graphic Design </p>
                   </div>
-                  <div className="skill-bar-wrapper" data-percent="90%">
+                  <div className="skill-bar-wrapper" data-percent="95%">
                     <div className="skill-bar">
                       <div className="skill-bar-percent">
                         <span className="percent-value"></span>
@@ -150,8 +151,8 @@ const Agency = () => {
                 </div>
               </div>
               <div className="section__content-cta">
-                <Link href="about-us" className="btn btn--primary">
-                  Know More
+                <Link href="contact-us" className="btn btn--primary">
+                  Contact Now
                 </Link>
               </div>
             </div>

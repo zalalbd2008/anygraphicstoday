@@ -131,7 +131,7 @@ const FooterTwo = () => {
                     ref={animatedTextRef}
                   >
                     info@gmail.com
-                    {animatedTextContent.split("").map((char, index) => (
+                    {animatedTextContent.split('').map((char, index) => (
                       <span
                         aria-hidden="true"
                         className="animated-char"
@@ -171,11 +171,11 @@ const FooterTwo = () => {
               </div>
               <div className="footer__single-meta section__content-cta">
                 <Link
-                  href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
-                  target="_blank"
+                  href="#"
+                  
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Texas, Florida, California, Chicago, New York, Atlanta
                 </Link>
                 <Link href="tel:406-555-0120">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
@@ -197,14 +197,14 @@ const FooterTwo = () => {
               <div className="footer__copyright-text text-center text-xl-start">
                 <p>
                   Copyright &copy;
-                  <span id="copyYear">{currentYear}</span> Xpovio by{" "}
+                  <span id="copyYear">{currentYear}</span> Xpovio by{' '}
                   <Link
                     href="https://themeforest.net/user/UltraDevs"
                     target="_blank"
                   >
-                    {" "}
+                    {' '}
                     UltraDevs
-                  </Link>{" "}
+                  </Link>{' '}
                   . All Rights Reserved
                 </p>
               </div>

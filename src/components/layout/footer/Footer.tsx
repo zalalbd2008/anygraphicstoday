@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import logo from "public/images/logo.png";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import logo from 'public/images/footer_logo.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,23 +15,20 @@ const Footer = () => {
           <div className="col-12 col-lg-5 col-xl-6">
             <div className="footer__single">
               <Link href="/" className="logo">
-                <Image src={logo} alt="Image" />
+                <Image src={logo} alt="Image"  width={300} />
               </Link>
               <div className="footer__single-meta">
-                <Link
-                  href="https://www.google.com/maps/d/viewer?mid=1UZ57Drfs3SGrTgh6mrYjQktu6uY&hl=en_US&ll=18.672105000000013%2C105.68673800000003&z=17"
-                  target="_blank"
-                >
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  901 N Pitt Str., Suite 170 Alexandria, USA
+                  Texas, Florida, California, Chicago, New York, Atlanta
                 </Link>
-                <Link href="tel:406-555-0120">
+                <Link href="tel:+18882073469">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  (406) 555-0120
+                  +18882073469
                 </Link>
-                <Link href="mailto:info@xpovio.com">
+                <Link href="mailto:INFO@ANYGRAPHICSTODAY.COM">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@xpovio.com
+                  INFO@ANYGRAPHICSTODAY.COM
                 </Link>
               </div>
               <div className="footer__cta text-start">
@@ -71,8 +68,8 @@ const Footer = () => {
               </div>
               <div className="footer__single-content">
                 <p>
-                  Welcome to our digital agency We specialize in helping
-                  business most like yours succeed online.
+                  Welcome to Our Graphic Design Agency! We specialize in
+                  assisting businesses with branding and marketing.
                 </p>
                 <div className="footer__single-form">
                   <form action="#" method="post">
@@ -102,15 +99,8 @@ const Footer = () => {
                   <div className="footer__copyright-text text-center text-lg-start">
                     <p>
                       Copyright &copy;
-                      <span id="copyYear">{currentYear}</span> Xpovio by{" "}
-                      <Link
-                        
-                        href="https://themeforest.net/user/UltraDevs"
-                        target="_blank"
-                      >
-                        UltraDevs{" "}
-                      </Link>
-                      . All Rights Reserved
+                      <span id="copyYear">{currentYear}</span> Any Graphics
+                      Today . All Rights Reserved
                     </p>
                   </div>
                 </div>

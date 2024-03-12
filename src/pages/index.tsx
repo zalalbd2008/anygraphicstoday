@@ -18,8 +18,8 @@ const HomeDark = () => {
       <HomeOffer />
       <HomeTestimonial />
       <HomeBlog />
-      <HomeSponsor />
-      <NextPage />
+      {/* <HomeSponsor />
+      <NextPage /> */}
     </Layout>
   );
 };
