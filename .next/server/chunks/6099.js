@@ -29,7 +29,7 @@ const CtaTwo = ()=>{
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "cta-two-wrapper bg-img",
                         style: {
-                            backgroundImage: "url('/images/cta-two-bg.png')"
+                            backgroundImage: "url('/images/footer_up_.jpg')"
                         },
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "row gaper align-items-center",
@@ -48,8 +48,8 @@ const CtaTwo = ()=>{
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
                                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                    href: "tel:19-3265-003-420",
-                                                    children: "call: +19 3265 003 420"
+                                                    href: "tel:+18882073469",
+                                                    children: "call: +18882073469"
                                                 })
                                             })
                                         ]

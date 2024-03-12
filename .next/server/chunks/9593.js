@@ -389,50 +389,56 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                                 children: [
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-brand",
                                                                             children: "Brand & Identity Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-marketing",
                                                                             children: "Advertisement And Marketing Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-art",
                                                                             children: "Illustration and Art"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-ui",
                                                                             children: "UI/UX Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-motion",
                                                                             children: "Motion Graphics"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-publication",
                                                                             children: "Publication Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-environmental",
                                                                             children: "Environmental Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-single",
+                                                                            href: "service-packageing",
                                                                             children: "Packaging\xa0Design"
+                                                                        })
+                                                                    }),
+                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
+                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+                                                                            href: "service-custome-logo",
+                                                                            children: "Custome Logo\xa0Design"
                                                                         })
                                                                     })
                                                                 ]

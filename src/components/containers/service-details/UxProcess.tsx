@@ -13,7 +13,7 @@ const UxProcess = () => {
                 UX Process
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">working UX Process</h2>
+              <h2 className="title title-anim">How We Work</h2>
             </div>
           </div>
         </div>
@@ -22,8 +22,8 @@ const UxProcess = () => {
             <div className="service-f-wrapper">
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 0 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 0 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
@@ -45,8 +45,8 @@ const UxProcess = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 1 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 1 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
@@ -68,8 +68,8 @@ const UxProcess = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 2 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 2 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
@@ -91,8 +91,8 @@ const UxProcess = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 3 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 3 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
@@ -114,8 +114,8 @@ const UxProcess = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 4 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 4 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">
@@ -137,8 +137,8 @@ const UxProcess = () => {
               </div>
               <div
                 className={
-                  "service-f-single fade-top " +
-                  (imgTab == 5 ? " service-f-single-active" : " ")
+                  'service-f-single fade-top ' +
+                  (imgTab == 5 ? ' service-f-single-active' : ' ')
                 }
               >
                 <div className="single-item">

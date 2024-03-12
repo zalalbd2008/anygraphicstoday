@@ -39,7 +39,7 @@ const UxProcess = ()=>{
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                     className: "title title-anim",
-                                    children: "working UX Process"
+                                    children: "How We Work"
                                 })
                             ]
                         })

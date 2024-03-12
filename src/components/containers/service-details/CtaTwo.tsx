@@ -9,7 +9,7 @@ const CtaTwo = () => {
           <div className="col-12 col-xxl-11">
             <div
               className="cta-two-wrapper bg-img"
-              style={{ backgroundImage: "url('/images/cta-two-bg.png')" }}
+              style={{ backgroundImage: "url('/images/footer_up_.jpg')" }}
             >
               <div className="row gaper align-items-center">
                 <div className="col-12 col-lg-8">
@@ -17,9 +17,7 @@ const CtaTwo = () => {
                     <span>Hello !</span>
                     <h2 className="title-anim">ready to work with us?</h2>
                     <h5>
-                      <Link href="tel:19-3265-003-420">
-                        call: +19 3265 003 420
-                      </Link>
+                      <Link href="tel:+18882073469">call: +18882073469</Link>
                     </h5>
                   </div>
                 </div>

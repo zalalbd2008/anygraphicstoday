@@ -37,7 +37,7 @@ const ServiceDetailsMain = () => {
                   </p>
                   <div className="footer__cta text-start pt-4">
                     <Link href="contact-us" className="btn btn--secondary">
-                      book a call now
+                      book a designer now
                     </Link>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ const ServiceDetailsMain = () => {
                             href="contact-us"
                             className="btn btn--secondary"
                           >
-                            book a call now
+                            call a designer now
                           </Link>
                         </div>
                       </div>

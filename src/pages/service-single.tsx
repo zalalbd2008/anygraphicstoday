@@ -8,7 +8,7 @@ import CtaTwo from "@/components/containers/service-details/CtaTwo";
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner />
+      <ServiceDetailsBanner  hedaer=""/>
       <ServiceDetailsMain />
       <UxProcess />
       <CtaTwo />
