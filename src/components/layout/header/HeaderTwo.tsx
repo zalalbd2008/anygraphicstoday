@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import logo from 'public/images/logo.png';
-import logoLight from 'public/images/logo-light.png';
+import logo from 'public/images/any_graphics_today.png';
+import logoLight from 'public/images/any_graphics_today.png';
 import Offcanvas from './Offcanvas';
 
 interface HeaderProps {
@@ -55,24 +55,26 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                 <nav className="navbar p-0">
                   <div className="navbar__logo">
                     <Link href="/" aria-label="go to home">
-                      <Image src={logoSrc} priority alt="Image" />
+                      <Image
+                        src={logoSrc}
+                        priority
+                        alt="Image"
+                        style={{
+                          width: '300px',
+                          height: 'auto',
+                        }}
+                      />
                     </Link>
                   </div>
                   <div className="navbar__menu">
                     <ul>
                       <li className="navbar__item nav-fade">
-                        <Link
-                          href="/"
-                          className="text-black pe-3 text-uppercase"
-                        >
+                        <Link href="/" className=" pe-3 text-uppercase">
                           Home
                         </Link>
                       </li>
-                      <li className="navbar__item nav-fade">
-                        <Link
-                          href="about-us"
-                          className="text-black pe-3 text-uppercase"
-                        >
+                      <li className="navbar__item">
+                        <Link href="about-us" className="pe-1 text-uppercase">
                           About Us
                         </Link>
                       </li>
@@ -80,94 +82,70 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label text-black"
+                          className="navbar__dropdown-label"
                         >
                           Services
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-services">Our Services</Link>
+                            <Link href="our-services">
+                              Brand & Identity Design
+                            </Link>
                           </li>
                           <li>
-                            <Link href="service-single">Service Details</Link>
+                            <Link href="our-services">
+                              Advertisement And Marketing Design
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="service-single">
+                              Illustration and Art
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="service-single">UI/UX Design</Link>
+                          </li>
+                          <li>
+                            <Link href="service-single">Motion Graphics</Link>
+                          </li>
+                          <li>
+                            <Link href="service-single">
+                              Publication Design
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="service-single">
+                              Environmental Design
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="service-single">Packaging Design</Link>
                           </li>
                         </ul>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Projects
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="our-projects">Our Projects</Link>
-                          </li>
-                          <li>
-                            <Link href="project-single">Project Details</Link>
-                          </li>
-                        </ul>
+
+                      <li className="navbar__item nav-fade">
+                        <Link href="about-us" className="pe-3 text-uppercase">
+                          Profile
+                        </Link>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Pages
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="faq">FAQ</Link>
-                          </li>
-                          <li>
-                            <Link href="404">Error</Link>
-                          </li>
-                          <li>
-                            <Link href="our-story">Our Story</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio">Portfolio</Link>
-                          </li>
-                          <li className="navbar__item navbar__item--has-children">
-                            <button
-                              aria-label="dropdown menu"
-                              className="navbar__dropdown-label navbar__dropdown-label-sub"
-                            >
-                              Team
-                            </button>
-                            <ul className="navbar__sub-menu navbar__sub-menu__nested">
-                              <li>
-                                <Link href="our-teams">Our Teams</Link>
-                              </li>
-                              <li>
-                                <Link href="team-single">Team Details</Link>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <Link href="client-feedback">Testimonials</Link>
-                          </li>
-                          <li>
-                            <Link href="contact-us">Contact Us</Link>
-                          </li>
-                        </ul>
+
+                      <li className="navbar__item nav-fade">
+                        <Link href="about-us" className="pe-3 text-uppercase">
+                          {' '}
+                          Team Member
+                        </Link>
                       </li>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
-                        >
-                          Blog
-                        </button>
-                        <ul className="navbar__sub-menu">
-                          <li>
-                            <Link href="blog">Blog</Link>
-                          </li>
-                          <li>
-                            <Link href="blog-single">Blog Details</Link>
-                          </li>
-                        </ul>
+                      <li className="navbar__item nav-fade">
+                        <Link href="about-us" className="pe-3 text-uppercase">
+                          {' '}
+                          Testimonials 
+                        </Link>
+                      </li>
+                      <li className="navbar__item nav-fade">
+                        <Link href="about-us" className="pe-3 text-uppercase">
+                          Blog 
+                        </Link>
                       </li>
                     </ul>
                   </div>

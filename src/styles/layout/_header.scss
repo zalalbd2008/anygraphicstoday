@@ -34,6 +34,10 @@
       text-transform: uppercase;
       font-weight: 500;
       width: 100%;
+      color: var(--primary-color);
+    }
+    *{
+      color: var(--primary-color);
     }
   }
 
@@ -175,7 +179,7 @@
 
   .open-mobile-menu {
     font-size: 30px;
-    color: var(--white);
+    color: var(--primary-color);
   }
 }
 

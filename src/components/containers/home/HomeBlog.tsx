@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "public/images/blog/one.png";
-import two from "public/images/blog/two.png";
+import one from 'public/images/blog/image_1.jpg';
+import two from 'public/images/blog/image_2.jpg';
 
 const HomeBlog = () => {
   return (

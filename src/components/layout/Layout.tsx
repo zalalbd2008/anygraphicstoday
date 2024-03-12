@@ -179,28 +179,25 @@ const Layout = ({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="shortcut icon"
-          href="/images/favicon.png"
+          href="/images/any_graphics_today.png"
           type="image/x-icon"
         />
-        <title>Xpovio | Digital Agency Creative Portfolio Template</title>
+        <title>Any Graphics Today</title>
         <meta name="keywords" content="creative, agency, portfolio" />
-        <meta
-          name="description"
-          content="Digital Agency Creative Portfolio Template"
-        />
+        <meta name="description" content="Digital Agency" />
       </Head>
       <div className={combinedClassName}>
         {header === 1 && (
-          // <HeaderTwo
-          //   openNav={openNav}
-          //   handleNav={handleNav}
-          //   setOpenNav={setOpenNav}
-          // />
-          <Header
+          <HeaderTwo
             openNav={openNav}
             handleNav={handleNav}
             setOpenNav={setOpenNav}
           />
+          // <Header
+          //   openNav={openNav}
+          //   handleNav={handleNav}
+          //   setOpenNav={setOpenNav}
+          // />
         )}
         {header === 2 && (
           <HeaderTwo

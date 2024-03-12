@@ -3,6 +3,16 @@ exports.id = 6392;
 exports.ids = [6392];
 exports.modules = {
 
+/***/ 3978:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/image_1.5e4d3e3d.png","height":333,"width":333,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAe1BMVEX+/v38/f03Li5IPj91iJV6encXERNZVFHy8vJLYXagn55LTk1LQUA4Ly5SNCn7+/vr6+vJwLqNe3I1GhCFfXppYF5dU1rCta5+d3t1ampWUlFDQkFmXFnQ0dCeqK1dXlqAdnUqLjPn6OiKhIyusLBWXmeIbVppU0Waf3VYhPO5AAAAHXRSTlP93+Le8/7Y+P74+t7x8/PU8ejz89/73t/C///+/iZOzysAAAAJcEhZcwAACxMAAAsTAQCanBgAAABISURBVHicBcEFAoAgAASwA0HKbkLB9v8vdEOrFWMNanS3kpc8CPpnw4qVoHr5afk2QOzROh8NCi9EGJ1BGVL6rJ6R08xMOV1+nl0EgwPAjsoAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8});
+
+/***/ }),
+
 /***/ 6392:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -21,9 +31,7 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2184);
 /* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(9984);
 /* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var public_images_testimonial_s_thumb_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(5005);
-/* harmony import */ var public_images_testimonial_s_thumb_two_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(7493);
-/* harmony import */ var public_images_testimonial_s_thumb_three_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(7889);
+/* harmony import */ var public_images_testimonial_image_1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3978);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([swiper_react__WEBPACK_IMPORTED_MODULE_4__, swiper_modules__WEBPACK_IMPORTED_MODULE_5__]);
 ([swiper_react__WEBPACK_IMPORTED_MODULE_4__, swiper_modules__WEBPACK_IMPORTED_MODULE_5__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
 
@@ -232,7 +240,7 @@ const HomeTestimonial = ()=>{
                                                                 className: "thumb",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                                        src: public_images_testimonial_s_thumb_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
+                                                                        src: public_images_testimonial_image_1_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
                                                                         alt: "Image"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
@@ -297,7 +305,7 @@ const HomeTestimonial = ()=>{
                                                                 className: "thumb",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                                        src: public_images_testimonial_s_thumb_two_png__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z,
+                                                                        src: public_images_testimonial_image_1_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
                                                                         alt: "Image"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
@@ -362,7 +370,7 @@ const HomeTestimonial = ()=>{
                                                                 className: "thumb",
                                                                 children: [
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
-                                                                        src: public_images_testimonial_s_thumb_three_png__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z,
+                                                                        src: public_images_testimonial_image_1_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
                                                                         alt: "Image"
                                                                     }),
                                                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
@@ -445,7 +453,7 @@ const HomeTestimonial = ()=>{
                 className: "other-section",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {
                     className: "other-section-image",
-                    src: nextSlideIndex === 0 ? public_images_testimonial_s_thumb_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z : nextSlideIndex === 1 ? public_images_testimonial_s_thumb_two_png__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z : public_images_testimonial_s_thumb_three_png__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z,
+                    src: nextSlideIndex === 0 ? public_images_testimonial_image_1_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z : nextSlideIndex === 1 ? public_images_testimonial_image_1_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z : public_images_testimonial_image_1_png__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z,
                     alt: "Next Slide Image"
                 })
             }),

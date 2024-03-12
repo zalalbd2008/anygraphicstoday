@@ -106,21 +106,30 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen('services')}`}
                   >
                     <li>
-                      <Link href="our-services">Business Branding</Link>
+                      <Link href="our-services">Brand & Identity Design</Link>
                     </li>
                     <li>
-                      <Link href="service-single">
-                        Corporate Graphic Design
+                      <Link href="our-services">
+                        Advertisement And Marketing Design
                       </Link>
                     </li>
                     <li>
-                      <Link href="service-single">Small Business Branding</Link>
+                      <Link href="service-single">Illustration and Art</Link>
                     </li>
                     <li>
-                      <Link href="service-single">Web Design </Link>
+                      <Link href="service-single">UI/UX Design</Link>
                     </li>
                     <li>
-                      <Link href="service-single">Social Media Marketing</Link>
+                      <Link href="service-single">Motion Graphics</Link>
+                    </li>
+                    <li>
+                      <Link href="service-single">Publication Design</Link>
+                    </li>
+                    <li>
+                      <Link href="service-single">Environmental Design</Link>
+                    </li>
+                    <li>
+                      <Link href="service-single">Packaging Design</Link>
                     </li>
                   </ul>
                 </li>
