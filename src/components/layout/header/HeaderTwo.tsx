@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import logo from "public/images/logo.png";
-import logoLight from "public/images/logo-light.png";
-import Offcanvas from "./Offcanvas";
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { useRouter } from 'next/router';
+import logo from 'public/images/logo.png';
+import logoLight from 'public/images/logo-light.png';
+import Offcanvas from './Offcanvas';
 
 interface HeaderProps {
   openNav: boolean;
@@ -25,23 +25,23 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  const defaultClasses = "primary-navbar cmn-nav";
+  const defaultClasses = 'primary-navbar cmn-nav';
 
   const combinedClasses = `${
-    scrolled ? " navbar-active" : " "
+    scrolled ? ' navbar-active' : ' '
   } ${defaultClasses}`;
 
   let logoSrc = logo;
 
   const router = useRouter();
-  if (router.pathname === "/index-two-light") {
+  if (router.pathname === '/') {
     logoSrc = logoLight;
   }
 
@@ -60,63 +60,27 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__menu">
                     <ul>
-                      <li className="navbar__item navbar__item--has-children nav-fade">
-                        <button
-                          aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                      <li className="navbar__item nav-fade">
+                        <Link
+                          href="/"
+                          className="text-black pe-3 text-uppercase"
                         >
                           Home
-                        </button>
-                        <ul className="navbar__sub-menu navbar__sub-menu--lg">
-                          <li>
-                            <Link href="/">Creative Agency</Link>
-                          </li>
-                          <li>
-                            <Link href="index-light">
-                              Creative Agency Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-two">Digital Agency</Link>
-                          </li>
-                          <li>
-                            <Link href="index-two-light">
-                              Digital Agency Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-three">It Solution</Link>
-                          </li>
-                          <li>
-                            <Link href="index-three-light">
-                              It Solution Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-four">Personal Portfolio</Link>
-                          </li>
-                          <li>
-                            <Link href="index-four-light">
-                              Personal Portfolio Light
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="index-five">Interactive Portfolio</Link>
-                          </li>
-                          <li>
-                            <Link href="index-five-light">
-                              Interactive Portfolio Light
-                            </Link>
-                          </li>
-                        </ul>
+                        </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="about-us">About Us</Link>
+                        <Link
+                          href="about-us"
+                          className="text-black pe-3 text-uppercase"
+                        >
+                          About Us
+                        </Link>
                       </li>
+
                       <li className="navbar__item navbar__item--has-children nav-fade">
                         <button
                           aria-label="dropdown menu"
-                          className="navbar__dropdown-label"
+                          className="navbar__dropdown-label text-black"
                         >
                           Services
                         </button>
@@ -220,6 +184,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                     >
                       <i className="fa-light fa-bars-staggered"></i>
                     </button>
+
+                    {/*
+                     */}
                   </div>
                 </nav>
               </div>

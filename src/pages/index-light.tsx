@@ -9,7 +9,7 @@ import HomeBlog from "@/components/containers/home/HomeBlog";
 import HomeSponsorLight from "@/components/containers/home/HomeSponsorLight";
 import NextPage from "@/components/containers/home/NextPage";
 
-const HomeLight = () => {
+const Home = () => {
   return (
     <Layout header={1} footer={1} video={true}>
       <HomeOneBanner />
@@ -24,4 +24,4 @@ const HomeLight = () => {
   );
 };
 
-export default HomeLight;
+export default Home;

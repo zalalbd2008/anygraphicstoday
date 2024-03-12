@@ -50,6 +50,8 @@ const Layout = ({
     });
   }, []);
 
+  
+
   // navbar
   const [openNav, setOpenNav] = useState(false);
 
@@ -60,7 +62,7 @@ const Layout = ({
   const router = useRouter();
 
   const classMappings: Record<string, string> = {
-    "/index-light": "home-light",
+    "/": "home-light",
     "/index-two-light": "home-two-light",
     "/index-three-light": "home-three-light",
     "/index-four-light": "home-four-light",
@@ -189,6 +191,11 @@ const Layout = ({
       </Head>
       <div className={combinedClassName}>
         {header === 1 && (
+          // <HeaderTwo
+          //   openNav={openNav}
+          //   handleNav={handleNav}
+          //   setOpenNav={setOpenNav}
+          // />
           <Header
             openNav={openNav}
             handleNav={handleNav}

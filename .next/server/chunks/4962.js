@@ -388,7 +388,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
     const combinedClasses = `${scrolled ? " navbar-active" : " "} ${defaultClasses}`;
     let logoSrc = logo;
     const router = (0,router_.useRouter)();
-    if (router.pathname === "/index-two-light") {
+    if (router.pathname === "/") {
         logoSrc = logo_light;
     }
     return /*#__PURE__*/ (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
@@ -422,85 +422,19 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                             className: "navbar__menu",
                                             children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("ul", {
                                                 children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("li", {
-                                                        className: "navbar__item navbar__item--has-children nav-fade",
-                                                        children: [
-                                                            /*#__PURE__*/ jsx_runtime.jsx("button", {
-                                                                "aria-label": "dropdown menu",
-                                                                className: "navbar__dropdown-label",
-                                                                children: "Home"
-                                                            }),
-                                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)("ul", {
-                                                                className: "navbar__sub-menu navbar__sub-menu--lg",
-                                                                children: [
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "/",
-                                                                            children: "Creative Agency"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-light",
-                                                                            children: "Creative Agency Light"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-two",
-                                                                            children: "Digital Agency"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-two-light",
-                                                                            children: "Digital Agency Light"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-three",
-                                                                            children: "It Solution"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-three-light",
-                                                                            children: "It Solution Light"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-four",
-                                                                            children: "Personal Portfolio"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-four-light",
-                                                                            children: "Personal Portfolio Light"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-five",
-                                                                            children: "Interactive Portfolio"
-                                                                        })
-                                                                    }),
-                                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
-                                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "index-five-light",
-                                                                            children: "Interactive Portfolio Light"
-                                                                        })
-                                                                    })
-                                                                ]
-                                                            })
-                                                        ]
+                                                    /*#__PURE__*/ jsx_runtime.jsx("li", {
+                                                        className: "navbar__item nav-fade",
+                                                        children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+                                                            href: "/",
+                                                            className: "text-black pe-3 text-uppercase",
+                                                            children: "Home"
+                                                        })
                                                     }),
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item nav-fade",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                                             href: "about-us",
+                                                            className: "text-black pe-3 text-uppercase",
                                                             children: "About Us"
                                                         })
                                                     }),
@@ -509,7 +443,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                         children: [
                                                             /*#__PURE__*/ jsx_runtime.jsx("button", {
                                                                 "aria-label": "dropdown menu",
-                                                                className: "navbar__dropdown-label",
+                                                                className: "navbar__dropdown-label text-black",
                                                                 children: "Services"
                                                             }),
                                                             /*#__PURE__*/ (0,jsx_runtime.jsxs)("ul", {
@@ -2858,7 +2792,7 @@ const Layout = ({ children, header, footer, handleMouseEnterTitle, handleMouseLe
     };
     const router = (0,router_.useRouter)();
     const classMappings = {
-        "/index-light": "home-light",
+        "/": "home-light",
         "/index-two-light": "home-two-light",
         "/index-three-light": "home-three-light",
         "/index-four-light": "home-four-light",
@@ -2978,7 +2912,12 @@ const Layout = ({ children, header, footer, handleMouseEnterTitle, handleMouseLe
             /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                 className: combinedClassName,
                 children: [
-                    header === 1 && /*#__PURE__*/ jsx_runtime.jsx(header_Header, {
+                    header === 1 && // <HeaderTwo
+                    //   openNav={openNav}
+                    //   handleNav={handleNav}
+                    //   setOpenNav={setOpenNav}
+                    // />
+                    /*#__PURE__*/ jsx_runtime.jsx(header_Header, {
                         openNav: openNav,
                         handleNav: handleNav,
                         setOpenNav: setOpenNav
