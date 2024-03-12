@@ -23,21 +23,19 @@ const TeamMembers = () => {
                 <div className="col-12 col-lg-8">
                   <div className="section__header text-center text-lg-start mb-0">
                     <span className="sub-title">
-                      our awesome crew
+                      Book A Designer Now
                       <i className="fa-solid fa-arrow-right"></i>
                     </span>
-                    <h2 className="title title-anim">
-                      our xpovio team members
-                    </h2>
+                    <h2 className="title title-anim">Our Expert Coverage</h2>
                   </div>
                 </div>
                 <div className="col-12 col-lg-4">
                   <div className="text-center text-lg-end">
                     <Link
-                      href="our-teams"
+                      href="contact-us"
                       className="btn btn--primary text-capitalize"
                     >
-                      view all teams
+                      24hrs Services
                     </Link>
                   </div>
                 </div>
@@ -62,8 +60,8 @@ const TeamMembers = () => {
               pauseOnMouseEnter: true,
             }}
             navigation={{
-              nextEl: ".next-team-s",
-              prevEl: ".prev-team-s",
+              nextEl: '.next-team-s',
+              prevEl: '.prev-team-s',
             }}
             className="team-s__slider"
             breakpoints={{
@@ -132,9 +130,10 @@ const TeamMembers = () => {
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        From Logo and Branding/Identity Design to Web and UI/UX
+                        Design, plus Print, Packaging, Advertising, and
+                        Publication, we cover a wide spectrum of graphic
+                        design services.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
@@ -163,8 +162,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Get your logo and small graphic designs in just 5 to 7
+                        hours with Any Graphics Today.
                       </p>
                     </div>
                     <div className="social">

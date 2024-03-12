@@ -88,12 +88,12 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="our-services">
+                            <Link href="service-single">
                               Brand & Identity Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="our-services">
+                            <Link href="service-single">
                               Advertisement And Marketing Design
                             </Link>
                           </li>

@@ -43,9 +43,11 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We&apos;re an UK-based top-notch design agency committed to
-                  partnering with good companies and hiring the right people for
-                  the right roles.
+                  We're Any Graphics Today, a division of a leading design
+                  agency based in the US. Dedicated to creating innovative
+                  designs for business branding, we're committed to partnering
+                  with startups and outstanding businesses, ensuring the perfect
+                  fit for each role.
                 </p>
               </div>
             </div>

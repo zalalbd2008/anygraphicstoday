@@ -2,10 +2,11 @@ import React from "react";
 import Image from "next/image";
 import thumbone from "public/images/service/thumb-one.png";
 import thumbtwo from "public/images/service/thumb-two.png";
+import Link from "next/link";
 
 const ServiceDetailsMain = () => {
   return (
-    <section className="section service-details fade-wrapper">
+    <section className=" mb-5 service-details fade-wrapper">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-xl-10">
@@ -34,6 +35,11 @@ const ServiceDetailsMain = () => {
                     text. All the Lorem Ipsum generators on the Internet tend to
                     repeat predefined chunks as necessary,
                   </p>
+                  <div className="footer__cta text-start pt-4">
+                    <Link href="contact-us" className="btn btn--secondary">
+                      book a call now
+                    </Link>
+                  </div>
                 </div>
                 <div className="section__content-cta">
                   <div className="row gaper">
@@ -52,6 +58,14 @@ const ServiceDetailsMain = () => {
                           design is optimized for mobile and desktop to create a
                           consistent.
                         </p>
+                        <div className="footer__cta text-start py-5">
+                          <Link
+                            href="contact-us"
+                            className="btn btn--secondary"
+                          >
+                            book a call now
+                          </Link>
+                        </div>
                       </div>
                     </div>
                     <div className="col-12 col-lg-5">

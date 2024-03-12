@@ -30,7 +30,7 @@ const ServiceDetailsBanner = () => {
               </nav>
             </div>
           </div>
-          <div className="col-12 col-lg-7 col-xl-5">
+          {/* <div className="col-12 col-lg-7 col-xl-5">
             <div className="slide-group justify-content-center justify-content-lg-end">
               <Link
                 href="service-single"
@@ -47,7 +47,7 @@ const ServiceDetailsBanner = () => {
                 <i className="fa-light fa-angle-right"></i>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

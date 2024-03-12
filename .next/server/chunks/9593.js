@@ -389,13 +389,13 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                                 children: [
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "our-services",
+                                                                            href: "service-single",
                                                                             children: "Brand & Identity Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "our-services",
+                                                                            href: "service-single",
                                                                             children: "Advertisement And Marketing Design"
                                                                         })
                                                                     }),

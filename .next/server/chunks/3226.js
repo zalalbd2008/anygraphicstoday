@@ -79,7 +79,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink })=>{
                                 className: "text-center text-lg-start",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "primary-text",
-                                    children: "We're an UK-based top-notch design agency committed to partnering with good companies and hiring the right people for the right roles."
+                                    children: "We're Any Graphics Today, a division of a leading design agency based in the US. Dedicated to creating innovative designs for business branding, we're committed to partnering with startups and outstanding businesses, ensuring the perfect fit\xa0for\xa0each\xa0role."
                                 })
                             })
                         })
