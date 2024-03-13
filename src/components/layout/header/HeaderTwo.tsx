@@ -59,10 +59,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         src={logoSrc}
                         priority
                         alt="Image"
-                        style={{
-                          width: '300px',
-                          height: 'auto',
-                        }}
+                        className="moble-size-logo"
                       />
                     </Link>
                   </div>
@@ -88,7 +85,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="service-brand">
+                            <Link href="serviceBrand">
                               Brand & Identity Design
                             </Link>
                           </li>
@@ -112,9 +109,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="service-environmental">
-                              Environmental Design
-                            </Link>
+                            <Link href="service-website">Website Design</Link>
                           </li>
                           <li>
                             <Link href="service-packageing">
@@ -130,7 +125,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       </li>
 
                       <li className="navbar__item nav-fade">
-                        <Link href="about-us" className="pe-3 text-uppercase">
+                        <Link href="portfolio" className="pe-3 text-uppercase">
                           Profile
                         </Link>
                       </li>
@@ -138,7 +133,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       <li className="navbar__item nav-fade">
                         <Link href="about-us" className="pe-3 text-uppercase">
                           {' '}
-                          Team Member
+                          Team
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
@@ -148,7 +143,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="about-us" className="pe-3 text-uppercase">
+                        <Link href="blog" className="text-uppercase">
                           Blog 
                         </Link>
                       </li>

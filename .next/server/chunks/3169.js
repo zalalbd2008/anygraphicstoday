@@ -33,7 +33,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 
-const ServiceDetailsMain = ()=>{
+const ServiceDetailsMain = ({ blogData })=>{
     return /*#__PURE__*/ jsx_runtime.jsx("section", {
         className: " mb-5 service-details fade-wrapper",
         children: /*#__PURE__*/ jsx_runtime.jsx("div", {
@@ -54,73 +54,73 @@ const ServiceDetailsMain = ()=>{
                                         alt: "Image"
                                     })
                                 }),
-                                /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                    className: "details-group section__cta text-start",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime.jsx("h3", {
-                                            className: "title-anim",
-                                            children: "Why do we use it?"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime.jsx("p", {
-                                            children: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime.jsx("p", {
-                                            children: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime.jsx("div", {
-                                            className: "footer__cta text-start pt-4",
-                                            children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                href: "contact-us",
-                                                className: "btn btn--secondary",
-                                                children: "book a designer now"
-                                            })
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ jsx_runtime.jsx("div", {
-                                    className: "section__content-cta",
-                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                        className: "row gaper",
+                                blogData.map((blog, index)=>{
+                                    return !blog.areaHalfWidth && !blog.workStep ? /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                        className: "details-group section__cta text-start",
                                         children: [
-                                            /*#__PURE__*/ jsx_runtime.jsx("div", {
-                                                className: "col-12 col-lg-7",
-                                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                                    className: "details-group",
-                                                    children: [
-                                                        /*#__PURE__*/ jsx_runtime.jsx("h3", {
-                                                            className: "title-anim",
-                                                            children: "Our approach"
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime.jsx("p", {
-                                                            children: "We employ proven website design strategies in each and every work, whether it's a simple informational website or a full-blown e-commerce website."
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime.jsx("p", {
-                                                            children: "First we create sitemaps, user flows, and wireframes to hone your message and desired interaction. Then comes our aesthetically remarkable designs. Every design is optimized for mobile and desktop to create a consistent."
-                                                        }),
-                                                        /*#__PURE__*/ jsx_runtime.jsx("div", {
-                                                            className: "footer__cta text-start py-5",
-                                                            children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                href: "contact-us",
-                                                                className: "btn btn--secondary",
-                                                                children: "call a designer now"
-                                                            })
-                                                        })
-                                                    ]
-                                                })
+                                            /*#__PURE__*/ jsx_runtime.jsx("h3", {
+                                                className: "title-anim",
+                                                children: blog.title
                                             }),
-                                            /*#__PURE__*/ jsx_runtime.jsx("div", {
-                                                className: "col-12 col-lg-5",
-                                                children: /*#__PURE__*/ jsx_runtime.jsx("div", {
-                                                    className: "poster-small",
-                                                    children: /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
-                                                        src: thumb_two,
-                                                        alt: "Image"
-                                                    })
-                                                })
+                                            /*#__PURE__*/ jsx_runtime.jsx("p", {
+                                                dangerouslySetInnerHTML: {
+                                                    __html: blog.des
+                                                }
                                             })
                                         ]
+                                    }, index) : null;
+                                }),
+                                /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                    className: "footer__cta text-start pt-4",
+                                    children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+                                        href: "contact-us",
+                                        className: "btn btn--secondary",
+                                        children: "book a designer now"
                                     })
-                                })
+                                }),
+                                blogData.map((blog, index)=>blog.areaHalfWidth && !blog.workStep && /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                        className: "section__content-cta",
+                                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "row gaper",
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                                    className: "col-12 col-lg-7",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                        className: "details-group",
+                                                        children: [
+                                                            /*#__PURE__*/ jsx_runtime.jsx("h3", {
+                                                                className: "title-anim",
+                                                                children: blog.title
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime.jsx("p", {
+                                                                dangerouslySetInnerHTML: {
+                                                                    __html: blog.des
+                                                                }
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                                                className: "footer__cta text-start py-5",
+                                                                children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+                                                                    href: "contact-us",
+                                                                    className: "btn btn--secondary",
+                                                                    children: "call a designer now"
+                                                                })
+                                                            })
+                                                        ]
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                                    className: "col-12 col-lg-5",
+                                                    children: /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                                        className: "poster-small",
+                                                        children: /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
+                                                            src: thumb_two,
+                                                            alt: "Image"
+                                                        })
+                                                    })
+                                                })
+                                            ]
+                                        })
+                                    }, index))
                             ]
                         })
                     })
@@ -163,7 +163,7 @@ const ServiceDetailsBanner = ({ hedaer })=>{
                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         className: "text-center text-lg-start",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                                 className: "title title-anim",
                                 children: hedaer
                             }),

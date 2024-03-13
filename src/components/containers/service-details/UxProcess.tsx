@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-const UxProcess = () => {
-  const [imgTab, setImgTab] = useState(0);
+const UxProcess = ({ stepWorkData} : any) => {
+  const [imgTab, setImgTab] = useState<number>(0);
 
   return (
     <section className="section ux-process bg-tertiary fade-wrapper">
@@ -17,147 +17,52 @@ const UxProcess = () => {
             </div>
           </div>
         </div>
+        <h6 className="text-start pb-3 fst-italic text-light-emphasis">
+          {stepWorkData.map(
+            (step: any, index: React.Key | null | undefined) =>
+              step.workStep && step.tab === -1 && step.headers
+          )}
+        </h6>
         <div className="row">
           <div className="col-12">
             <div className="service-f-wrapper">
-              <div
-                className={
-                  'service-f-single fade-top ' +
-                  (imgTab == 0 ? ' service-f-single-active' : ' ')
-                }
-              >
-                <div className="single-item">
-                  <div className="intro-btn">
-                    <h4>User Research</h4>
-                  </div>
-                </div>
-                <div className="single-item p-single p-sm body-cn">
-                  <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
-                  </p>
-                </div>
-                <button
-                  className="toggle-service-f"
-                  onClick={() => setImgTab(imgTab === 0 ? -1 : 0)}
-                ></button>
-              </div>
-              <div
-                className={
-                  'service-f-single fade-top ' +
-                  (imgTab == 1 ? ' service-f-single-active' : ' ')
-                }
-              >
-                <div className="single-item">
-                  <div className="intro-btn">
-                    <h4>story board</h4>
-                  </div>
-                </div>
-                <div className="single-item p-single p-sm body-cn">
-                  <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
-                  </p>
-                </div>
-                <button
-                  className="toggle-service-f"
-                  onClick={() => setImgTab(imgTab === 1 ? -1 : 1)}
-                ></button>
-              </div>
-              <div
-                className={
-                  'service-f-single fade-top ' +
-                  (imgTab == 2 ? ' service-f-single-active' : ' ')
-                }
-              >
-                <div className="single-item">
-                  <div className="intro-btn">
-                    <h4>wireframing</h4>
-                  </div>
-                </div>
-                <div className="single-item p-single p-sm body-cn">
-                  <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
-                  </p>
-                </div>
-                <button
-                  className="toggle-service-f"
-                  onClick={() => setImgTab(imgTab === 2 ? -1 : 2)}
-                ></button>
-              </div>
-              <div
-                className={
-                  'service-f-single fade-top ' +
-                  (imgTab == 3 ? ' service-f-single-active' : ' ')
-                }
-              >
-                <div className="single-item">
-                  <div className="intro-btn">
-                    <h4>Prototyping</h4>
-                  </div>
-                </div>
-                <div className="single-item p-single p-sm body-cn">
-                  <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
-                  </p>
-                </div>
-                <button
-                  className="toggle-service-f"
-                  onClick={() => setImgTab(imgTab === 3 ? -1 : 3)}
-                ></button>
-              </div>
-              <div
-                className={
-                  'service-f-single fade-top ' +
-                  (imgTab == 4 ? ' service-f-single-active' : ' ')
-                }
-              >
-                <div className="single-item">
-                  <div className="intro-btn">
-                    <h4>usability testing</h4>
-                  </div>
-                </div>
-                <div className="single-item p-single p-sm body-cn">
-                  <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
-                  </p>
-                </div>
-                <button
-                  className="toggle-service-f"
-                  onClick={() => setImgTab(imgTab === 4 ? -1 : 4)}
-                ></button>
-              </div>
-              <div
-                className={
-                  'service-f-single fade-top ' +
-                  (imgTab == 5 ? ' service-f-single-active' : ' ')
-                }
-              >
-                <div className="single-item">
-                  <div className="intro-btn">
-                    <h4>UI Design</h4>
-                  </div>
-                </div>
-                <div className="single-item p-single p-sm body-cn">
-                  <p>
-                    To deliver the best experience, we thoroughly research and
-                    evaluate your product and its users to create a strategic
-                    foundation for the brand.
-                  </p>
-                </div>
-                <button
-                  className="toggle-service-f"
-                  onClick={() => setImgTab(imgTab === 5 ? -1 : 5)}
-                ></button>
-              </div>
+              {stepWorkData.map(
+                (step: any, index: number) =>
+                  step.workStep &&
+                  step.tab >= 0 && (
+                    <div
+                      key={index}
+                      className={
+                        'service-f-single fade-top ' +
+                        (imgTab == step.tab ? ' service-f-single-active' : ' ')
+                      }
+                    >
+                      <div className="single-item">
+                        <div className="intro-btn">
+                          <h4>{step.title}</h4>
+                        </div>
+                      </div>
+                      <div className="single-item p-single p-sm body-cn">
+                        <p>{step.des}</p>
+                      </div>
+                      <button
+                        className="toggle-service-f"
+                        onClick={() => setImgTab(imgTab === 0 ? -1 : step.tab)}
+                      ></button>
+                    </div>
+                  )
+              )}
+
+              {stepWorkData.map(
+                (step: any, index: React.Key | null | undefined) =>
+                  step.workStep &&
+                  step.tab === -2 && (
+                    <h6
+                      className="text-center pb-3 fst-italic text-light-emphasis w-75 d-block m-auto mt-5 "
+                      dangerouslySetInnerHTML={{ __html: step.headers }}
+                    />
+                  )
+              )}
             </div>
           </div>
         </div>

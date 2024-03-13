@@ -8,6 +8,7 @@ import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 import HomeBlog from "@/components/containers/home/HomeBlog";
 import HomeSponsor from "@/components/containers/home/HomeSponsor";
 import NextPage from "@/components/containers/home/NextPage";
+import CtaTwo from "@/components/containers/service-details/CtaTwo";
 
 const HomeDark = () => {
   return (
@@ -20,6 +21,7 @@ const HomeDark = () => {
       <HomeBlog />
       {/* <HomeSponsor />
       <NextPage /> */}
+      <CtaTwo />
     </Layout>
   );
 };

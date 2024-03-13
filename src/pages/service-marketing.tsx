@@ -5,12 +5,14 @@ import ServiceDetailsBanner from '@/components/layout/banner/ServiceDetailsBanne
 import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 
+// data source
+import {serviceMarketingBlog} from '@/constant/inedex'
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
       <ServiceDetailsBanner hedaer="Advertisement And Marketing Design" />
-      <ServiceDetailsMain />
-      <UxProcess />
+      <ServiceDetailsMain blogData={serviceMarketingBlog} />
+      <UxProcess stepWorkData={serviceMarketingBlog} />
       <CtaTwo />
     </Layout>
   );

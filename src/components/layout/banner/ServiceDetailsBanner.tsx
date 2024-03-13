@@ -15,7 +15,7 @@ const ServiceDetailsBanner = ({ hedaer}: Header) => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-12 col-xl-12">
             <div className="text-center text-lg-start">
-              <h2 className="title title-anim">{hedaer}</h2>
+              <h1 className="title title-anim">{hedaer}</h1>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">

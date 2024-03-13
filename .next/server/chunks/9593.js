@@ -349,10 +349,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     src: logoSrc,
                                                     priority: true,
                                                     alt: "Image",
-                                                    style: {
-                                                        width: "300px",
-                                                        height: "auto"
-                                                    }
+                                                    className: "moble-size-logo"
                                                 })
                                             })
                                         }),
@@ -389,7 +386,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                                 children: [
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-brand",
+                                                                            href: "serviceBrand",
                                                                             children: "Brand & Identity Design"
                                                                         })
                                                                     }),
@@ -425,8 +422,8 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-environmental",
-                                                                            children: "Environmental Design"
+                                                                            href: "service-website",
+                                                                            children: "Website Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
@@ -448,7 +445,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item nav-fade",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                            href: "about-us",
+                                                            href: "portfolio",
                                                             className: "pe-3 text-uppercase",
                                                             children: "Profile"
                                                         })
@@ -460,7 +457,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                             className: "pe-3 text-uppercase",
                                                             children: [
                                                                 " ",
-                                                                "Team Member"
+                                                                "Team"
                                                             ]
                                                         })
                                                     }),
@@ -478,8 +475,8 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item nav-fade",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                            href: "about-us",
-                                                            className: "pe-3 text-uppercase",
+                                                            href: "blog",
+                                                            className: "text-uppercase",
                                                             children: "Blog\xa0"
                                                         })
                                                     })
