@@ -16,10 +16,10 @@ const AboutUs = () => {
 
       <HomeTwoModal />
 
-      <PortfolioText />
-      <Agency />
+      {/* <PortfolioText /> */}
+      {/* <Agency /> */}
       <TeamMembers />
-      <HomeTestimonial />
+      {/* <HomeTestimonial /> */}
       {/* <AboutSponsor /> */}
       <AboutCta />
     </Layout>

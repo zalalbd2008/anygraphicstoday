@@ -46,18 +46,18 @@ const Footer = () => {
               <div className="footer__single-content">
                 <ul>
                   <li>
-                    <Link href="privacy-policy">Privacy Policy</Link>
+                    <Link href="/privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="advertisement-policy">
+                    <Link href="/advertisement-policy">
                       Advertisement Policy
                     </Link>
                   </li>
                   <li>
-                    <Link href="disclaimer">Disclaimer</Link>
+                    <Link href="/disclaimer">Disclaimer</Link>
                   </li>
                   <li>
-                    <Link href="terms">Terms</Link>
+                    <Link href="/terms">Terms</Link>
                   </li>
                 </ul>
               </div>

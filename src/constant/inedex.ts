@@ -8,6 +8,8 @@ import serviceEnvironmentalBlog from './services/service-ui';
 import servicePackageingBlog from './services/service-publication';
 import serviceWebsiteBlog from './services/service-website';
 import serviceCustomeLogoBlog from './services/service-website';
+import testimonialsContent from './testimonials';
+import blogContent from './blog';
 
 export {
   serviceBrandBlog,
@@ -20,4 +22,5 @@ export {
   servicePackageingBlog,
   serviceWebsiteBlog,
   serviceCustomeLogoBlog,
+  blogContent, testimonialsContent,
 };

@@ -368,7 +368,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                            href: "about-us",
+                                                            href: "/about-us",
                                                             className: "pe-1 text-uppercase",
                                                             children: "About Us"
                                                         })
@@ -386,55 +386,55 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                                 children: [
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "serviceBrand",
+                                                                            href: "/serviceBrand",
                                                                             children: "Brand & Identity Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-marketing",
+                                                                            href: "/service-marketing",
                                                                             children: "Advertisement And Marketing Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-art",
+                                                                            href: "/service-art",
                                                                             children: "Illustration and Art"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-ui",
+                                                                            href: "/service-ui",
                                                                             children: "UI/UX Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-motion",
+                                                                            href: "/service-motion",
                                                                             children: "Motion Graphics"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-publication",
+                                                                            href: "/service-publication",
                                                                             children: "Publication Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-website",
+                                                                            href: "/service-website",
                                                                             children: "Website Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-packageing",
+                                                                            href: "/service-packageing",
                                                                             children: "Packaging\xa0Design"
                                                                         })
                                                                     }),
                                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                                            href: "service-custome-logo",
+                                                                            href: "/service-custome-logo",
                                                                             children: "Custome Logo\xa0Design"
                                                                         })
                                                                     })
@@ -445,7 +445,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item nav-fade",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                            href: "portfolio",
+                                                            href: "/portfolio",
                                                             className: "pe-3 text-uppercase",
                                                             children: "Profile"
                                                         })
@@ -453,7 +453,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item nav-fade",
                                                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                            href: "about-us",
+                                                            href: "/teams",
                                                             className: "pe-3 text-uppercase",
                                                             children: [
                                                                 " ",
@@ -464,7 +464,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item nav-fade",
                                                         children: /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                            href: "about-us",
+                                                            href: "/testimonials",
                                                             className: "pe-3 text-uppercase",
                                                             children: [
                                                                 " ",
@@ -475,7 +475,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                         className: "navbar__item nav-fade",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                            href: "blog",
+                                                            href: "/blog",
                                                             className: "text-uppercase",
                                                             children: "Blog\xa0"
                                                         })
@@ -489,7 +489,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                 /*#__PURE__*/ jsx_runtime.jsx("div", {
                                                     className: "navbar__mobile-options d-none d-sm-flex",
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "contact-us",
+                                                        href: "/contact-us",
                                                         className: "btn btn--secondary",
                                                         children: "Let's Talk"
                                                     })
@@ -1068,25 +1068,25 @@ const Footer = ()=>{
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "privacy-policy",
+                                                        href: "/privacy-policy",
                                                         children: "Privacy Policy"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "advertisement-policy",
+                                                        href: "/advertisement-policy",
                                                         children: "Advertisement Policy"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "disclaimer",
+                                                        href: "/disclaimer",
                                                         children: "Disclaimer"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "terms",
+                                                        href: "/terms",
                                                         children: "Terms"
                                                     })
                                                 })

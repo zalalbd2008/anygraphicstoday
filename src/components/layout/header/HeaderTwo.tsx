@@ -71,7 +71,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </Link>
                       </li>
                       <li className="navbar__item">
-                        <Link href="about-us" className="pe-1 text-uppercase">
+                        <Link href="/about-us" className="pe-1 text-uppercase">
                           About Us
                         </Link>
                       </li>
@@ -85,39 +85,39 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="serviceBrand">
+                            <Link href="/serviceBrand">
                               Brand & Identity Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="service-marketing">
+                            <Link href="/service-marketing">
                               Advertisement And Marketing Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="service-art">Illustration and Art</Link>
+                            <Link href="/service-art">Illustration and Art</Link>
                           </li>
                           <li>
-                            <Link href="service-ui">UI/UX Design</Link>
+                            <Link href="/service-ui">UI/UX Design</Link>
                           </li>
                           <li>
-                            <Link href="service-motion">Motion Graphics</Link>
+                            <Link href="/service-motion">Motion Graphics</Link>
                           </li>
                           <li>
-                            <Link href="service-publication">
+                            <Link href="/service-publication">
                               Publication Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="service-website">Website Design</Link>
+                            <Link href="/service-website">Website Design</Link>
                           </li>
                           <li>
-                            <Link href="service-packageing">
+                            <Link href="/service-packageing">
                               Packaging Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="service-custome-logo">
+                            <Link href="/service-custome-logo">
                               Custome Logo Design
                             </Link>
                           </li>
@@ -125,25 +125,28 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                       </li>
 
                       <li className="navbar__item nav-fade">
-                        <Link href="portfolio" className="pe-3 text-uppercase">
+                        <Link href="/portfolio" className="pe-3 text-uppercase">
                           Profile
                         </Link>
                       </li>
 
                       <li className="navbar__item nav-fade">
-                        <Link href="about-us" className="pe-3 text-uppercase">
+                        <Link href="/teams" className="pe-3 text-uppercase">
                           {' '}
                           Team
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="about-us" className="pe-3 text-uppercase">
+                        <Link
+                          href="/testimonials"
+                          className="pe-3 text-uppercase"
+                        >
                           {' '}
                           Testimonials 
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">
-                        <Link href="blog" className="text-uppercase">
+                        <Link href="/blog" className="text-uppercase">
                           Blog 
                         </Link>
                       </li>
@@ -151,7 +154,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                   </div>
                   <div className="navbar__options">
                     <div className="navbar__mobile-options d-none d-sm-flex">
-                      <Link href="contact-us" className="btn btn--secondary">
+                      <Link href="/contact-us" className="btn btn--secondary">
                         Let&apos;s Talk
                       </Link>
                     </div>
