@@ -6,12 +6,12 @@ import ServiceDetailsBanner from '@/components/layout/banner/ServiceDetailsBanne
 import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceUiBlog } from '@/constant/inedex';
-
+import HeaderImage from 'public/images/service/ui.jpg';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
       <ServiceDetailsBanner hedaer="UI/UX Design" />
-      <ServiceDetailsMain blogData={serviceUiBlog} />
+      <ServiceDetailsMain blogData={serviceUiBlog} path={HeaderImage} />
       <UxProcess stepWorkData={serviceUiBlog} />
       <CtaTwo />
     </Layout>

@@ -1068,26 +1068,26 @@ const Footer = ()=>{
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "about-us",
-                                                        children: "About Us"
+                                                        href: "privacy-policy",
+                                                        children: "Privacy Policy"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "client-feedback",
-                                                        children: "Award Winning"
+                                                        href: "advertisement-policy",
+                                                        children: "Advertisement Policy"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "blog",
-                                                        children: "News & Blog"
+                                                        href: "disclaimer",
+                                                        children: "Disclaimer"
                                                     })
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                                        href: "contact-us",
-                                                        children: "careers"
+                                                        href: "terms",
+                                                        children: "Terms"
                                                     })
                                                 })
                                             ]

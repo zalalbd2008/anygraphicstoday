@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="col-12 col-lg-5 col-xl-6">
             <div className="footer__single">
               <Link href="/" className="logo">
-                <Image src={logo} alt="Image"  width={300} />
+                <Image src={logo} alt="Image" width={300} />
               </Link>
               <div className="footer__single-meta">
                 <Link href="#">
@@ -46,16 +46,18 @@ const Footer = () => {
               <div className="footer__single-content">
                 <ul>
                   <li>
-                    <Link href="about-us">About Us</Link>
+                    <Link href="privacy-policy">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="client-feedback">Award Winning</Link>
+                    <Link href="advertisement-policy">
+                      Advertisement Policy
+                    </Link>
                   </li>
                   <li>
-                    <Link href="blog">News & Blog</Link>
+                    <Link href="disclaimer">Disclaimer</Link>
                   </li>
                   <li>
-                    <Link href="contact-us">careers</Link>
+                    <Link href="terms">Terms</Link>
                   </li>
                 </ul>
               </div>

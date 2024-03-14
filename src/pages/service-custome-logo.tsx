@@ -7,12 +7,15 @@ import ServiceDetailsBanner from '@/components/layout/banner/ServiceDetailsBanne
 import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceCustomeLogoBlog } from '@/constant/inedex';
-
+import HeaderImage from 'public/images/service/logo.jpg';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
       <ServiceDetailsBanner hedaer="Custome Logo Design" />
-      <ServiceDetailsMain blogData={serviceCustomeLogoBlog} />
+      <ServiceDetailsMain
+        blogData={serviceCustomeLogoBlog}
+        path={HeaderImage}
+      />
       <UxProcess stepWorkData={serviceCustomeLogoBlog} />
       <CtaTwo />
     </Layout>

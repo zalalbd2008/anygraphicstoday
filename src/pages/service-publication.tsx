@@ -8,11 +8,15 @@ import CtaTwo from '@/components/containers/service-details/CtaTwo';
 
 // data source
 import { servicePublicationBlog } from '@/constant/inedex';
+import HeaderImage from 'public/images/service/publication.jpg';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
       <ServiceDetailsBanner hedaer="Publication Design" />
-      <ServiceDetailsMain blogData={servicePublicationBlog} />
+      <ServiceDetailsMain
+        blogData={servicePublicationBlog}
+        path={HeaderImage}
+      />
       <UxProcess stepWorkData={servicePublicationBlog} />
       <CtaTwo />
     </Layout>

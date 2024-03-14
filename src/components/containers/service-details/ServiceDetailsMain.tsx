@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
 import Image from 'next/image';
-import thumbone from 'public/images/service/thumb-one.png';
+
 import thumbtwo from 'public/images/service/thumb-two.png';
+import HeaderImage from 'public/images/service/thumb-two.png';
 import Link from 'next/link';
 
-const ServiceDetailsMain = ({ blogData }: any) => {
+const ServiceDetailsMain = ({ blogData, path }: any) => {
+
   return (
     <section className=" mb-5 service-details fade-wrapper">
       <div className="container">
@@ -13,7 +15,7 @@ const ServiceDetailsMain = ({ blogData }: any) => {
             <div className="service-details__slider">
               <div className="service-details__slider-single">
                 <div className="poster fade-top">
-                  <Image src={thumbone} alt="Image" />
+                  <Image src={path || HeaderImage} alt="Image" />
                 </div>
 
                 {blogData.map(
@@ -59,7 +61,7 @@ const ServiceDetailsMain = ({ blogData }: any) => {
                           </div>
                           <div className="col-12 col-lg-5">
                             <div className="poster-small">
-                              <Image src={thumbtwo} alt="Image" />
+                              <Image src={path || thumbtwo} alt="Image" />
                             </div>
                           </div>
                         </div>

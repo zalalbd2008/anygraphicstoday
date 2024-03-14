@@ -8,11 +8,12 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { servicePackageingBlog } from '@/constant/inedex';
 
+import HeaderImage from 'public/images/service/package.jpg';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
       <ServiceDetailsBanner hedaer="Packaging Design" />
-      <ServiceDetailsMain blogData={servicePackageingBlog} />
+      <ServiceDetailsMain blogData={servicePackageingBlog} path={HeaderImage} />
       <UxProcess stepWorkData={servicePackageingBlog} />
       <CtaTwo />
     </Layout>
