@@ -5,6 +5,7 @@ const VideoModal = () => {
 
   return (
     <div className={"vid-m" + (vid ? " vid-a" : " ")}>
+   
       <div className="vid-c">
         <button
           aria-label="close video popup"

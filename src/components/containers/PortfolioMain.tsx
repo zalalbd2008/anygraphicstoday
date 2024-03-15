@@ -1,178 +1,89 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import eleven from "public/images/portfolio/eleven.png";
-import twelve from "public/images/portfolio/twelve.png";
-import thirteen from "public/images/portfolio/thirteen.png";
-import fourteen from "public/images/portfolio/fourteen.png";
-import fifteen from "public/images/portfolio/fifteen.png";
-import sixteen from "public/images/portfolio/sixteen.png";
-import seventeen from "public/images/portfolio/seventeen.png";
-import eighteen from "public/images/portfolio/eighteen.png";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
+import one from 'public/images/teams/one1.jpg';
+import two from 'public/images/teams/two2.jpg';
+
 
 const PortfolioMain = () => {
   return (
     <section className="section portfolio-m fade-wrapper">
       <div className="container">
-        <div className="row gaper">
-          <div className="col-12 col-lg-6">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={eleven} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
+        <div className="team-r position-relative">
+          <div className="team-s__slider-w">
+            <Swiper
+              slidesPerView={1}
+              spaceBetween={30}
+              slidesPerGroup={1}
+              speed={800}
+              loop={true}
+              centeredSlides={false}
+              modules={[Autoplay, Navigation]}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
+              navigation={{
+                nextEl: '.next-team-s',
+                prevEl: '.prev-team-s',
+              }}
+              className="team-s__slider"
+              breakpoints={{
+                768: {
+                  slidesPerView: 3,
+                  centeredSlides: true,
+                },
+                576: {
+                  slidesPerView: 2,
+                },
+              }}
+            >
+              <SwiperSlide>
+                <div className="team-s__slider-single">
+                  <div className="team-wrap">
+                    <Image
+                      src={one}
+                      alt="Image"
+                      height={600}
+                      width={800}
+                      style={{
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </div>
                 </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={twelve} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="team-s__slider-single">
+                  <div className="team-wrap">
+                    <Image
+                      src={two}
+                      alt="Image"
+                      height={600}
+                      width={800}
+                      style={{
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </div>
                 </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
-          <div className="col-12 col-lg-6 col-xxl-3">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={fifteen} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
-                </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6 col-xxl-3">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={sixteen} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
-                </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6 col-xxl-3">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={seventeen} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
-                </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6 col-xxl-3">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={eighteen} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
-                </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={thirteen} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
-                </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-lg-6">
-            <div className="portfolio-m__single topy-tilt fade-top">
-              <div className="thumb">
-                <Link href="service-single">
-                  <Image src={fourteen} alt="Image" />
-                </Link>
-              </div>
-              <div className="content">
-                <div className="tr">
-                  <Link href="service-single">
-                    <i className="icon-arrow-top-right"></i>
-                  </Link>
-                </div>
-                <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
-                </h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <div className="section__content-cta text-center">
-              <button className="btn btn--secondary">Load More..</button>
-            </div>
+          <div className="slide-group pt-5">
+            <button
+              aria-label="previous item"
+              className="slide-btn prev-team-s"
+            >
+              <i className="fa-light fa-angle-left"></i>
+            </button>
+            <button aria-label="next item" className="slide-btn next-team-s">
+              <i className="fa-light fa-angle-right"></i>
+            </button>
           </div>
         </div>
       </div>

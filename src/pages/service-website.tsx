@@ -6,6 +6,7 @@ import ServiceDetailsBanner from '@/components/layout/banner/ServiceDetailsBanne
 import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceWebsiteBlog } from '@/constant/inedex';
+// import webisteImage from 'public/images/portfolio/image_1.png';
 
 const ServiceDetails = () => {
   return (

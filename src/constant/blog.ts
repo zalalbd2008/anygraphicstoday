@@ -1,5 +1,7 @@
 import one from 'public/images/blog/image_1.jpg';
 import two from 'public/images/blog/image_2.jpg';
+import three from 'public/images/blog/inage_3.jpg';
+import four from 'public/images/blog/four_4.jpg';
 
 export default [
   {
@@ -204,7 +206,7 @@ export default [
         </div>
       </div>
     `,
-    image: one,
+    image: three,
     index: 3,
     date: '13/05/2024',
   },
@@ -261,7 +263,7 @@ export default [
 
         </div>
     `,
-    image: two,
+    image: four,
     index: 4,
     date: '13/05/2024',
   },
