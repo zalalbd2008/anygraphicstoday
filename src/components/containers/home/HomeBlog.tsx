@@ -28,6 +28,7 @@ const HomeBlog = () => {
             blog =>
               blog.index <= 2 && (
                 <div
+                  key={blog.index}
                   className="col-12 col-md-6"
                   style={{
                     cursor: 'pointer',
@@ -38,7 +39,12 @@ const HomeBlog = () => {
                 >
                   <div className="blog__single fade-top">
                     <div className="blog__single-thumb topy-tilt">
-                      <Image src={blog.image} alt="Image" />
+                      <Image src={blog.image} alt="Image" style={{
+                        width: '100%',
+                        height: '300px',
+                        objectFit: 'cover',
+                        objectPosition: 'center 30%'
+                      }} />
                     </div>
 
                     <div className="blog__single-content">

@@ -1264,6 +1264,22 @@ const HomeOneBanner = ()=>{
                                                                     children: "completed projects"
                                                                 })
                                                             ]
+                                                        }),
+                                                        /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                                            className: "navbar__options pt-3",
+                                                            children: /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                                                className: "navbar__mobile-options d-none d-sm-flex",
+                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
+                                                                    href: "/contact-us",
+                                                                    className: "btn btn--secondary",
+                                                                    children: [
+                                                                        "Get Design Advice Now",
+                                                                        /*#__PURE__*/ jsx_runtime.jsx("i", {
+                                                                            className: "fa-sharp fa-solid fa-arrow-up-right ps-2"
+                                                                        })
+                                                                    ]
+                                                                })
+                                                            })
                                                         })
                                                     ]
                                                 })
@@ -1290,8 +1306,8 @@ const HomeOneBanner = ()=>{
                         className: "banner-left-text banner-social-text d-none d-md-flex",
                         children: [
                             /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
-                                href: "mailto:INFO@ANYGRAPHICSTODAY.COM",
-                                children: "mail : INFO@ANYGRAPHICSTODAY.COM"
+                                href: "mailto:info@anygraphicstoday.com",
+                                children: "mail : info@anygraphicstoday.com"
                             }),
                             /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                 href: "tel:+18882073469",

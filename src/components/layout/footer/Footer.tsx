@@ -26,10 +26,11 @@ const Footer = () => {
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
                   +18882073469
                 </Link>
-                <Link href="mailto:INFO@ANYGRAPHICSTODAY.COM">
+                <Link href="mailto:info@anygraphicstoday.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  INFO@ANYGRAPHICSTODAY.COM
+                  info@anygraphicstoday.com
                 </Link>
+                
               </div>
               <div className="footer__cta text-start">
                 <Link href="contact-us" className="btn btn--secondary">
@@ -57,7 +58,7 @@ const Footer = () => {
                     <Link href="/disclaimer">Disclaimer</Link>
                   </li>
                   <li>
-                    <Link href="/terms">Terms</Link>
+                    <Link href="/terms">Terms of Use</Link>
                   </li>
                 </ul>
               </div>

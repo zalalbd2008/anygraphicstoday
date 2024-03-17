@@ -1030,12 +1030,12 @@ const Footer = ()=>{
                                                 ]
                                             }),
                                             /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                href: "mailto:INFO@ANYGRAPHICSTODAY.COM",
+                                                href: "mailto:info@anygraphicstoday.com",
                                                 children: [
                                                     /*#__PURE__*/ jsx_runtime.jsx("i", {
                                                         className: "fa-sharp fa-solid fa-envelope"
                                                     }),
-                                                    "INFO@ANYGRAPHICSTODAY.COM"
+                                                    "info@anygraphicstoday.com"
                                                 ]
                                             })
                                         ]
@@ -1087,7 +1087,7 @@ const Footer = ()=>{
                                                 /*#__PURE__*/ jsx_runtime.jsx("li", {
                                                     children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                                         href: "/terms",
-                                                        children: "Terms"
+                                                        children: "Terms of Use"
                                                     })
                                                 })
                                             ]

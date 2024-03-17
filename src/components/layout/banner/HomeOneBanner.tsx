@@ -74,6 +74,15 @@ const HomeOneBanner = () => {
                       <h5 className="fw-7">2k</h5>
                       <p className="fw-5">completed projects</p>
                     </div>
+
+                    <div className="navbar__options pt-3">
+                      <div className="navbar__mobile-options d-none d-sm-flex">
+                        <Link href="/contact-us" className="btn btn--secondary">
+                          Get Design Advice Now
+                          <i className="fa-sharp fa-solid fa-arrow-up-right ps-2"></i>
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -89,8 +98,8 @@ const HomeOneBanner = () => {
         />
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:INFO@ANYGRAPHICSTODAY.COM">
-            mail : INFO@ANYGRAPHICSTODAY.COM
+          <Link href="mailto:info@anygraphicstoday.com">
+            mail : info@anygraphicstoday.com
           </Link>
           <Link href="tel:+18882073469">Call : +18882073469</Link>
         </div>
