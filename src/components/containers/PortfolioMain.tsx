@@ -14,7 +14,7 @@ import six from 'public/images/teams/six.jpg';
 import seven from 'public/images/teams/seven.jpg';
 import eight from 'public/images/teams/eight.jpg';
 import nine from 'public/images/teams/nine.jpg';
-import ten from 'public/images/teams/ten.jpg';
+// import ten from 'public/images/teams/ten.jpg';
 
 // part 2
 
@@ -41,7 +41,7 @@ SwiperCore.use([Navigation]);
 const PortfolioMain = () => {
 
 
-  const ImagePath = [one, two, three, four, five, six, seven, eight, nine , ten];
+  const ImagePath = [one, two, three, four, five, six, seven, eight, nine ];
   const SecondImagePath = [
     SecondOne,
     SecondTwo,
