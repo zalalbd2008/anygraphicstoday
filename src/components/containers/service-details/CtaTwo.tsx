@@ -14,17 +14,14 @@ const CtaTwo = () => {
                 height: '400px',
               }}
             ></div>
-            <div
-              className="cta-two-wrapper bg-img  position-absolute top-0"
-             
-            >
+            <div className="cta-two-wrapper bg-img  position-absolute top-0">
               <div className="row gaper align-items-center">
                 <div className="col-12 col-lg-8">
                   <div className="cta-two__content">
                     <span>Hello !</span>
                     <h2 className="title-anim">ready to work with us?</h2>
                     <h5>
-                      <Link href="tel:+18882073469">call: +18882073469</Link>
+                      <Link href="tel:+18882073469">call: +1- 888-207-34</Link>
                     </h5>
                   </div>
                 </div>

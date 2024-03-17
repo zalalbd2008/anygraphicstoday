@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import star from "public/images/testimonial/star.png";
+import Link from "next/link";
 
 const AboutCta = () => {
   return (
@@ -19,7 +20,12 @@ const AboutCta = () => {
                       Stay Ahead With Our Top Notch Design Services
                     </h2>
                   </div>
-                  <div className="footer__single-form">
+                  <div className="d-flex justify-content-center">
+                    <Link href="/contact-us" className="btn btn--secondary">
+                     Contact Now
+                    </Link>
+                  </div>
+                  {/* <div className="footer__single-form">
                     <form action="#" method="post">
                       <div className="input-email">
                         <input
@@ -34,7 +40,7 @@ const AboutCta = () => {
                         </button>
                       </div>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <Image src={star} alt="Image" className="star" />

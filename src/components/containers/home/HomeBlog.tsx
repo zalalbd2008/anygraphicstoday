@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import one from 'public/images/blog/image_1.jpg';
-import two from 'public/images/blog/image_2.jpg';
+import one from 'public/images/blog/image_1.png';
+import two from 'public/images/blog/image_2.png';
 import { blogContent } from '@/constant/inedex';
 import { useRouter } from 'next/router';
 const HomeBlog = () => {

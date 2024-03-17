@@ -7,8 +7,8 @@ const privacyPolicy = () => {
   return (
     <Layout header={2} footer={1} video={0}>
       <div className="section container">
-        <h1>Privacy Policy for Any Graphics Today</h1>
-        <p className="fs-4 py-2">Effective Date: 14-03-24</p>
+        <h1 className="fs-1">Privacy Policy</h1>
+        {/* <p className="fs-4 py-2">Effective Date: 14-03-24</p> */}
         <p className="py-2 fs-5">
           Welcome to{' '}
           <a
@@ -27,7 +27,7 @@ const privacyPolicy = () => {
           </a>
         </p>
         <div className="mt-3">
-          <h2 className="py-3 ">Information We Collect</h2>
+          <h2 className="py-3 fs-3">Information We Collect</h2>
           <p className="fs-5">
             We may collect personal information that you voluntarily provide to
             us when you use our services or contact us. The types of information
@@ -66,7 +66,7 @@ const privacyPolicy = () => {
           </div>
         </div>
         <div className="mt-3">
-          <h2 className="py-3">How We Use Your Information</h2>
+          <h2 className="py-3 fs-3">How We Use Your Information</h2>
           <p className="fs-6">
             We use the information we collect for various purposes, including
           </p>
@@ -107,7 +107,7 @@ const privacyPolicy = () => {
         </div>
 
         <div>
-          <h2 className="py-3">Sharing Your Information</h2>
+          <h2 className="py-3 fs-3">Sharing Your Information</h2>
           <p className="fs-5">
             We do not sell, rent, or otherwise share your personal information
             with third parties, except as necessary to provide the services you
@@ -117,7 +117,7 @@ const privacyPolicy = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Data Security</h2>
+          <h2 className="py-3 fs-3">Data Security</h2>
           <p className="fs-5">
             We take reasonable measures to protect the security of your personal
             information from unauthorized access, use, or disclosure. However,
@@ -128,7 +128,7 @@ const privacyPolicy = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Your Rights</h2>
+          <h2 className="py-3 fs-3">Your Rights</h2>
           <p className="fs-5">
             Depending on your location, you may have certain rights regarding
             your personal information, including the right to access, correct,
@@ -137,7 +137,7 @@ const privacyPolicy = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Contact Us</h2>
+          <h2 className="py-3 fs-3">Contact Us</h2>
           <p className="fs-5">
             If you have any questions or concerns about our use of your personal
             information, please contact us at

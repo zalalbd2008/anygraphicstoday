@@ -6,12 +6,12 @@ const AdvertisementPolicy = () => {
   return (
     <Layout header={2} footer={1} video={0}>
       <div className="section container">
-        <h1>
+        <h1 className="fs-1 lh-sm">
           Google Ads and Social Media Marketing Policy for Any Graphics Today
         </h1>
 
         <div>
-          <h2 className="py-3">Purpose</h2>
+          <h2 className="py-3 fs-3">Purpose</h2>
           <p className="fs-5">
             The purpose of this policy is to outline the principles and
             guidelines for{' '}
@@ -30,7 +30,7 @@ const AdvertisementPolicy = () => {
         </div>
 
         <div>
-          <h2 className="py-3">Scope</h2>
+          <h2 className="py-3 fs-3">Scope</h2>
           <p className="fs-5">
             This policy applies to all employees, contractors, and third-party
             service providers involved in managing or executing Google Ads
@@ -40,7 +40,7 @@ const AdvertisementPolicy = () => {
         </div>
 
         <div>
-          <h2 className="py-3">Principles</h2>
+          <h2 className="py-3 fs-3">Principles</h2>
           <div className="mt-4">
             <ul>
               <li
@@ -99,7 +99,7 @@ const AdvertisementPolicy = () => {
         </div>
 
         <div className="mt-3">
-          <h2 className="py-3">Google Ads Specific Guidelines</h2>
+          <h2 className="py-3 fs-3">Google Ads Specific Guidelines</h2>
 
           <div>
             <ul>
@@ -123,7 +123,9 @@ const AdvertisementPolicy = () => {
           </div>
         </div>
         <div className="mt-3">
-          <h2 className="py-3">Social Media Marketing Specific Guidelines</h2>
+          <h2 className="py-3 fs-3">
+            Social Media Marketing Specific Guidelines
+          </h2>
 
           <div>
             <ul>
@@ -184,7 +186,7 @@ const AdvertisementPolicy = () => {
         </div>
 
         <div>
-          <h2 className="py-3">Policy Review and Update</h2>
+          <h2 className="py-3 fs-3">Policy Review and Update</h2>
           <p className="fs-5">
             This policy will be reviewed annually and updated as necessary to
             reflect changes in advertising standards, legal requirements, and
@@ -192,7 +194,7 @@ const AdvertisementPolicy = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Contact Information</h2>
+          <h2 className="py-3 fs-3">Contact Information</h2>
           <p className="fs-5">
             For questions or concerns regarding this policy, please contact at
             <a

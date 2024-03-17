@@ -1,19 +1,21 @@
-import React, { useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import blogthumb from "public/images/offer/blog-thumb.png";
-import two from "public/images/offer/two.png";
-import three from "public/images/offer/three.png";
-import star from "public/images/offer/star.png";
+import React, { useEffect } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import blogthumb from 'public/images/offer/blog-thumb.png';
+import one from 'public/images/offer/image_1.jpg';
+import two from 'public/images/offer/image_2.jpg';
+import three from 'public/images/offer/image_3.jpg';
+import four from 'public/images/offer/Image_4.jpg';
+import star from 'public/images/offer/star.png';
 
 const HomeOffer = () => {
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
-      const caseStudyItems = document.querySelectorAll(".offer__cta-single");
+      const caseStudyItems = document.querySelectorAll('.offer__cta-single');
       const deviceWidth = window.innerWidth;
 
       if (deviceWidth > 576) {
-        caseStudyItems.forEach((item) => {
+        caseStudyItems.forEach(item => {
           const contentBox = item.getBoundingClientRect();
           const dx = event.clientX - contentBox.x;
           const dy = event.clientY - contentBox.y;
@@ -23,10 +25,10 @@ const HomeOffer = () => {
       }
     };
 
-    window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
 
@@ -55,11 +57,11 @@ const HomeOffer = () => {
                   reliability and trust.
                 </p>
               </div>
-              <div className="section__content-cta">
+              {/* <div className="section__content-cta">
                 <Link href="our-services" className="btn btn--secondary">
                   view all services
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-12 col-lg-7 col-xl-6 offset-xl-1">
@@ -70,13 +72,13 @@ const HomeOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="/service-custome-logo">
                     Custom Logo Design
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={one} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -85,7 +87,7 @@ const HomeOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="/serviceBrand">
                     Business Branding
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
@@ -100,7 +102,7 @@ const HomeOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="/service-website">
                     Web Development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
@@ -115,13 +117,13 @@ const HomeOffer = () => {
                   <i className="fa-solid fa-arrow-right"></i>
                 </span>
                 <h2>
-                  <Link href="service-single">
+                  <Link href="/service-packageing">
                     product design
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={four} alt="Image" />
                 </div>
               </div>
             </div>

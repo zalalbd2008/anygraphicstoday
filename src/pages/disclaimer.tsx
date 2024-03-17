@@ -5,10 +5,10 @@ const disclaimer = () => {
   return (
     <Layout header={2} footer={1} video={0}>
       <div className="section container">
-        <h1>Disclaimer for Any Graphics Today</h1>
+        <h1 className="fs-1">Disclaimer for Any Graphics Today</h1>
 
         <div>
-          <h2 className="py-3">General Information</h2>
+          <h2 className="py-3 fs-3">General Information</h2>
           <p className="fs-5">
             The information provided by{' '}
             <a
@@ -31,7 +31,7 @@ const disclaimer = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">External Links Disclaimer</h2>
+          <h2 className="py-3 fs-3">External Links Disclaimer</h2>
           <p className="fs-5">
             The Site and our mobile application may contain (or you may be sent
             through the Site or our mobile application) links to other websites
@@ -46,7 +46,7 @@ const disclaimer = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Professional Disclaimer</h2>
+          <h2 className="py-3 fs-3">Professional Disclaimer</h2>
           <p className="fs-5">
             The Site cannot and does not contain graphic design advice. The
             graphic design information is provided for general informational and
@@ -59,7 +59,7 @@ const disclaimer = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Affiliate Disclaimer</h2>
+          <h2 className="py-3 fs-3">Affiliate Disclaimer</h2>
           <p className="fs-5">
             This Site and our mobile application may contain links to affiliate
             websites, and we receive an affiliate commission for any purchases
@@ -68,7 +68,7 @@ const disclaimer = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Copyright Notice</h2>
+          <h2 className="py-3 fs-3">Copyright Notice</h2>
           <p className="fs-5">
             Should you have any feedback, comments, requests for technical
             support, or other inquiries, please contact us by email

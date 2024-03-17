@@ -447,7 +447,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                                             href: "/portfolio",
                                                             className: "pe-3 text-uppercase",
-                                                            children: "Profile"
+                                                            children: "Portfolio"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ jsx_runtime.jsx("li", {
@@ -457,7 +457,7 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav })=>{
                                                             className: "pe-3 text-uppercase",
                                                             children: [
                                                                 " ",
-                                                                "Team"
+                                                                "Team Member"
                                                             ]
                                                         })
                                                     }),
@@ -1008,37 +1008,46 @@ const Footer = ()=>{
                                             width: 300
                                         })
                                     }),
-                                    /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                    /*#__PURE__*/ jsx_runtime.jsx("div", {
                                         className: "footer__single-meta",
-                                        children: [
-                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                href: "#",
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime.jsx("i", {
-                                                        className: "fa-sharp fa-solid fa-location-dot"
-                                                    }),
-                                                    "Texas, Florida, California, Chicago, New York,\xa0Atlanta"
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                href: "tel:+18882073469",
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime.jsx("i", {
-                                                        className: "fa-sharp fa-solid fa-phone-volume"
-                                                    }),
-                                                    "+18882073469"
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                href: "mailto:info@anygraphicstoday.com",
-                                                children: [
-                                                    /*#__PURE__*/ jsx_runtime.jsx("i", {
-                                                        className: "fa-sharp fa-solid fa-envelope"
-                                                    }),
-                                                    "info@anygraphicstoday.com"
-                                                ]
-                                            })
-                                        ]
+                                        children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                            className: "row",
+                                            children: [
+                                                /*#__PURE__*/ jsx_runtime.jsx("div", {
+                                                    className: "col-12",
+                                                    children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+                                                        className: "",
+                                                        children: [
+                                                            /*#__PURE__*/ jsx_runtime.jsx("i", {
+                                                                className: "fa-sharp fa-solid fa-location-dot pe-2 pb-sm-1 pb-lg-4"
+                                                            }),
+                                                            /*#__PURE__*/ jsx_runtime.jsx("span", {
+                                                                children: "Texas, Florida, California, Chicago, New York,\xa0Atlanta"
+                                                            })
+                                                        ]
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
+                                                    href: "tel:+18882073469",
+                                                    className: "col-6",
+                                                    children: [
+                                                        /*#__PURE__*/ jsx_runtime.jsx("i", {
+                                                            className: "fa-sharp fa-solid fa-phone-volume"
+                                                        }),
+                                                        "+1- 888-207-34"
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
+                                                    href: "mailto:info@anygraphicstoday.com",
+                                                    children: [
+                                                        /*#__PURE__*/ jsx_runtime.jsx("i", {
+                                                            className: "fa-sharp fa-solid fa-envelope"
+                                                        }),
+                                                        "info@anygraphicstoday.com"
+                                                    ]
+                                                })
+                                            ]
+                                        })
                                     }),
                                     /*#__PURE__*/ jsx_runtime.jsx("div", {
                                         className: "footer__cta text-start",
@@ -1059,7 +1068,7 @@ const Footer = ()=>{
                                     /*#__PURE__*/ jsx_runtime.jsx("div", {
                                         className: "footer__single-intro",
                                         children: /*#__PURE__*/ jsx_runtime.jsx("h5", {
-                                            children: "discover"
+                                            children: "Company"
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime.jsx("div", {

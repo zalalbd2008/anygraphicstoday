@@ -5,10 +5,10 @@ const terms = () => {
   return (
     <Layout header={2} footer={1} video={0}>
       <div className="section container">
-        <h1>Terms of Use for Any Graphics Today</h1>
+        <h1 className="fs-1">Terms of Use</h1>
 
         <div className="mt-3">
-          <h2 className="py-3">Acceptance of Terms</h2>
+          <h2 className="py-3 fs-3">Acceptance of Terms</h2>
           <p className="fs-5">
             Welcome to{' '}
             <a
@@ -31,7 +31,7 @@ const terms = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">Description of Service</h2>
+          <h2 className="py-3 fs-3">Description of Service</h2>
           <p className="fs-5">
             <a
               className="text-decoration-underline"
@@ -49,7 +49,7 @@ const terms = () => {
         </div>
 
         <div className="pt-2">
-          <h2 className="py-3">Intellectual Property Rights</h2>
+          <h2 className="py-3 fs-3">Intellectual Property Rights</h2>
           <div>
             <p className="fs-4 text-light-emphasis fst-italic">
               Ownership and Licensing:
@@ -208,7 +208,7 @@ const terms = () => {
           </div>
         </div>
         <div>
-          <h2 className="py-3">User Obligations</h2>
+          <h2 className="py-3 fs-3">User Obligations</h2>
           <p className="fs-5">
             As a user, you agree to provide accurate and complete information
             about your vision and ideas for your graphic design needs. You
@@ -224,7 +224,7 @@ const terms = () => {
           </p>
         </div>
         <div>
-          <h2 className="py-3">
+          <h2 className="py-3 fs-3">
             No Upfront Charges; Payment and Refund Policy
           </h2>
 
@@ -258,7 +258,7 @@ const terms = () => {
           </ul>
         </div>
         <div>
-          <h2 className="py-3">Limitation of Liability</h2>
+          <h2 className="py-3 fs-3">Limitation of Liability</h2>
           <p className="fs-5">
             <a
               className="text-decoration-underline"
@@ -276,7 +276,7 @@ const terms = () => {
           </p>
         </div>
         <div className="mt-2">
-          <h2 className="py-3">Disclaimer of Warranties</h2>
+          <h2 className="py-3 fs-3">Disclaimer of Warranties</h2>
           <p className="fs-5">
             The services provided by{' '}
             <a
@@ -300,7 +300,7 @@ const terms = () => {
           </p>
         </div>
         <div className="mt-2">
-          <h2 className="py-3">Amendment of Terms</h2>
+          <h2 className="py-3 fs-3">Amendment of Terms</h2>
           <p className="fs-5">
             <a
               className="text-decoration-underline"
@@ -315,7 +315,7 @@ const terms = () => {
           </p>
         </div>
         <div className="mt-2">
-          <h2 className="py-3">Governing Law</h2>
+          <h2 className="py-3 fs-3">Governing Law</h2>
           <p className="fs-5">
             These Terms shall be governed and construed in accordance with the
             laws of [Your State], United States, without regard to its conflict
@@ -323,7 +323,7 @@ const terms = () => {
           </p>
         </div>
         <div className="mt-2">
-          <h2 className="py-3">Contact Information</h2>
+          <h2 className="py-3 fs-3">Contact Information</h2>
           <p className="fs-5">
             These Terms shall be governed and construed in accordance with the
             laws of [Your State], United States, without regard to its conflict

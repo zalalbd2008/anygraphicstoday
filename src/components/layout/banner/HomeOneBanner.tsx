@@ -101,7 +101,7 @@ const HomeOneBanner = () => {
           <Link href="mailto:info@anygraphicstoday.com">
             mail : info@anygraphicstoday.com
           </Link>
-          <Link href="tel:+18882073469">Call : +18882073469</Link>
+          <Link href="tel:+18882073469">Call : +1- 888-207-34</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
           <Link href="/" target="_blank">

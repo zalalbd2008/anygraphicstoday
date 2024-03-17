@@ -18,19 +18,25 @@ const Footer = () => {
                 <Image src={logo} alt="Image" width={300} />
               </Link>
               <div className="footer__single-meta">
-                <Link href="#">
-                  <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  Texas, Florida, California, Chicago, New York, Atlanta
-                </Link>
-                <Link href="tel:+18882073469">
-                  <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                  +18882073469
-                </Link>
-                <Link href="mailto:info@anygraphicstoday.com">
-                  <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@anygraphicstoday.com
-                </Link>
-                
+                <div className="row">
+                  <div className="col-12">
+                    <div className="">
+                      <i className="fa-sharp fa-solid fa-location-dot pe-2 pb-sm-1 pb-lg-4"></i>
+                      <span>
+                        Texas, Florida, California, Chicago, New York, Atlanta
+                      </span>
+                    </div>
+                  </div>
+
+                  <Link href="tel:+18882073469" className="col-6">
+                    <i className="fa-sharp fa-solid fa-phone-volume"></i>
+                    +1- 888-207-34
+                  </Link>
+                  <Link href="mailto:info@anygraphicstoday.com">
+                    <i className="fa-sharp fa-solid fa-envelope"></i>
+                    info@anygraphicstoday.com
+                  </Link>
+                </div>
               </div>
               <div className="footer__cta text-start">
                 <Link href="contact-us" className="btn btn--secondary">
@@ -42,7 +48,7 @@ const Footer = () => {
           <div className="col-12 col-lg-2 col-xl-2">
             <div className="footer__single">
               <div className="footer__single-intro">
-                <h5>discover</h5>
+                <h5>Company</h5>
               </div>
               <div className="footer__single-content">
                 <ul>

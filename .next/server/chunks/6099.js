@@ -54,7 +54,7 @@ const CtaTwo = ()=>{
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
                                                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                                                         href: "tel:+18882073469",
-                                                        children: "call: +18882073469"
+                                                        children: "call: +1- 888-207-34"
                                                     })
                                                 })
                                             ]

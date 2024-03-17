@@ -33,7 +33,6 @@ const PortfolioText = () => {
           }}
           className="portfolio__text-slider"
         >
-          
           <SwiperSlide>
             <div className="portfolio__text-slider-single">
               <h2 className="h1">
@@ -129,12 +128,10 @@ const PortfolioText = () => {
                 />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
-                  <Link href="portfolio">UI/UX Design </Link>
-                </h4>
+                <h4>UI/UX Design</h4>
               </div>
             </div>
           </div>
@@ -159,12 +156,10 @@ const PortfolioText = () => {
                 />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
-                  <Link href="portfolio">Marketing Design</Link>
-                </h4>
+                <h4>Marketing Design</h4>
               </div>
             </div>
           </div>
@@ -189,12 +184,10 @@ const PortfolioText = () => {
                 />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
-                  <Link href="portfolio"> Publication Design</Link>
-                </h4>
+                <h4>Publication Design</h4>
               </div>
             </div>
           </div>
@@ -219,12 +212,10 @@ const PortfolioText = () => {
                 />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
-                  <Link href="portfolio">Packaging Design</Link>
-                </h4>
+                <h4>Packaging Design</h4>
               </div>
             </div>
           </div>
@@ -249,12 +240,10 @@ const PortfolioText = () => {
                 />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
-                  <Link href="portfolio">Environmental Design </Link>
-                </h4>
+                <h4>Environmental Design</h4>
               </div>
             </div>
           </div>
@@ -279,16 +268,14 @@ const PortfolioText = () => {
                 />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
-                  <Link href="portfolio"> Advertisement Design </Link>
-                </h4>
+                <h4>Advertisement Design</h4>
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-xl-3">
+          {/* <div className="col-12 col-sm-6 col-xl-3">
             <div className="portfolio__single-alt-wrapper fade-top">
               <div className="portfolio__single-alt topy-tilt">
                 <h4>
@@ -301,7 +288,7 @@ const PortfolioText = () => {
                 <Image src={dot} alt="Image" className="dot-two" />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-12 col-sm-6 col-xl-3">
             <div
               className={
@@ -323,12 +310,10 @@ const PortfolioText = () => {
                 />
               </Link>
               <div className="portfolio__single-content">
-                <Link href="portfolio">
+                <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>
-                  <Link href="portfolio"> Food Menu Design</Link>
-                </h4>
+                <h4>Food Menu Design</h4>
               </div>
             </div>
           </div>

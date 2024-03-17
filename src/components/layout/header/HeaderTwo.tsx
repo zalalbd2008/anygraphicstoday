@@ -95,7 +95,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service-art">Illustration and Art</Link>
+                            <Link href="/service-art">
+                              Illustration and Art
+                            </Link>
                           </li>
                           <li>
                             <Link href="/service-ui">UI/UX Design</Link>
@@ -126,14 +128,14 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
 
                       <li className="navbar__item nav-fade">
                         <Link href="/portfolio" className="pe-3 text-uppercase">
-                          Profile
+                          Portfolio
                         </Link>
                       </li>
 
                       <li className="navbar__item nav-fade">
                         <Link href="/teams" className="pe-3 text-uppercase">
                           {' '}
-                          Team
+                          Team Member
                         </Link>
                       </li>
                       <li className="navbar__item nav-fade">

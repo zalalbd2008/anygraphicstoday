@@ -6,6 +6,7 @@ import sthumbtwo from 'public/images/testimonial/image_1.png';
 import sthumbthree from 'public/images/testimonial/image_1.png';
 import Image from 'next/image';
 import { testimonialsContent } from '@/constant/inedex';
+import AboutCta from '@/components/containers/home-two/AboutCta';
 
 const testimonials = () => {
   return (
@@ -16,9 +17,12 @@ const testimonials = () => {
             <div className="d-flex flex-column justify-content-center  align-items-center mt-5">
               <div className="testimonial-s__slider-single">
                 {testimonialsContent.map(testimonial => (
-                  <div className="row gaper align-items-center" style={{
-                    margin :'10px 0px'
-                  }}>
+                  <div
+                    className="row gaper align-items-center"
+                    style={{
+                      margin: '10px 0px',
+                    }}
+                  >
                     <div className="col-12 col-lg-4 col-xxl-4">
                       <div className="thumb">
                         <svg
@@ -66,6 +70,7 @@ const testimonials = () => {
           </div>
         </div>
       </div>
+      <AboutCta />
     </Layout>
   );
 };

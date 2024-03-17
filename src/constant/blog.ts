@@ -1,5 +1,5 @@
-import one from 'public/images/blog/image_1.jpg';
-import two from 'public/images/blog/image_2.jpg';
+import one from 'public/images/blog/image_1.png';
+import two from 'public/images/blog/image_2.png';
 import three from 'public/images/blog/inage_3.jpg';
 import four from 'public/images/blog/four_4.jpg';
 
