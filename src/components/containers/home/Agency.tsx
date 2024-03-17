@@ -73,41 +73,40 @@ const Agency = () => {
     });
 
     // Animation for scrolling from bottom to top
-    gsap.to('#topTobottomImage', {
-      y: -10, // Move the image up by 150 pixels
-      duration: 1.5,
-      transition: '0.5s',
-      scrollTrigger: {
-        trigger: '#topTobottomImage',
-        start: 'bottom top',
-        end: 'top bottom',
-        scrub: true,
-      },
-      // ease: 'power1.inOut',
-    });
+    // gsap.to('#topTobottomImage', {
+    //   y: -0, // Move the image up by 150 pixels
+    //   duration: 1.5,
+    //   transition: '0.5s',
+    //   scrollTrigger: {
+    //     trigger: '#topTobottomImage',
+    //     start: 'bottom top',
+    //     end: 'top bottom',
+    //     scrub: true,
+    //   },
+    //   // ease: 'power1.inOut',
+    // });
 
-    gsap.to('#topTobottomImage', {
-      y: 10, // Move the image up by 150 pixels
-      duration: 1.5,
-      transition: '0.5s',
-      scrollTrigger: {
-        trigger: '#topTobottomImage',
-        start: 'bottom top',
-        end: 'top bottom',
-        scrub: true,
-      },
-      // ease: 'power1.inOut',
-    });
+    // gsap.to('#topTobottomImage', {
+    //   y: 0, // Move the image up by 150 pixels
+    //   duration: 1.5,
+    //   transition: '0.5s',
+    //   scrollTrigger: {
+    //     trigger: '#topTobottomImage',
+    //     start: 'bottom top',
+    //     end: 'top bottom',
+    //     scrub: true,
+    //   },
+    //   // ease: 'power1.inOut',
+    // });
 
     // Animation for scrolling from top to bottom
     gsap.to('#topTobottomImage', {
-      y: 550, // Move the image down by 150 pixels
+      y: 250, // Move the image down by 150 pixels
       duration: 1.5,
       transition: '0.5s',
-      borderRadius: '100%',
       scrollTrigger: {
         trigger: '#topTobottomImage',
-        start: 'top bottom',
+        start: 'center bottom',
         end: 'bottom top',
         scrub: true,
       },
@@ -124,7 +123,7 @@ const Agency = () => {
               className="position-relative"
               style={{
                 width: '70%',
-                height: '700px',
+                height: '600px',
                 border: '1px solid white',
                 borderRadius: '20px',
                 overflow: 'hidden',
@@ -144,8 +143,11 @@ const Agency = () => {
                   className="rounded-top-4"
                 />
               </div>
-              <div className="fade-right position-absolute z-0">
+              <div className="fade-right position-absolute z-0 " style={{
+                top:'-100px'
+              }}>
                 <Image
+                 
                   id="topTobottomImage"
                   src={thumbtwo}
                   alt="Image"

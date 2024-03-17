@@ -13,11 +13,16 @@ import six from 'public/images/portfolio/image_6.png';
 import seven from 'public/images/portfolio/image_7.png';
 import dot from 'public/images/portfolio/dot.png';
 
-const PortfolioText = () => {
+const PortfolioText = ({show = true}) => {
   const [hover, setHover] = useState(0);
   return (
-    <section className="section portfolio pb-0 fade-wrapper position-relative">
-      <div className="portfolio__text-slider-w">
+    <section className="section portfolio pb-0 fade-wrapper position-relative ">
+      <div
+        className="portfolio__text-slider-w"
+        style={{
+          display: show ? 'block' : 'none',
+        }}
+      >
         <Swiper
           slidesPerView="auto"
           spaceBetween={40}
@@ -105,7 +110,7 @@ const PortfolioText = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="container-fluid">
+      <div className={`${show ? 'container-fluid' : 'container'}`}>
         <div className="row gaper">
           <div className="col-12 col-sm-6 col-xl-3">
             <div
@@ -131,7 +136,7 @@ const PortfolioText = () => {
                 <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>UI/UX Design</h4>
+                <h4 className="text-black">UI/UX Design</h4>
               </div>
             </div>
           </div>
@@ -159,7 +164,7 @@ const PortfolioText = () => {
                 <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>Marketing Design</h4>
+                <h4 className="text-black">Marketing Design</h4>
               </div>
             </div>
           </div>
@@ -187,7 +192,7 @@ const PortfolioText = () => {
                 <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>Publication Design</h4>
+                <h4 className="text-black">Publication Design</h4>
               </div>
             </div>
           </div>
@@ -215,7 +220,7 @@ const PortfolioText = () => {
                 <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>Packaging Design</h4>
+                <h4 className="text-black">Packaging Design</h4>
               </div>
             </div>
           </div>
@@ -243,7 +248,7 @@ const PortfolioText = () => {
                 <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>Environmental Design</h4>
+                <h4 className="text-black">Environmental Design</h4>
               </div>
             </div>
           </div>
@@ -271,7 +276,7 @@ const PortfolioText = () => {
                 <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>Advertisement Design</h4>
+                <h4 className="text-black">Advertisement Design</h4>
               </div>
             </div>
           </div>
@@ -313,7 +318,7 @@ const PortfolioText = () => {
                 <Link href="#">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
-                <h4>Food Menu Design</h4>
+                <h4 className="text-black">Food Menu Design</h4>
               </div>
             </div>
           </div>
