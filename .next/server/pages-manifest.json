@@ -1,7 +1,6 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
   "/404": "pages/404.html",
   "/about-us": "pages/about-us.html",
   "/advertisement-policy": "pages/advertisement-policy.html",
@@ -17,8 +16,8 @@
   "/index-four": "pages/index-four.html",
   "/index-light": "pages/index-light.html",
   "/index-three-light": "pages/index-three-light.html",
-  "/index-two-light": "pages/index-two-light.html",
   "/index-three": "pages/index-three.html",
+  "/index-two-light": "pages/index-two-light.html",
   "/index-two": "pages/index-two.html",
   "/": "pages/index.html",
   "/our-projects": "pages/our-projects.html",
@@ -30,8 +29,8 @@
   "/project-single": "pages/project-single.html",
   "/service-art": "pages/service-art.html",
   "/service-custome-logo": "pages/service-custome-logo.html",
-  "/service-environmental": "pages/service-environmental.html",
   "/service-marketing": "pages/service-marketing.html",
+  "/service-environmental": "pages/service-environmental.html",
   "/service-motion": "pages/service-motion.html",
   "/service-packageing": "pages/service-packageing.html",
   "/service-publication": "pages/service-publication.html",
@@ -40,8 +39,9 @@
   "/service-website": "pages/service-website.html",
   "/serviceBrand": "pages/serviceBrand.html",
   "/singleblog/[id]": "pages/singleblog/[id].html",
-  "/teams": "pages/teams.html",
   "/team-single": "pages/team-single.html",
+  "/teams": "pages/teams.html",
   "/terms": "pages/terms.html",
-  "/testimonials": "pages/testimonials.html"
+  "/testimonials": "pages/testimonials.html",
+  "/_error": "pages/_error.js"
 }

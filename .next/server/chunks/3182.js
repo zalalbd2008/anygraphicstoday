@@ -146,7 +146,7 @@ const ServiceDetailsMain = ({ blogData, path })=>{
 
 
 
-const ServiceDetailsBanner = ({ hedaer })=>{
+const ServiceDetailsBanner = ({ hedaer, breadcrumb })=>{
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
         className: "cmn-banner service-single-banner bg-img",
         style: {
@@ -164,7 +164,7 @@ const ServiceDetailsBanner = ({ hedaer })=>{
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
                                 className: "lh-sm  text-uppercase",
                                 style: {
-                                    fontSize: "55px"
+                                    fontSize: "46px"
                                 },
                                 children: hedaer
                             }),
@@ -195,7 +195,7 @@ const ServiceDetailsBanner = ({ hedaer })=>{
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                             className: "breadcrumb-item active",
                                             "aria-current": "page",
-                                            children: hedaer
+                                            children: breadcrumb || hedaer
                                         })
                                     ]
                                 })

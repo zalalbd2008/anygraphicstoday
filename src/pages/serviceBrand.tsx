@@ -6,12 +6,27 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import serviceBrandBlog from '@/constant/services/serice-brand';
 import brandImage from 'public/images/portfolio/image_9.jpg';
+import Head from 'next/head';
 const ServiceDetails = () => {
-  
-  
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Brand & Identity Design" />
+      <Head>
+        <title>
+          Graphic Design for Brand & Design Identity | Any Graphics Today
+        </title>
+        <meta
+          name="title"
+          content="Graphic Design for Brand & Design Identity | Any Graphics Today"
+        />
+        <meta
+          name="description"
+          content="Brand & Design Identity Graphics at No Upfront Charge. Get Custom Visuals Today. Elevate Your Brand with Expert Graphic Design Services."
+        />
+      </Head>
+      <ServiceDetailsBanner
+        hedaer="Graphic Design for Brand & Design Identity | Any Graphics Today"
+        breadcrumb="Branding  Design "
+      />
       <ServiceDetailsMain blogData={serviceBrandBlog} path={brandImage} />
       <UxProcess stepWorkData={serviceBrandBlog} />
       <CtaTwo />

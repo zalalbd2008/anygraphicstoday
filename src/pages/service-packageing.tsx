@@ -9,10 +9,23 @@ import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { servicePackageingBlog } from '@/constant/inedex';
 
 import HeaderImage from 'public/images/service/package.jpg';
+import Head from 'next/head';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Packaging Design" />
+      <Head>
+        <title>
+          Attractive Design Service for Packaging | Any Graphics Today
+        </title>
+        <meta
+          name="description"
+          content="Highly skilled designer for all types of packaging design on same day. Elevate Your Brand with Expert Graphic Design Services"
+        />
+      </Head>
+      <ServiceDetailsBanner
+        hedaer="Attractive Design Service for Packaging  | Any Graphics Today"
+        breadcrumb="Packaging Design"
+      />
       <ServiceDetailsMain blogData={servicePackageingBlog} path={HeaderImage} />
       <UxProcess stepWorkData={servicePackageingBlog} />
       <CtaTwo />

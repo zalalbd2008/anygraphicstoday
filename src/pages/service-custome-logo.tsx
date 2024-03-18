@@ -8,10 +8,23 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceCustomeLogoBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/logo.jpg';
+import Head from 'next/head';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Custome Logo Design" />
+      <Head>
+        <title>
+          Custom Made Logo at No Upfront Charge | Any Graphics Today
+        </title>
+        <meta
+          name="description"
+          content="Custom-Made High-Resolution Logo on Same day. Multiple options and Revisions. Elevate Your Brand with Expert Graphic Design Services."
+        />
+      </Head>
+      <ServiceDetailsBanner
+        hedaer=" Custom Made Logo at No Upfront Charge | Any Graphics Today"
+        breadcrumb="Custome Logo Design"
+      />
       <ServiceDetailsMain
         blogData={serviceCustomeLogoBlog}
         path={HeaderImage}

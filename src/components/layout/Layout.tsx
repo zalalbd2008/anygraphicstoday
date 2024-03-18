@@ -183,8 +183,8 @@ const Layout = ({
           type="image/x-icon"
         />
         <title>Any Graphics Today</title>
-        <meta name="keywords" content="creative, agency, portfolio" />
-        <meta name="description" content="Digital Agency" />
+        <meta name="keywords" content="website, agency, logo , website design , UI design , UX design , custome logo" />
+        <meta name="description" content="Design Company " />
       </Head>
       <div className={combinedClassName}>
         {header === 1 && (

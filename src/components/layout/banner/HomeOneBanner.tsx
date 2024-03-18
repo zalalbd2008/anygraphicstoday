@@ -61,9 +61,13 @@ const HomeOneBanner = () => {
                 </h1>
                 <div className="banner__content-inner">
                   <p>
-                    Get stunning, custom graphic designs delivered today. Call
-                    now and elevate your brand with our fast, high-quality
-                    service, ready for any task, big or small, around the clock
+                    Transform your brand's visual identity today! Experience the
+                    appeal of tailor-made graphic designs, delivered the same
+                    day. Whether your project is small or large, our dedicated
+                    team is ready 24/7 to bring your vision to life. Experience
+                    unparalleled service quality that stands out. Transform your
+                    brand and captivate your audience with our exceptional
+                    graphic design solutions.
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">

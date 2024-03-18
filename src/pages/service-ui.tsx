@@ -7,10 +7,21 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceUiBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/ui.jpg';
+import Head from 'next/head';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="UI/UX Design" />
+      <Head>
+        <title>Graphic Designer for UI/UX Designs | Any Graphics Today</title>
+        <meta
+          name="description"
+          content="UI/UX Designs from high skilled designers at No Upfront Charge. Get Custom Visuals Today. Elevate Your Brand with Expert Graphic Design Services."
+        />
+      </Head>
+      <ServiceDetailsBanner
+        hedaer="Graphic Designer for UI/UX Designs | Any Graphics Today"
+        breadcrumb="UI/UX Designs"
+      />
       <ServiceDetailsMain blogData={serviceUiBlog} path={HeaderImage} />
       <UxProcess stepWorkData={serviceUiBlog} />
       <CtaTwo />

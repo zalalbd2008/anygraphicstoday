@@ -2788,11 +2788,11 @@ const Layout = ({ children, header, footer, handleMouseEnterTitle, handleMouseLe
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("meta", {
                         name: "keywords",
-                        content: "creative, agency, portfolio"
+                        content: "website, agency, logo , website design , UI design , UX design , custome logo"
                     }),
                     /*#__PURE__*/ jsx_runtime.jsx("meta", {
                         name: "description",
-                        content: "Digital Agency"
+                        content: "Design Company "
                     })
                 ]
             }),

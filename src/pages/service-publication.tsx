@@ -9,10 +9,19 @@ import CtaTwo from '@/components/containers/service-details/CtaTwo';
 // data source
 import { servicePublicationBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/publication.jpg';
+import Head from 'next/head';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Publication Design" />
+      <Head>
+        <title>
+          Publication Design by Creative Designers | Any Graphics Today
+        </title>
+      </Head>
+      <ServiceDetailsBanner
+        hedaer="Publication Design by Creative Designers | Any Graphics Today"
+        breadcrumb="Publication Design"
+      />
       <ServiceDetailsMain
         blogData={servicePublicationBlog}
         path={HeaderImage}

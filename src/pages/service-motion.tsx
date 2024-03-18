@@ -8,10 +8,21 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceMotiononBlog } from '@/constant/inedex'
 import motionImage from 'public/images/portfolio/image_10.jpg';
+import Head from 'next/head';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Motion Graphics" />
+      <Head>
+        <title>Highly Skilled Motion Graphic Design | Any Graphics Today</title>
+        <meta
+          name="description"
+          content="Expert graphic design services for Motion Graphics. Get Custom Visuals Today. Elevate Your Brand with Expert Graphic Design Services."
+        />
+      </Head>
+      <ServiceDetailsBanner
+        hedaer="Highly Skilled Motion Graphic Design | Any Graphics Today"
+        breadcrumb="Motion Graphic Design "
+      />
       <ServiceDetailsMain blogData={serviceMotiononBlog} path={motionImage} />
       <UxProcess stepWorkData={serviceMotiononBlog} />
       <CtaTwo />

@@ -3,9 +3,10 @@ import Link from 'next/link';
 
 interface Header {
   hedaer: string;
+  breadcrumb ?:string;
 }
 
-const ServiceDetailsBanner = ({ hedaer }: Header) => {
+const ServiceDetailsBanner = ({ hedaer, breadcrumb }: Header) => {
   return (
     <section
       className="cmn-banner service-single-banner bg-img"
@@ -15,10 +16,12 @@ const ServiceDetailsBanner = ({ hedaer }: Header) => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-12 col-xl-12">
             <div className="text-center text-lg-start">
-              <h1 className="lh-sm  text-uppercase" style={{
-                fontSize: '55px',
-                
-              }}>
+              <h1
+                className="lh-sm  text-uppercase"
+                style={{
+                  fontSize: '46px',
+                }}
+              >
                 {hedaer}
               </h1>
               <nav aria-label="breadcrumb">
@@ -33,7 +36,7 @@ const ServiceDetailsBanner = ({ hedaer }: Header) => {
                     <Link href="our-services">Our Services</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    {hedaer}
+                    {breadcrumb || hedaer}
                   </li>
                 </ol>
               </nav>

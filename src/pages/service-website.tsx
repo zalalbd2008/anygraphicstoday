@@ -7,11 +7,26 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceWebsiteBlog } from '@/constant/inedex';
 import webisteImage from 'public/images/portfolio/image_8.jpg';
+import Head from 'next/head';
 
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Website design" />
+      <Head>
+        <title>
+          Affordable WP, React JS, Next JS, Ecommerce Website Designs | Any
+          Graphics Today
+        </title>
+        <meta
+          name="description"
+          content="Custom made website design within 5 days with yearlong free maintenance service. Start business branding within this week."
+        />
+      </Head>
+
+      <ServiceDetailsBanner
+        hedaer="Affordable WP, React Js, Next Js, E-commerce Website Designs | Any Graphics Today"
+        breadcrumb="Website Designs"
+      />
       <ServiceDetailsMain blogData={serviceWebsiteBlog} path={webisteImage} />
       <UxProcess stepWorkData={serviceWebsiteBlog} />
       <CtaTwo />
