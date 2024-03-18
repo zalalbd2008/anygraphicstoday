@@ -8,7 +8,7 @@ import time from "public/images/time.png";
 
 const ContactMain = () => {
   return (
-    <section className="section contact-m fade-wrapper">
+    <section className="section contact-m fade-wrapper py-1">
       <div className="container">
         <div className="row gaper py-4">
           <div className="col-12">
@@ -90,7 +90,7 @@ const ContactMain = () => {
               <div className="content">
                 <h4>Phone</h4>
                 <p>
-                  <Link href="tel:+18882073469">+1- 888-207-34</Link>
+                  <Link href="tel:+18882073469">+1-888-207-3469</Link>
                 </p>
                 {/* <p>
                   <Link href="tel:197-90-56-780">Fax : +18882073469</Link>

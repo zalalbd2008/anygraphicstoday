@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 interface Header {
   hedaer: string;
 }
 
-const ServiceDetailsBanner = ({ hedaer}: Header) => {
+const ServiceDetailsBanner = ({ hedaer }: Header) => {
   return (
     <section
       className="cmn-banner service-single-banner bg-img"
@@ -15,7 +15,12 @@ const ServiceDetailsBanner = ({ hedaer}: Header) => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-12 col-xl-12">
             <div className="text-center text-lg-start">
-              <h1 className="title title-anim">{hedaer}</h1>
+              <h1 className="lh-sm  text-uppercase" style={{
+                fontSize: '55px',
+                
+              }}>
+                {hedaer}
+              </h1>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">

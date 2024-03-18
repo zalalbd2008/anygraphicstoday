@@ -30,7 +30,7 @@ const Footer = () => {
 
                   <Link href="tel:+18882073469" className="col-6">
                     <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                    +1- 888-207-34
+                    +1- 888-207-3469
                   </Link>
                   <Link href="mailto:info@anygraphicstoday.com">
                     <i className="fa-sharp fa-solid fa-envelope"></i>

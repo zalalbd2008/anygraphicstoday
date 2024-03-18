@@ -77,9 +77,12 @@ const HomeOneBanner = () => {
 
                     <div className="navbar__options pt-3">
                       <div className="navbar__mobile-options d-none d-sm-flex">
-                        <Link href="/contact-us" className="btn btn--secondary">
-                          Get Design Advice Now
-                          <i className="fa-sharp fa-solid fa-arrow-up-right ps-2"></i>
+                        <Link
+                          href="tel:+18882073469"
+                          className="btn btn--secondary"
+                        >
+                          +1-888-207-3469
+                          {/* <i className="fa-sharp fa-solid fa-arrow-up-right ps-2"></i> */}
                         </Link>
                       </div>
                     </div>
@@ -101,7 +104,7 @@ const HomeOneBanner = () => {
           <Link href="mailto:info@anygraphicstoday.com">
             mail : info@anygraphicstoday.com
           </Link>
-          <Link href="tel:+18882073469">Call : +1- 888-207-34</Link>
+          <Link href="tel:+18882073469">Call : +1- 888-207-3469</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
           <Link href="/" target="_blank">

@@ -1,7 +1,7 @@
 export default [
   {
     title:
-      'Boost your brand with premier advertising and marketing design from Any Graphics today',
+      'Boost your brand with premier advertising and marketing design from Any Graphics today ',
     des: `At <a class="text-decoration-underline" href="https://anygraphicstoday.com/">Any Graphics Today</a>, we craft compelling advertising and marketing designs that elevate campaigns, ensure memorable brand engagement, and drive results with Adobe Creative Suite and advanced digital tools, leveraging creativity, strategic insights, and consumer behavior understanding for captivating visuals, all with efficient turnaround times.`,
     areaHalfWidth: false,
     workStep: false,

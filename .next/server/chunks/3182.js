@@ -162,7 +162,10 @@ const ServiceDetailsBanner = ({ hedaer })=>{
                         className: "text-center text-lg-start",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                                className: "title title-anim",
+                                className: "lh-sm  text-uppercase",
+                                style: {
+                                    fontSize: "55px"
+                                },
                                 children: hedaer
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("nav", {

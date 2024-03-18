@@ -47,7 +47,9 @@ const UxProcess = ({ stepWorkData })=>{
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
                     className: "text-start pb-3 fst-italic text-light-emphasis",
-                    children: stepWorkData.map((step, index)=>step.workStep && step.tab === -1 && step.headers)
+                    children: stepWorkData.map((step, index)=>step.workStep && step.tab === -1 && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                            children: step.headers
+                        }, index))
                 }),
                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "row",
@@ -85,7 +87,7 @@ const UxProcess = ({ stepWorkData })=>{
                                         dangerouslySetInnerHTML: {
                                             __html: step.headers
                                         }
-                                    }))
+                                    }, index))
                             ]
                         })
                     })

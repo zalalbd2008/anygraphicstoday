@@ -13,7 +13,7 @@ import HeaderImage from 'public/images/service/advertisment.jpg';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Advertisement And Marketing Design" />
+      <ServiceDetailsBanner hedaer="Advertisement & Marketing Design | Any Graphics Today" />
       <ServiceDetailsMain blogData={serviceMarketingBlog} path={HeaderImage} />
       <UxProcess stepWorkData={serviceMarketingBlog} />
       <CtaTwo />

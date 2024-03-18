@@ -1034,7 +1034,7 @@ const Footer = ()=>{
                                                         /*#__PURE__*/ jsx_runtime.jsx("i", {
                                                             className: "fa-sharp fa-solid fa-phone-volume"
                                                         }),
-                                                        "+1- 888-207-34"
+                                                        "+1- 888-207-3469"
                                                     ]
                                                 }),
                                                 /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
@@ -2497,7 +2497,10 @@ const VideoModal = ()=>{
                     })
                 }),
                 /*#__PURE__*/ jsx_runtime.jsx("h5", {
-                    children: "Hello"
+                    className: "w-75",
+                    children: /*#__PURE__*/ jsx_runtime.jsx("p", {
+                        children: "Call Now"
+                    })
                 })
             ]
         })

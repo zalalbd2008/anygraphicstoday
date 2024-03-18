@@ -1,11 +1,11 @@
+import Link from "next/link";
 import React, { useState } from "react";
 
 const VideoModal = () => {
   const [vid, setVid] = useState(true);
 
   return (
-    <div className={"vid-m" + (vid ? " vid-a" : " ")}>
-   
+    <div className={'vid-m' + (vid ? ' vid-a' : ' ')}>
       <div className="vid-c">
         <button
           aria-label="close video popup"
@@ -17,7 +17,9 @@ const VideoModal = () => {
         <video autoPlay loop muted controls>
           <source src="/images/popup-video.mp4" type="video/mp4" />
         </video>
-        <h5>Hello</h5>
+        <h5 className="w-75">
+          <p >Call Now</p>
+        </h5>
       </div>
     </div>
   );

@@ -709,15 +709,10 @@ const HomeOneBanner = ()=>{
                                                             className: "navbar__options pt-3",
                                                             children: /*#__PURE__*/ jsx_runtime.jsx("div", {
                                                                 className: "navbar__mobile-options d-none d-sm-flex",
-                                                                children: /*#__PURE__*/ (0,jsx_runtime.jsxs)((link_default()), {
-                                                                    href: "/contact-us",
+                                                                children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
+                                                                    href: "tel:+18882073469",
                                                                     className: "btn btn--secondary",
-                                                                    children: [
-                                                                        "Get Design Advice Now",
-                                                                        /*#__PURE__*/ jsx_runtime.jsx("i", {
-                                                                            className: "fa-sharp fa-solid fa-arrow-up-right ps-2"
-                                                                        })
-                                                                    ]
+                                                                    children: "+1-888-207-3469"
                                                                 })
                                                             })
                                                         })
@@ -751,7 +746,7 @@ const HomeOneBanner = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                 href: "tel:+18882073469",
-                                children: "Call : +1- 888-207-34"
+                                children: "Call : +1- 888-207-3469"
                             })
                         ]
                     }),

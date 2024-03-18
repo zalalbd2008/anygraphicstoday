@@ -159,7 +159,7 @@ const AdvertisementPolicy = () => {
           </div>
         </div>
         <div className="mt-3">
-          <h2 className="py-3">Monitoring and Compliance</h2>
+          <h2 className="py-3 fs-3">Monitoring and Compliance</h2>
 
           <div>
             <ul>

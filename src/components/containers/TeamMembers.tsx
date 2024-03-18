@@ -88,16 +88,59 @@ const TeamMembers = () => {
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
-                      <div className="info">
+                      <div className="intro">
+                        <h5>
+                          <Link href="team-single">
+                            Same Day Custom Made Graphics
+                          </Link>
+                        </h5>
+                        <p> High Skilled Designers</p>
+                      </div>
+                      <hr />
+                      <div className="inner">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          From Logo and Branding/Identity Design to Web and
+                          UI/UX Design, plus Print, Packaging, Advertising, and
+                          Publication, we cover a wide spectrum of graphic
+                          design services.
+                        </p>
+                        <div className="skill-wrap">
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Wireframe</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="75%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Visual Design</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="90%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Get your logo and small graphic designs in just 5 to 7
+                          hours with Any Graphics Today.
                         </p>
                       </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -126,9 +169,11 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">
+                          Same Day Custom Made Graphics
+                        </Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p> High Skilled Designers</p>
                     </div>
                     <hr />
                     <div className="inner">
@@ -214,16 +259,59 @@ const TeamMembers = () => {
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
-                      <div className="info">
+                      <div className="intro">
+                        <h5>
+                          <Link href="team-single">
+                            Same Day Custom Made Graphics
+                          </Link>
+                        </h5>
+                        <p> High Skilled Designers</p>
+                      </div>
+                      <hr />
+                      <div className="inner">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          From Logo and Branding/Identity Design to Web and
+                          UI/UX Design, plus Print, Packaging, Advertising, and
+                          Publication, we cover a wide spectrum of graphic
+                          design services.
+                        </p>
+                        <div className="skill-wrap">
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Wireframe</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="75%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Visual Design</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="90%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Get your logo and small graphic designs in just 5 to 7
+                          hours with Any Graphics Today.
                         </p>
                       </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -252,16 +340,19 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">
+                          Same Day Custom Made Graphics
+                        </Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p> High Skilled Designers</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        From Logo and Branding/Identity Design to Web and UI/UX
+                        Design, plus Print, Packaging, Advertising, and
+                        Publication, we cover a wide spectrum of graphic
+                        design services.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
@@ -290,8 +381,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Get your logo and small graphic designs in just 5 to 7
+                        hours with Any Graphics Today.
                       </p>
                     </div>
                     <div className="social">
@@ -339,16 +430,59 @@ const TeamMembers = () => {
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
-                      <div className="info">
+                      <div className="intro">
+                        <h5>
+                          <Link href="team-single">
+                            Same Day Custom Made Graphics
+                          </Link>
+                        </h5>
+                        <p> High Skilled Designers</p>
+                      </div>
+                      <hr />
+                      <div className="inner">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          From Logo and Branding/Identity Design to Web and
+                          UI/UX Design, plus Print, Packaging, Advertising, and
+                          Publication, we cover a wide spectrum of graphic
+                          design services.
+                        </p>
+                        <div className="skill-wrap">
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Wireframe</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="75%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Visual Design</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="90%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Get your logo and small graphic designs in just 5 to 7
+                          hours with Any Graphics Today.
                         </p>
                       </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -377,16 +511,19 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">
+                          Same Day Custom Made Graphics
+                        </Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p> High Skilled Designers</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        From Logo and Branding/Identity Design to Web and UI/UX
+                        Design, plus Print, Packaging, Advertising, and
+                        Publication, we cover a wide spectrum of graphic
+                        design services.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
@@ -415,8 +552,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Get your logo and small graphic designs in just 5 to 7
+                        hours with Any Graphics Today.
                       </p>
                     </div>
                     <div className="social">
@@ -464,16 +601,59 @@ const TeamMembers = () => {
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
-                      <div className="info">
+                      <div className="intro">
+                        <h5>
+                          <Link href="team-single">
+                            Same Day Custom Made Graphics
+                          </Link>
+                        </h5>
+                        <p> High Skilled Designers</p>
+                      </div>
+                      <hr />
+                      <div className="inner">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          From Logo and Branding/Identity Design to Web and
+                          UI/UX Design, plus Print, Packaging, Advertising, and
+                          Publication, we cover a wide spectrum of graphic
+                          design services.
+                        </p>
+                        <div className="skill-wrap">
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Wireframe</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="75%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Visual Design</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="90%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Get your logo and small graphic designs in just 5 to 7
+                          hours with Any Graphics Today.
                         </p>
                       </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -502,16 +682,19 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">
+                          Same Day Custom Made Graphics
+                        </Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p> High Skilled Designers</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        From Logo and Branding/Identity Design to Web and UI/UX
+                        Design, plus Print, Packaging, Advertising, and
+                        Publication, we cover a wide spectrum of graphic
+                        design services.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
@@ -540,8 +723,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Get your logo and small graphic designs in just 5 to 7
+                        hours with Any Graphics Today.
                       </p>
                     </div>
                     <div className="social">
@@ -589,16 +772,59 @@ const TeamMembers = () => {
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
-                      <div className="info">
+                      <div className="intro">
+                        <h5>
+                          <Link href="team-single">
+                            Same Day Custom Made Graphics
+                          </Link>
+                        </h5>
+                        <p> High Skilled Designers</p>
+                      </div>
+                      <hr />
+                      <div className="inner">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          From Logo and Branding/Identity Design to Web and
+                          UI/UX Design, plus Print, Packaging, Advertising, and
+                          Publication, we cover a wide spectrum of graphic
+                          design services.
+                        </p>
+                        <div className="skill-wrap">
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Wireframe</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="75%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Visual Design</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="90%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Get your logo and small graphic designs in just 5 to 7
+                          hours with Any Graphics Today.
                         </p>
                       </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -627,16 +853,19 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">
+                          Same Day Custom Made Graphics
+                        </Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p> High Skilled Designers</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        From Logo and Branding/Identity Design to Web and UI/UX
+                        Design, plus Print, Packaging, Advertising, and
+                        Publication, we cover a wide spectrum of graphic
+                        design services.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
@@ -665,8 +894,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Get your logo and small graphic designs in just 5 to 7
+                        hours with Any Graphics Today.
                       </p>
                     </div>
                     <div className="social">
@@ -714,16 +943,59 @@ const TeamMembers = () => {
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
-                      <div className="info">
+                      <div className="intro">
+                        <h5>
+                          <Link href="team-single">
+                            Same Day Custom Made Graphics
+                          </Link>
+                        </h5>
+                        <p> High Skilled Designers</p>
+                      </div>
+                      <hr />
+                      <div className="inner">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          From Logo and Branding/Identity Design to Web and
+                          UI/UX Design, plus Print, Packaging, Advertising, and
+                          Publication, we cover a wide spectrum of graphic
+                          design services.
+                        </p>
+                        <div className="skill-wrap">
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Wireframe</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="75%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Visual Design</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="90%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Get your logo and small graphic designs in just 5 to 7
+                          hours with Any Graphics Today.
                         </p>
                       </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -752,16 +1024,19 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">
+                          Same Day Custom Made Graphics
+                        </Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p> High Skilled Designers</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        From Logo and Branding/Identity Design to Web and UI/UX
+                        Design, plus Print, Packaging, Advertising, and
+                        Publication, we cover a wide spectrum of graphic
+                        design services.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
@@ -790,8 +1065,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Get your logo and small graphic designs in just 5 to 7
+                        hours with Any Graphics Today.
                       </p>
                     </div>
                     <div className="social">
@@ -839,16 +1114,59 @@ const TeamMembers = () => {
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
-                      <div className="info">
+                      <div className="intro">
+                        <h5>
+                          <Link href="team-single">
+                            Same Day Custom Made Graphics
+                          </Link>
+                        </h5>
+                        <p> High Skilled Designers</p>
+                      </div>
+                      <hr />
+                      <div className="inner">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                          From Logo and Branding/Identity Design to Web and
+                          UI/UX Design, plus Print, Packaging, Advertising, and
+                          Publication, we cover a wide spectrum of graphic
+                          design services.
+                        </p>
+                        <div className="skill-wrap">
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Wireframe</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="75%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="skill-bar-single">
+                            <div className="skill-bar-title">
+                              <p>Visual Design</p>
+                            </div>
+                            <div
+                              className="skill-bar-wrapper"
+                              data-percent="90%"
+                            >
+                              <div className="skill-bar">
+                                <div className="skill-bar-percent">
+                                  <span className="percent-value"></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Get your logo and small graphic designs in just 5 to 7
+                          hours with Any Graphics Today.
                         </p>
                       </div>
-                      <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
-                      </h4>
-                      <p>Senior engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -877,16 +1195,19 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">
+                          Same Day Custom Made Graphics
+                        </Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p> High Skilled Designers</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        From Logo and Branding/Identity Design to Web and UI/UX
+                        Design, plus Print, Packaging, Advertising, and
+                        Publication, we cover a wide spectrum of graphic
+                        design services.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
@@ -915,8 +1236,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        Get your logo and small graphic designs in just 5 to 7
+                        hours with Any Graphics Today.
                       </p>
                     </div>
                     <div className="social">

@@ -20,7 +20,8 @@ const UxProcess = ({ stepWorkData} : any) => {
         <h6 className="text-start pb-3 fst-italic text-light-emphasis">
           {stepWorkData.map(
             (step: any, index: React.Key | null | undefined) =>
-              step.workStep && step.tab === -1 && step.headers
+              step.workStep &&
+              step.tab === -1 && <span key={index}>{step.headers}</span>
           )}
         </h6>
         <div className="row">
@@ -58,6 +59,7 @@ const UxProcess = ({ stepWorkData} : any) => {
                   step.workStep &&
                   step.tab === -2 && (
                     <h6
+                      key={index}
                       className="text-center pb-3 fst-italic text-light-emphasis w-75 d-block m-auto mt-5 "
                       dangerouslySetInnerHTML={{ __html: step.headers }}
                     />
