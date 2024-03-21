@@ -7,6 +7,8 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceUiBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/ui.jpg';
+import MiniUIImage from 'public/images/service/miniui.jpg';
+
 import Head from 'next/head';
 const ServiceDetails = () => {
   return (
@@ -22,7 +24,11 @@ const ServiceDetails = () => {
         hedaer="Graphic Designer for UI/UX Designs | Any Graphics Today"
         breadcrumb="UI/UX Designs"
       />
-      <ServiceDetailsMain blogData={serviceUiBlog} path={HeaderImage} />
+      <ServiceDetailsMain
+        blogData={serviceUiBlog}
+        path={HeaderImage}
+        miniPath={MiniUIImage}
+      />
       <UxProcess stepWorkData={serviceUiBlog} />
       <CtaTwo />
     </Layout>

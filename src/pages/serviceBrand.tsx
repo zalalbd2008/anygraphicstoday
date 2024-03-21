@@ -6,6 +6,7 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import serviceBrandBlog from '@/constant/services/serice-brand';
 import brandImage from 'public/images/portfolio/image_9.jpg';
+import MiniBrandImage from 'public/images/service/brands.jpg';
 import Head from 'next/head';
 const ServiceDetails = () => {
   return (
@@ -27,7 +28,11 @@ const ServiceDetails = () => {
         hedaer="Graphic Design for Brand & Design Identity | Any Graphics Today"
         breadcrumb="Branding  Design "
       />
-      <ServiceDetailsMain blogData={serviceBrandBlog} path={brandImage} />
+      <ServiceDetailsMain
+        blogData={serviceBrandBlog}
+        path={brandImage}
+        miniPath={MiniBrandImage}
+      />
       <UxProcess stepWorkData={serviceBrandBlog} />
       <CtaTwo />
     </Layout>

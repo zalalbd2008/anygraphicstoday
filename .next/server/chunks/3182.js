@@ -31,7 +31,7 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 
 
 
-const ServiceDetailsMain = ({ blogData, path })=>{
+const ServiceDetailsMain = ({ blogData, path, miniPath })=>{
     return /*#__PURE__*/ jsx_runtime.jsx("section", {
         className: " mb-5 service-details fade-wrapper",
         children: /*#__PURE__*/ jsx_runtime.jsx("div", {
@@ -111,7 +111,7 @@ const ServiceDetailsMain = ({ blogData, path })=>{
                                                     children: /*#__PURE__*/ jsx_runtime.jsx("div", {
                                                         className: "poster-small",
                                                         children: /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
-                                                            src: path || thumb_two,
+                                                            src: miniPath || thumb_two,
                                                             alt: "Image"
                                                         })
                                                     })

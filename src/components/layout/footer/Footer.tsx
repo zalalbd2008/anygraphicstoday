@@ -2,16 +2,18 @@ import React, { HtmlHTMLAttributes } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from 'public/images/footer_logo.png';
-import handler from '@/pages/api/email';
-import nodemailer from 'nodemailer';
+// import handler from '@/pages/api/email';
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const handelSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // handler();
-  };
+    // handler()
+  
+  }
+  
   return (
     <footer
       className="footer section pb-0"

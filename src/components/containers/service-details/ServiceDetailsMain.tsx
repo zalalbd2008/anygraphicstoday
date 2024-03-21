@@ -5,7 +5,7 @@ import thumbtwo from 'public/images/service/thumb-two.png';
 import HeaderImage from 'public/images/service/thumb-two.png';
 import Link from 'next/link';
 
-const ServiceDetailsMain = ({ blogData, path }: any) => {
+const ServiceDetailsMain = ({ blogData, path, miniPath }: any) => {
 
   return (
     <section className=" mb-5 service-details fade-wrapper">
@@ -61,7 +61,7 @@ const ServiceDetailsMain = ({ blogData, path }: any) => {
                           </div>
                           <div className="col-12 col-lg-5">
                             <div className="poster-small">
-                              <Image src={path || thumbtwo} alt="Image" />
+                              <Image src={miniPath || thumbtwo} alt="Image" />
                             </div>
                           </div>
                         </div>

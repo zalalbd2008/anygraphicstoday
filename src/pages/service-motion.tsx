@@ -8,6 +8,7 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceMotiononBlog } from '@/constant/inedex'
 import motionImage from 'public/images/portfolio/image_10.jpg';
+import motionMINIImage from 'public/images/service/minimotion.jpg';
 import Head from 'next/head';
 const ServiceDetails = () => {
   return (
@@ -23,7 +24,11 @@ const ServiceDetails = () => {
         hedaer="Highly Skilled Motion Graphic Design | Any Graphics Today"
         breadcrumb="Motion Graphic Design "
       />
-      <ServiceDetailsMain blogData={serviceMotiononBlog} path={motionImage} />
+      <ServiceDetailsMain
+        blogData={serviceMotiononBlog}
+        path={motionImage}
+        miniPath={motionMINIImage}
+      />
       <UxProcess stepWorkData={serviceMotiononBlog} />
       <CtaTwo />
     </Layout>

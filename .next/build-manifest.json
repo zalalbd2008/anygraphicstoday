@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/AjBYdvwA0P79cLCFtcQ2P/_buildManifest.js",
-    "static/AjBYdvwA0P79cLCFtcQ2P/_ssgManifest.js"
+    "static/7Th3dKUbUreXs3B3sVQGO/_buildManifest.js",
+    "static/7Th3dKUbUreXs3B3sVQGO/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -305,7 +305,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-art-8ece3bc6e305282e.js"
+      "static/chunks/pages/service-art-e25d6a2c470bfc74.js"
     ],
     "/service-custome-logo": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -315,7 +315,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-custome-logo-656c45647f41c7f5.js"
+      "static/chunks/pages/service-custome-logo-63b87df2335fba17.js"
     ],
     "/service-environmental": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -325,7 +325,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-environmental-2520754ac82bba1a.js"
+      "static/chunks/pages/service-environmental-0a2cd23a688cfa7d.js"
     ],
     "/service-marketing": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -335,7 +335,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-marketing-a6a6b6c8065b1a77.js"
+      "static/chunks/pages/service-marketing-58c88d4c8db2c158.js"
     ],
     "/service-motion": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -345,7 +345,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-motion-aa67aaaa9ef86af8.js"
+      "static/chunks/pages/service-motion-b78fef9a5e37260d.js"
     ],
     "/service-packageing": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -355,7 +355,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-packageing-41a205c0d98c5dad.js"
+      "static/chunks/pages/service-packageing-ec7da24e93864e8e.js"
     ],
     "/service-publication": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -365,7 +365,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-publication-27476dabafff5c88.js"
+      "static/chunks/pages/service-publication-57778bebb887e324.js"
     ],
     "/service-single": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -374,7 +374,7 @@
       "static/chunks/94726e6d-f0de9cb4f12cad40.js",
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
-      "static/chunks/pages/service-single-ad1aa91c0e12228a.js"
+      "static/chunks/pages/service-single-7feed3b856d1e3ec.js"
     ],
     "/service-ui": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -384,7 +384,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-ui-98df28eb052054a9.js"
+      "static/chunks/pages/service-ui-32658b78b863e7ba.js"
     ],
     "/service-website": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -394,7 +394,7 @@
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
       "static/chunks/4547-51dac1146f6dfb52.js",
-      "static/chunks/pages/service-website-d8bbe24db3b84471.js"
+      "static/chunks/pages/service-website-e880e2d179ee9a2c.js"
     ],
     "/serviceBrand": [
       "static/chunks/webpack-03e247d8e7f80985.js",
@@ -403,7 +403,7 @@
       "static/chunks/94726e6d-f0de9cb4f12cad40.js",
       "static/chunks/2177-f07d39333b00a9ad.js",
       "static/chunks/6147-5e8b6e4346bd577b.js",
-      "static/chunks/pages/serviceBrand-54c12e577a441cbe.js"
+      "static/chunks/pages/serviceBrand-9c1e4320f0ebb1c5.js"
     ],
     "/singleblog/[id]": [
       "static/chunks/webpack-03e247d8e7f80985.js",

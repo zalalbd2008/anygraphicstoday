@@ -8,6 +8,7 @@ import CtaTwo from '@/components/containers/service-details/CtaTwo';
 // data source
 import { serviceMarketingBlog } from '@/constant/inedex'
 import HeaderImage from 'public/images/service/advertisment.jpg';
+import MiniMarkettingImage from 'public/images/service/minimarketing.jpg';
 import Head from 'next/head';
 
 
@@ -27,7 +28,11 @@ const ServiceDetails = () => {
         hedaer="Advertisement & Marketing Design | Any Graphics Today"
         breadcrumb="Advertisement & Marketing Design"
       />
-      <ServiceDetailsMain blogData={serviceMarketingBlog} path={HeaderImage} />
+      <ServiceDetailsMain
+        blogData={serviceMarketingBlog}
+        path={HeaderImage}
+        miniPath={MiniMarkettingImage}
+      />
       <UxProcess stepWorkData={serviceMarketingBlog} />
       <CtaTwo />
     </Layout>

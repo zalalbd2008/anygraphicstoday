@@ -8,7 +8,8 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { servicePackageingBlog } from '@/constant/inedex';
 
-import HeaderImage from 'public/images/service/package.jpg';
+import HeaderImage from 'public/images/service/package.jpg'; 
+import HeaderMINIImage from 'public/images/service/minipackage.jpg'; 
 import Head from 'next/head';
 const ServiceDetails = () => {
   return (
@@ -26,7 +27,11 @@ const ServiceDetails = () => {
         hedaer="Attractive Design Service for Packaging  | Any Graphics Today"
         breadcrumb="Packaging Design"
       />
-      <ServiceDetailsMain blogData={servicePackageingBlog} path={HeaderImage} />
+      <ServiceDetailsMain
+        blogData={servicePackageingBlog}
+        path={HeaderImage}
+        miniPath={HeaderMINIImage}
+      />
       <UxProcess stepWorkData={servicePackageingBlog} />
       <CtaTwo />
     </Layout>

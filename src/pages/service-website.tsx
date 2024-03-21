@@ -7,6 +7,7 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceWebsiteBlog } from '@/constant/inedex';
 import webisteImage from 'public/images/portfolio/image_8.jpg';
+import webisteMINIImage from 'public/images/service/miniweb.jpg';
 import Head from 'next/head';
 
 const ServiceDetails = () => {
@@ -27,7 +28,11 @@ const ServiceDetails = () => {
         hedaer="Affordable WP, React Js, Next Js, E-commerce Website Designs | Any Graphics Today"
         breadcrumb="Website Designs"
       />
-      <ServiceDetailsMain blogData={serviceWebsiteBlog} path={webisteImage} />
+      <ServiceDetailsMain
+        blogData={serviceWebsiteBlog}
+        path={webisteImage}
+        miniPath={webisteMINIImage}
+      />
       <UxProcess stepWorkData={serviceWebsiteBlog} />
       <CtaTwo />
     </Layout>

@@ -987,11 +987,12 @@ const HeaderFive = ({ openNav, handleNav, setOpenNav })=>{
 
 
 
+// import handler from '@/pages/api/email';
 const Footer = ()=>{
     const currentYear = new Date().getFullYear();
     const handelSubmit = async (e)=>{
         e.preventDefault();
-    // handler();
+    // handler()
     };
     return /*#__PURE__*/ jsx_runtime.jsx("footer", {
         className: "footer section pb-0",

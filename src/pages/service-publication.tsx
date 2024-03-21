@@ -9,6 +9,7 @@ import CtaTwo from '@/components/containers/service-details/CtaTwo';
 // data source
 import { servicePublicationBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/publication.jpg';
+import HeaderMINIImage from 'public/images/service/miniservice.jpg';
 import Head from 'next/head';
 const ServiceDetails = () => {
   return (
@@ -25,6 +26,7 @@ const ServiceDetails = () => {
       <ServiceDetailsMain
         blogData={servicePublicationBlog}
         path={HeaderImage}
+        miniPath={HeaderMINIImage}
       />
       <UxProcess stepWorkData={servicePublicationBlog} />
       <CtaTwo />

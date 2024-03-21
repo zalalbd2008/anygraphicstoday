@@ -6,6 +6,7 @@ import UxProcess from '@/components/containers/service-details/UxProcess';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceArtBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/art.png';
+import MiniHeaderImage from 'public/images/service/artmini.jpg';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
@@ -13,7 +14,11 @@ const ServiceDetails = () => {
         hedaer="Illustration and Art | Any Graphics Today"
         breadcrumb="Illustration and Art"
       />
-      <ServiceDetailsMain blogData={serviceArtBlog} path={HeaderImage} />
+      <ServiceDetailsMain
+        blogData={serviceArtBlog}
+        path={HeaderImage}
+        miniPath={MiniHeaderImage}
+      />
       <UxProcess stepWorkData={serviceArtBlog} />
       <CtaTwo />
     </Layout>
