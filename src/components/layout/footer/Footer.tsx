@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { HtmlHTMLAttributes } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from 'public/images/footer_logo.png';
+import handler from '@/pages/api/email';
+import nodemailer from 'nodemailer';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  const handelSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // handler();
+  };
   return (
     <footer
       className="footer section pb-0"
@@ -81,7 +88,7 @@ const Footer = () => {
                   assisting businesses with branding and marketing.
                 </p>
                 <div className="footer__single-form">
-                  <form action="#" method="post">
+                  <form action="#" method="post" onSubmit={handelSubmit}>
                     <div className="input-email">
                       <input
                         type="email"

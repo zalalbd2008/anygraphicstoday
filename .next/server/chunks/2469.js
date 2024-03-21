@@ -654,7 +654,8 @@ const HomeOneBanner = ()=>{
                                         /*#__PURE__*/ (0,jsx_runtime.jsxs)("h1", {
                                             className: "text-uppercase text-start fw-9 mb-0 title-anim",
                                             children: [
-                                                "Graphic",
+                                                "Graphic ",
+                                                " ",
                                                 /*#__PURE__*/ jsx_runtime.jsx("span", {
                                                     className: "text-stroke",
                                                     children: "Design"

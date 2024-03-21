@@ -53,13 +53,13 @@ const HomeOneBanner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  Graphic
+                  Graphic {" "}
                   <span className="text-stroke">Design</span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> on Demand
                   </span>
                 </h1>
-                <div className="banner__content-inner">
+                <div className="banner__content-inner" >
                   <p>
                     Transform your brand's visual identity today! Experience the
                     appeal of tailor-made graphic designs, delivered the same

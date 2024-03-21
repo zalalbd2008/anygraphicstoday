@@ -177,13 +177,12 @@ const Layout = ({
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="shortcut icon"
-          href="/images/any_graphics_today.png"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
         <title>Any Graphics Today</title>
-        <meta name="keywords" content="website, agency, logo , website design , UI design , UX design , custome logo" />
+        <meta
+          name="keywords"
+          content="website, agency, logo , website design , UI design , UX design , custome logo"
+        />
         <meta name="description" content="Design Company " />
       </Head>
       <div className={combinedClassName}>

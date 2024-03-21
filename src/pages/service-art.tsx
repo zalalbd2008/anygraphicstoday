@@ -9,7 +9,10 @@ import HeaderImage from 'public/images/service/art.png';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
-      <ServiceDetailsBanner hedaer="Illustration and Art" />
+      <ServiceDetailsBanner
+        hedaer="Illustration and Art | Any Graphics Today"
+        breadcrumb="Illustration and Art"
+      />
       <ServiceDetailsMain blogData={serviceArtBlog} path={HeaderImage} />
       <UxProcess stepWorkData={serviceArtBlog} />
       <CtaTwo />

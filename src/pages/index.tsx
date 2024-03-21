@@ -14,7 +14,7 @@ import Head from "next/head";
 
 const HomeDark = () => {
   return (
-    <Layout header={1} footer={1} video={true}>
+    <Layout header={1} footer={1} video={false}>
       <Head>
         <meta
           name="title"

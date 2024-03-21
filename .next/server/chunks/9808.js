@@ -41,7 +41,7 @@ const YoutubeEmbed = ({ embedId })=>{
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("iframe", {
             width: "200",
             height: "100",
-            src: `https://www.youtube.com/embed/${embedId}`,
+            src: `/images/popup-video.mp4`,
             "data-allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
             allowFullScreen: true,
             title: "Embedded youtube",

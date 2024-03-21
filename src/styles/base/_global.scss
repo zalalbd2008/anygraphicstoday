@@ -2,6 +2,28 @@
  --------- (2.03) global styles start ---------
  ==== */
 
+// video callnow button style
+.call-animation {
+  cursor: pointer;
+  font-weight:600;
+  transform: translate(10px);
+  transition: all 0.3s ease-in-out;
+  // animation: CallNow 2s both infinite ease;
+}
+
+@keyframes CallNow {
+  0%,
+  100% {
+    transform: translate(0%);
+  }
+
+  45% {
+    transform: translate(-5px);
+  }
+  85% {
+    transform: translate(5px);
+  }
+}
 img {
   max-width: 100%;
   height: auto;
@@ -15,8 +37,6 @@ i {
   align-items: center;
   justify-content: center;
 }
-
- 
 
 // custom cursor
 .cursor-outer {

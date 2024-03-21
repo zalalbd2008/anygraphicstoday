@@ -166,7 +166,7 @@ const ServiceDetailsBanner = ({ hedaer, breadcrumb })=>{
                                 style: {
                                     fontSize: "46px"
                                 },
-                                children: hedaer
+                                children: breadcrumb
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("nav", {
                                 "aria-label": "breadcrumb",

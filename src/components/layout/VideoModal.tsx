@@ -1,8 +1,16 @@
-import Link from "next/link";
-import React, { useState } from "react";
+import Link from 'next/link';
+import React, { useState } from 'react';
+import { useRouter } from 'next/router';
+import phoneIcon from 'public/phone.gif';
+import Image from 'next/image';
 
 const VideoModal = () => {
+  const router = useRouter();
   const [vid, setVid] = useState(true);
+
+  const heandelClick = () => {
+    router.push('tel: +18882073469');
+  };
 
   return (
     <div className={'vid-m' + (vid ? ' vid-a' : ' ')}>
@@ -14,11 +22,37 @@ const VideoModal = () => {
         >
           <i className="fa-light fa-xmark-large"></i>
         </button>
-        <video autoPlay loop muted controls>
-          <source src="/images/popup-video.mp4" type="video/mp4" />
-        </video>
-        <h5 className="w-75">
-          <p >Call Now</p>
+        <iframe
+          width="200"
+          height="700"
+          src={`/images/popup-video.mp4`}
+          data-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Embedded youtube"
+          className="video"
+        />
+
+        <h5
+          className=" d-flex align-items-center"
+          style={{
+            width: '140px',
+          }}
+        >
+          <Image
+            onClick={heandelClick}
+            src={phoneIcon}
+            alt="Phone Icon"
+            style={{
+              width: '20px',
+              height: '20px',
+              objectFit: 'cover',
+              cursor: 'pointer',
+            }}
+          />
+
+          <p onClick={heandelClick} className="call-animation">
+            Call Now
+          </p>
         </h5>
       </div>
     </div>

@@ -106,30 +106,37 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen('services')}`}
                   >
                     <li>
-                      <Link href="our-services">Brand & Identity Design</Link>
+                      <Link href="/serviceBrand">Brand & Identity Design</Link>
                     </li>
                     <li>
-                      <Link href="our-services">
+                      <Link href="/service-marketing">
                         Advertisement And Marketing Design
                       </Link>
                     </li>
                     <li>
-                      <Link href="service-single">Illustration and Art</Link>
+                      <Link href="/service-art">Illustration and Art</Link>
                     </li>
                     <li>
-                      <Link href="service-single">UI/UX Design</Link>
+                      <Link href="/service-ui">UI/UX Design</Link>
                     </li>
                     <li>
-                      <Link href="service-single">Motion Graphics</Link>
+                      <Link href="/service-motion">Motion Graphics</Link>
                     </li>
                     <li>
-                      <Link href="service-single">Publication Design</Link>
+                      <Link href="/service-publication">
+                        Publication Design
+                      </Link>
                     </li>
                     <li>
-                      <Link href="service-single">Environmental Design</Link>
+                      <Link href="/service-website">Website Design</Link>
                     </li>
                     <li>
-                      <Link href="service-single">Packaging Design</Link>
+                      <Link href="/service-packageing">Packaging Design</Link>
+                    </li>
+                    <li>
+                      <Link href="/service-custome-logo">
+                        Custome Logo Design
+                      </Link>
                     </li>
                   </ul>
                 </li>

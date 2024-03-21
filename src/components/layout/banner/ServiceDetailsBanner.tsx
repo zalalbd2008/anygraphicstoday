@@ -22,7 +22,7 @@ const ServiceDetailsBanner = ({ hedaer, breadcrumb }: Header) => {
                   fontSize: '46px',
                 }}
               >
-                {hedaer}
+                {breadcrumb}
               </h1>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
