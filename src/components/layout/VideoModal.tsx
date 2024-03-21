@@ -22,20 +22,15 @@ const VideoModal = () => {
         >
           <i className="fa-light fa-xmark-large"></i>
         </button>
-        <iframe
-          width="200"
-          height="700"
-          src={`/images/popup-video.mp4`}
-          data-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          title="Embedded youtube"
-          className="video"
-        />
+        <video autoPlay loop  controls>
+          <source src="/images/popup-video.mp4" type="video/mp4" />
+        </video>
 
         <h5
-          className=" d-flex align-items-center"
+          className="d-flex align-items-center "
           style={{
             width: '140px',
+            height: '50px',
           }}
         >
           <Image

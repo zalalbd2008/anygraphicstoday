@@ -2506,19 +2506,20 @@ const VideoModal = ()=>{
                         className: "fa-light fa-xmark-large"
                     })
                 }),
-                /*#__PURE__*/ jsx_runtime.jsx("iframe", {
-                    width: "200",
-                    height: "700",
-                    src: `/images/popup-video.mp4`,
-                    "data-allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                    allowFullScreen: true,
-                    title: "Embedded youtube",
-                    className: "video"
+                /*#__PURE__*/ jsx_runtime.jsx("video", {
+                    autoPlay: true,
+                    loop: true,
+                    controls: true,
+                    children: /*#__PURE__*/ jsx_runtime.jsx("source", {
+                        src: "/images/popup-video.mp4",
+                        type: "video/mp4"
+                    })
                 }),
                 /*#__PURE__*/ (0,jsx_runtime.jsxs)("h5", {
-                    className: " d-flex align-items-center",
+                    className: "d-flex align-items-center ",
                     style: {
-                        width: "140px"
+                        width: "140px",
+                        height: "50px"
                     },
                     children: [
                         /*#__PURE__*/ jsx_runtime.jsx((image_default()), {
