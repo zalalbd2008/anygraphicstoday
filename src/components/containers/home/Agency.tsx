@@ -104,6 +104,7 @@ const Agency = () => {
       y: 250, // Move the image down by 150 pixels
       duration: 1.5,
       transition: '0.5s',
+     
       scrollTrigger: {
         trigger: '#topTobottomImage',
         start: 'center bottom',
@@ -120,10 +121,9 @@ const Agency = () => {
         <div className="row gaper ">
           <div className="col-12 col-lg-6">
             <div
-              className="position-relative"
+              className="position-relative left-image"
               style={{
-                width: '70%',
-                height: '600px',
+              
                 border: '1px solid white',
                 borderRadius: '20px',
                 overflow: 'hidden',

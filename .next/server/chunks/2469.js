@@ -145,10 +145,8 @@ const Agency = ()=>{
                         /*#__PURE__*/ jsx_runtime.jsx("div", {
                             className: "col-12 col-lg-6",
                             children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
-                                className: "position-relative",
+                                className: "position-relative left-image",
                                 style: {
-                                    width: "70%",
-                                    height: "600px",
                                     border: "1px solid white",
                                     borderRadius: "20px",
                                     overflow: "hidden"

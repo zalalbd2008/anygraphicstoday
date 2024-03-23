@@ -106,35 +106,35 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     className={`navbar__sub-menu ${isSubMenuOpen('services')}`}
                   >
                     <li>
-                      <Link href="/serviceBrand">Brand & Identity Design</Link>
+                      <Link href="/service/brand">Brand & Identity Design</Link>
                     </li>
                     <li>
-                      <Link href="/service-marketing">
+                      <Link href="/service/marketing">
                         Advertisement And Marketing Design
                       </Link>
                     </li>
                     <li>
-                      <Link href="/service-art">Illustration and Art</Link>
+                      <Link href="/service/art">Illustration and Art</Link>
                     </li>
                     <li>
-                      <Link href="/service-ui">UI/UX Design</Link>
+                      <Link href="/service/ui">UI/UX Design</Link>
                     </li>
                     <li>
-                      <Link href="/service-motion">Motion Graphics</Link>
+                      <Link href="/service/motion">Motion Graphics</Link>
                     </li>
                     <li>
-                      <Link href="/service-publication">
+                      <Link href="/service/publication">
                         Publication Design
                       </Link>
                     </li>
                     <li>
-                      <Link href="/service-website">Website Design</Link>
+                      <Link href="/service/website">Website Design</Link>
                     </li>
                     <li>
-                      <Link href="/service-packageing">Packaging Design</Link>
+                      <Link href="/service/packageing">Packaging Design</Link>
                     </li>
                     <li>
-                      <Link href="/service-custome-logo">
+                      <Link href="/service/custome-logo">
                         Custome Logo Design
                       </Link>
                     </li>
@@ -142,120 +142,36 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                 </li>
 
                 <li className="navbar__item nav-fade">
-                  <Link href="about-us">Profile</Link>
+                  <Link href="/portfolio" className="pe-3 text-uppercase">
+                    Portfolio
+                  </Link>
                 </li>
 
                 <li className="navbar__item nav-fade">
-                  <Link href="about-us"> Team Member</Link>
+                  <Link href="/teams" className="pe-3 text-uppercase">
+                    {' '}
+                    Team Member
+                  </Link>
                 </li>
                 <li className="navbar__item nav-fade">
-                  <Link href="about-us"> Testimonials </Link>
+                  <Link href="/testimonials" className="pe-3 text-uppercase">
+                    {' '}
+                    Testimonials 
+                  </Link>
                 </li>
                 <li className="navbar__item nav-fade">
-                  <Link href="about-us">Blog </Link>
+                  <Link href="/blog" className="text-uppercase">
+                    Blog 
+                  </Link>
                 </li>
 
-                {/* <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      'projects'
-                    )}`}
-                    onClick={() => handleSubmenu('projects')}
-                  >
-                    Projects
-                  </button>
-                  <ul
-                    className={`navbar__sub-menu ${isSubMenuOpen('projects')}`}
-                  >
-                    <li>
-                      <Link href="our-projects">Our Projects</Link>
-                    </li>
-                    <li>
-                      <Link href="project-single">Project Details</Link>
-                    </li>
-                  </ul>
-                </li> */}
 
-                {/* <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      'pages'
-                    )}`}
-                    onClick={() => handleSubmenu('pages')}
-                  >
-                    Pages
-                  </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen('pages')}`}>
-                    <li>
-                      <Link href="faq">FAQ</Link>
-                    </li>
-                    <li>
-                      <Link href="404">Error</Link>
-                    </li>
-                    <li>
-                      <Link href="our-story">Our Story</Link>
-                    </li>
-                    <li>
-                      <Link href="portfolio">Portfolio</Link>
-                    </li>
-                    <li className="navbar__item navbar__item--has-children">
-                      <button
-                        aria-label="dropdown menu"
-                        className={`navbar__dropdown-label navbar__dropdown-label-sub ${isNestedMenuButton(
-                          'team'
-                        )}`}
-                        onClick={() => handleNestedmenu('team')}
-                      >
-                        Team
-                      </button>
-                      <ul
-                        className={`navbar__sub-menu navbar__sub-menu__nested ${isNestedMenuOpen(
-                          'team'
-                        )}`}
-                      >
-                        <li>
-                          <Link href="our-teams">Our Teams</Link>
-                        </li>
-                        <li>
-                          <Link href="team-single">Team Details</Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <Link href="client-feedback">Testimonials</Link>
-                    </li>
-                    <li>
-                      <Link href="contact-us">Contact Us</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label navbar__dropdown-label-sub ${isSubMenuButton(
-                      'blog'
-                    )}`}
-                    onClick={() => handleSubmenu('blog')}
-                  >
-                    Blog
-                  </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen('blog')}`}>
-                    <li>
-                      <Link href="blog">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="blog-single">Blog Details</Link>
-                    </li>
-                  </ul>
-                </li> */}
               </ul>
             </div>
           </div>
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
-              <Link href="contact-us" className="btn btn--secondary">
+              <Link href="/contact-us" className="btn btn--secondary">
                 Let&apos;s Talk
               </Link>
             </div>

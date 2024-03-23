@@ -1323,6 +1323,23 @@
 }
 
 // 5.19 video modal styles
+// section
+
+.left-icon {
+  // height: 300px;
+  width: 60px;
+  background: #f26e23;
+  top: 50vh;
+  left: 0px;
+  position: fixed;
+  z-index: 1111111;
+  border-radius: 0px 50px 50px 0px;
+  cursor: pointer;
+  a:hover {
+    color: #fff;
+  }
+}
+
 .video-modal {
   position: relative;
   .modal-bg {

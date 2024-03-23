@@ -12,7 +12,6 @@ __webpack_require__.d(__webpack_exports__, {
   Xu: () => (/* reexport */ blog),
   Rm: () => (/* reexport */ service_art),
   g4: () => (/* reexport */ service_custome_logo),
-  Wo: () => (/* reexport */ service_ui),
   uk: () => (/* reexport */ service_marketing),
   yM: () => (/* reexport */ service_motion),
   ky: () => (/* reexport */ service_publication),
@@ -22,7 +21,7 @@ __webpack_require__.d(__webpack_exports__, {
   JQ: () => (/* reexport */ testimonials)
 });
 
-// UNUSED EXPORTS: serviceBrandBlog
+// UNUSED EXPORTS: serviceBrandBlog, serviceEnvironmentalBlog
 
 // EXTERNAL MODULE: ./src/constant/services/serice-brand.ts
 var serice_brand = __webpack_require__(6991);

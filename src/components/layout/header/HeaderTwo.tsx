@@ -85,41 +85,41 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                         </button>
                         <ul className="navbar__sub-menu">
                           <li>
-                            <Link href="/serviceBrand">
+                            <Link href="/service/brand">
                               Brand & Identity Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service-marketing">
+                            <Link href="/service/marketing">
                               Advertisement And Marketing Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service-art">
+                            <Link href="/service/art">
                               Illustration and Art
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service-ui">UI/UX Design</Link>
+                            <Link href="/service/ui">UI/UX Design</Link>
                           </li>
                           <li>
-                            <Link href="/service-motion">Motion Graphics</Link>
+                            <Link href="/service/motion">Motion Graphics</Link>
                           </li>
                           <li>
-                            <Link href="/service-publication">
+                            <Link href="/service/publication">
                               Publication Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service-website">Website Design</Link>
+                            <Link href="/service/website">Website Design</Link>
                           </li>
                           <li>
-                            <Link href="/service-packageing">
+                            <Link href="/service/packageing">
                               Packaging Design
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service-custome-logo">
+                            <Link href="/service/custome-logo">
                               Custome Logo Design
                             </Link>
                           </li>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import phoneIcon from 'public/phone.gif';
 import Image from 'next/image';
@@ -11,7 +11,14 @@ const VideoModal = () => {
   const heandelClick = () => {
     router.push('tel: +18882073469');
   };
+  const videoRef = useRef<HTMLVideoElement | any>(null);
+  useEffect(() => {
+    const video = videoRef.current;
 
+    if (!vid) {
+      video.pause();
+    }
+  }, [vid]);
   return (
     <div className={'vid-m' + (vid ? ' vid-a' : ' ')}>
       <div className="vid-c">
@@ -22,7 +29,7 @@ const VideoModal = () => {
         >
           <i className="fa-light fa-xmark-large"></i>
         </button>
-        <video autoPlay loop  controls>
+        <video autoPlay controls ref={videoRef}>
           <source src="/images/popup-video.mp4" type="video/mp4" />
         </video>
 
