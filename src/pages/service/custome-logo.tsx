@@ -25,7 +25,7 @@ const ServiceDetails = () => {
       </Head>
       <ServiceDetailsBanner
         hedaer=" Custom Made Logo at No Upfront Charge | Any Graphics Today"
-        breadcrumb="Custome Logo Design"
+        breadcrumb="Custom Logo Design"
       />
       <ServiceDetailsMain
         blogData={serviceCustomeLogoBlog}
