@@ -53,7 +53,7 @@ const TeamMembers = () => {
             slidesPerView={1}
             spaceBetween={30}
             slidesPerGroup={1}
-            speed={800}
+            speed={500}
             loop={true}
             centeredSlides={false}
             modules={[Autoplay, Navigation]}
@@ -68,6 +68,10 @@ const TeamMembers = () => {
             }}
             className="team-s__slider"
             breakpoints={{
+              1500: {
+                slidesPerView: 6,
+                centeredSlides: true,
+              },
               768: {
                 slidesPerView: 3,
                 centeredSlides: true,

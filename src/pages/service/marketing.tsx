@@ -10,6 +10,7 @@ import { serviceMarketingBlog } from '@/constant/inedex'
 import HeaderImage from 'public/images/service/advertisment.jpg';
 import MiniMarkettingImage from 'public/images/service/minimarketing.jpg';
 import Head from 'next/head';
+import TeamMembers from '@/components/containers/TeamMembers';
 
 
 const ServiceDetails = () => {
@@ -34,6 +35,7 @@ const ServiceDetails = () => {
         miniPath={MiniMarkettingImage}
       />
       <UxProcess stepWorkData={serviceMarketingBlog} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );

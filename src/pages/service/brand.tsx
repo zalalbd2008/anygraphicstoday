@@ -8,6 +8,7 @@ import serviceBrandBlog from '@/constant/services/serice-brand';
 import brandImage from 'public/images/portfolio/image_9.jpg';
 import MiniBrandImage from 'public/images/service/brands.jpg';
 import Head from 'next/head';
+import TeamMembers from '@/components/containers/TeamMembers';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
@@ -34,6 +35,7 @@ const ServiceDetails = () => {
         miniPath={MiniBrandImage}
       />
       <UxProcess stepWorkData={serviceBrandBlog} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );

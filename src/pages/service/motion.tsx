@@ -10,6 +10,7 @@ import { serviceMotiononBlog } from '@/constant/inedex'
 import motionImage from 'public/images/portfolio/image_10.jpg';
 import motionMINIImage from 'public/images/service/minimotion.jpg';
 import Head from 'next/head';
+import TeamMembers from '@/components/containers/TeamMembers';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
@@ -30,6 +31,7 @@ const ServiceDetails = () => {
         miniPath={motionMINIImage}
       />
       <UxProcess stepWorkData={serviceMotiononBlog} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );

@@ -10,6 +10,7 @@ import HeaderImage from 'public/images/service/ui.jpg';
 import MiniUIImage from 'public/images/service/miniui.jpg';
 
 import Head from 'next/head';
+import TeamMembers from '@/components/containers/TeamMembers';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
@@ -30,6 +31,7 @@ const ServiceDetails = () => {
         miniPath={MiniUIImage}
       />
       <UxProcess stepWorkData={serviceUiBlog} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );

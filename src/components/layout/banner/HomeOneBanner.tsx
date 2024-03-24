@@ -80,12 +80,12 @@ const HomeOneBanner = () => {
                     </div>
 
                     <div className="navbar__options pt-3">
-                      <div className="navbar__mobile-options d-none d-sm-flex">
+                      <div className="navbar__mobile-options d-sm-flex">
                         <Link
                           href="tel:+18882073469"
                           className="btn btn--secondary"
                         >
-                          +1-888-207-3469
+                         Call:  +1-888-207-3469
                           {/* <i className="fa-sharp fa-solid fa-arrow-up-right ps-2"></i> */}
                         </Link>
                       </div>

@@ -47,7 +47,7 @@ const Footer = () => {
               </div>
               <div className="footer__cta text-start">
                 <Link href="contact-us" className="btn btn--secondary">
-                  book a call now
+                  Call Designer Now
                 </Link>
               </div>
             </div>
@@ -114,11 +114,14 @@ const Footer = () => {
             <div className="footer__copyright">
               <div className="row align-items-center gaper">
                 <div className="col-12 col-lg-8">
-                  <div className="footer__copyright-text text-center text-lg-start">
-                    <p>
+                  <div className="footer__copyright-text text-center text-lg-start" >
+                    <p style={{
+                      fontSize: '13px',
+                    }}>
                       Copyright &copy;
-                      <span id="copyYear">{currentYear}</span> Any Graphics
-                      Today . All Rights Reserved
+                      <span id="copyYear">{currentYear}</span>
+                      Any Graphics Today . All Rights Reserved. Designed by{' '}
+                      <a href="https://www.fixwebsiteissues.com/">WevTEC.</a> 
                     </p>
                   </div>
                 </div>

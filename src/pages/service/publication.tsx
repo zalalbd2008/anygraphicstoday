@@ -11,6 +11,7 @@ import { servicePublicationBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/publication.jpg';
 import HeaderMINIImage from 'public/images/service/miniservice.jpg';
 import Head from 'next/head';
+import TeamMembers from '@/components/containers/TeamMembers';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
@@ -29,6 +30,7 @@ const ServiceDetails = () => {
         miniPath={HeaderMINIImage}
       />
       <UxProcess stepWorkData={servicePublicationBlog} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );

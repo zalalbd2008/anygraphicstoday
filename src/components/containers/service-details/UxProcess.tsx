@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const UxProcess = ({ stepWorkData} : any) => {
+const UxProcess = ({ stepWorkData }: any) => {
   const [imgTab, setImgTab] = useState<number>(0);
 
   return (
@@ -9,10 +9,14 @@ const UxProcess = ({ stepWorkData} : any) => {
         <div className="row justify-content-center">
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
-              <span className="sub-title">
-                UX Process
-                <i className="fa-solid fa-arrow-right"></i>
-              </span>
+              <a
+                href="/contact-us"
+              >
+                <span className="sub-title">
+                  UX Process
+                  <i className="fa-solid fa-arrow-right"></i>
+                </span>
+              </a>
               <h2 className="title title-anim">How We Work</h2>
             </div>
           </div>

@@ -5,10 +5,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import VanillaTilt from 'vanilla-tilt';
 import { useRouter } from 'next/router';
 import Header from './header/Header';
-import HeaderTwo from './header/HeaderTwo';
-import HeaderThree from './header/HeaderThree';
-import HeaderFour from './header/HeaderFour';
-import HeaderFive from './header/HeaderFive';
+
 import Footer from './footer/Footer';
 import FooterTwo from './footer/FooterTwo';
 import FooterThree from './footer/FooterThree';
@@ -183,46 +180,12 @@ const Layout = ({
         <meta name="description" content="Design Company " />
       </Head>
       <div className={combinedClassName}>
-        {header === 1 && (
-          <HeaderTwo
+        <Header
             openNav={openNav}
             handleNav={handleNav}
             setOpenNav={setOpenNav}
           />
-          // <Header
-          //   openNav={openNav}
-          //   handleNav={handleNav}
-          //   setOpenNav={setOpenNav}
-          // />
-        )}
-        {header === 2 && (
-          <HeaderTwo
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
-        {header === 3 && (
-          <HeaderThree
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
-        {header === 4 && (
-          <HeaderFour
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
-        {header === 5 && (
-          <HeaderFive
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
-        )}
+
         <main>
           <div className="left-icon">
             <a

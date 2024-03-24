@@ -28,14 +28,17 @@ const UxProcess = ({ stepWorkData })=>{
                         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                             className: "section__header text-center",
                             children: [
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                                    className: "sub-title",
-                                    children: [
-                                        "UX Process",
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                            className: "fa-solid fa-arrow-right"
-                                        })
-                                    ]
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                    href: "/contact-us",
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                                        className: "sub-title",
+                                        children: [
+                                            "UX Process",
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                                className: "fa-solid fa-arrow-right"
+                                            })
+                                        ]
+                                    })
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                     className: "title title-anim",

@@ -9,6 +9,7 @@ import { serviceWebsiteBlog } from '@/constant/inedex';
 import webisteImage from 'public/images/portfolio/image_8.jpg';
 import webisteMINIImage from 'public/images/service/miniweb.jpg';
 import Head from 'next/head';
+import TeamMembers from '@/components/containers/TeamMembers';
 
 const ServiceDetails = () => {
   return (
@@ -34,6 +35,7 @@ const ServiceDetails = () => {
         miniPath={webisteMINIImage}
       />
       <UxProcess stepWorkData={serviceWebsiteBlog} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );

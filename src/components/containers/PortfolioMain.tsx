@@ -168,12 +168,14 @@ const PortfolioMain = () => {
                     <div className="team-wrap">
                       <Image
                         className="rounded-4"
+                        placeholder='blur'
                         src={path}
                         alt="Image"
                         height={600}
                         width={800}
                         style={{
                           objectFit: 'cover',
+                          height: '600px'
                         }}
                       />
                     </div>

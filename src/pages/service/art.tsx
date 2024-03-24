@@ -7,6 +7,7 @@ import CtaTwo from '@/components/containers/service-details/CtaTwo';
 import { serviceArtBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/art.png';
 import MiniHeaderImage from 'public/images/service/artmini.jpg';
+import TeamMembers from '@/components/containers/TeamMembers';
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
@@ -20,6 +21,7 @@ const ServiceDetails = () => {
         miniPath={MiniHeaderImage}
       />
       <UxProcess stepWorkData={serviceArtBlog} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );
