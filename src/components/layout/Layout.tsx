@@ -48,13 +48,25 @@ const Layout = ({
 
   // navbar
   const [openNav, setOpenNav] = useState(false);
+  const [popupForm, setPopupForm] = useState(false);
+  const [popupFormShow, setPopupFormShow] = useState(false);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setPopupForm(true);
+    }, 5000);
+
+    return () => {
+      clearInterval(intervalId); // Cleanup: clear the interval when component unmounts
+    };
+  }, [popupForm]);
 
   const handleNav = () => {
     setOpenNav(!openNav);
   };
 
   const router = useRouter();
-
+  console.log(!router.pathname.includes('/contact-us') && popupForm);
   const classMappings: Record<string, string> = {
     '/': 'home-light',
     '/index-two-light': 'home-two-light',
@@ -166,6 +178,12 @@ const Layout = ({
     });
   }, []);
 
+  //handeler
+
+  const setpopupHandeler = () => {
+    setPopupFormShow(true);
+  };
+
   return (
     <Fragment>
       <Head>
@@ -181,10 +199,10 @@ const Layout = ({
       </Head>
       <div className={combinedClassName}>
         <Header
-            openNav={openNav}
-            handleNav={handleNav}
-            setOpenNav={setOpenNav}
-          />
+          openNav={openNav}
+          handleNav={handleNav}
+          setOpenNav={setOpenNav}
+        />
 
         <main>
           <div className="left-icon">
@@ -195,6 +213,70 @@ const Layout = ({
               <i className="fa-brands fa-whatsapp fa-bounce fs-2 px-3 py-3"></i>
             </a>
           </div>
+          {/* && !popupForm  */}
+          {!router.pathname.includes('/contact-us') && popupForm && (
+            <div
+              style={{
+                display: popupFormShow ? 'none' : 'block',
+              }}
+            >
+              <div className="popup-shadow" />
+              <div className="popup-from p-5 rounded-5 ">
+                <div
+                  style={{
+                    position: 'absolute',
+                    top: '0px',
+                    right: '0px',
+                    padding: '20px',
+                  }}
+                >
+                  <i
+                    className="fa-solid fa-xmark fs-5 text-end text-black  border border-2 rounded-5 p-2 cursor-pointer"
+                    onClick={setpopupHandeler}
+                  ></i>
+                </div>
+                <div className="d-flex justify-content-between py-3">
+                  <div>
+                    <i
+                      className="fa-duotone fa-paper-plane fa-bounce icon"
+                      style={
+                        {
+                          '--fa-primary-color': '#f9862b',
+                          '--fa-secondary-color': '#f9862b',
+                        } as any
+                      }
+                    ></i>
+                  </div>
+                  <div>
+                    <h3 className="fs-4 fw-bold lh-base text-black text-capitalize">
+                      Free Consultation
+                    </h3>
+                    <p className="text-body-tertiary">
+                      Feel Free To Drop Us a Line Below
+                    </p>
+                  </div>
+                </div>
+
+                <form action="">
+                  <input type="text" placeholder="Enter Your Name " />
+                  <input type="text" placeholder="Enter Your Phone Number" />
+                  <textarea
+                    name=""
+                    placeholder="I Want Disciuss On..."
+                    id=""
+                    rows={5}
+                  ></textarea>
+                  <button
+                    type={'submit'}
+                    className="btn btn--primary d-block mt-3 m-auto  py-2  w-75  "
+                  >
+                    {' '}
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          )}
           {children}
         </main>
         {footer === 1 && <Footer />}

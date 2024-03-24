@@ -1,4 +1,4 @@
-import React, { HtmlHTMLAttributes } from 'react';
+import React, { HtmlHTMLAttributes, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import logo from 'public/images/footer_logo.png';
@@ -9,6 +9,20 @@ const Footer = () => {
 
   const handelSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    console.log('ok');
+    
+    try {
+      const sendEmail = await fetch('http://localhost:5000', {
+        cache: 'no-cache',
+      });
+
+      const data = await sendEmail.json();
+
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+      
+    }
     // handler()
   };
 
@@ -114,10 +128,12 @@ const Footer = () => {
             <div className="footer__copyright">
               <div className="row align-items-center gaper">
                 <div className="col-12 col-lg-8">
-                  <div className="footer__copyright-text text-center text-lg-start" >
-                    <p style={{
-                      fontSize: '13px',
-                    }}>
+                  <div className="footer__copyright-text text-center text-lg-start">
+                    <p
+                      style={{
+                        fontSize: '13px',
+                      }}
+                    >
                       Copyright &copy;
                       <span id="copyYear">{currentYear}</span>
                       Any Graphics Today . All Rights Reserved. Designed by{' '}
