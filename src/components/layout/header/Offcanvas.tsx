@@ -199,4 +199,15 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
             <Link
               href="https://www.instagram.com/anygraphicstoday/"
               target="_blank"
-              aria-label="share 
+              aria-label="share us on instagram"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </Link>
+          </div>
+        </nav>
+      </div>
+    </div>
+  );
+};
+
+export default Offcanvas;

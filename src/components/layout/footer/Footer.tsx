@@ -143,16 +143,25 @@ const Footer = () => {
                 </div>
                 <div className="col-12 col-lg-4">
                   <div className="social justify-content-center justify-content-lg-end">
-                    <Link href="https://www.facebook.com/" target="_blank">
+                    <Link
+                      href="https://www.facebook.com/AnyGraphicsToday"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-facebook-f"></i>
                     </Link>
-                    <Link href="https://www.twitter.com/" target="_blank">
+                    <Link
+                      href="https://twitter.com/anygraphics2day"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-twitter"></i>
                     </Link>
-                    <Link href="https://www.pinterest.com/" target="_blank">
+                    {/* <Link href="https://www.pinterest.com/" target="_blank">
                       <i className="fa-brands fa-linkedin-in"></i>
-                    </Link>
-                    <Link href="https://www.instagram.com/" target="_blank">
+                    </Link> */}
+                    <Link
+                      href="https://www.instagram.com/anygraphicstoday"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </Link>
                   </div>

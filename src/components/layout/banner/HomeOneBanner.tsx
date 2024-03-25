@@ -53,13 +53,12 @@ const HomeOneBanner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  Graphic {" "}
-                  <span className="text-stroke">Design</span>
+                  Graphic <span className="text-stroke">Design</span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> on Demand
                   </span>
                 </h1>
-                <div className="banner__content-inner" >
+                <div className="banner__content-inner">
                   <p>
                     Transform your brand's visual identity today! Experience the
                     appeal of tailor-made graphic designs, delivered the same
@@ -85,7 +84,7 @@ const HomeOneBanner = () => {
                           href="tel:+18882073469"
                           className="btn btn--secondary"
                         >
-                         Call:  +1-888-207-3469
+                          Call: +1-888-207-3469
                           {/* <i className="fa-sharp fa-solid fa-arrow-up-right ps-2"></i> */}
                         </Link>
                       </div>
@@ -111,13 +110,22 @@ const HomeOneBanner = () => {
           <Link href="tel:+18882073469">Call : +1- 888-207-3469</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
-          <Link href="/" target="_blank">
+          <Link
+            href="https://www.instagram.com/anygraphicstoday"
+            target="_blank"
+          >
             instagram
           </Link>
-          <Link href="/" target="_blank">
+          <Link
+            href="https://www.linkedin.com/company/any-graphics-today/"
+            target="_blank"
+          >
             Linkedin
           </Link>
-          <Link href="/" target="_blank">
+          <Link
+            href="https://www.facebook.com/AnyGraphicsToday"
+            target="_blank"
+          >
             facebook
           </Link>
         </div>
