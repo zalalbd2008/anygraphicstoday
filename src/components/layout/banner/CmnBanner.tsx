@@ -15,7 +15,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
         className="cmn-banner bg-img"
         style={{ backgroundImage: "url('/images/banner/cmn-banner-bg.png')" }}
       >
-        <div className="container">
+        <div className="container mb-3">
           <div className="row gaper align-items-center">
             <div className="col-12 col-lg-5 col-xl-7">
               <div className="text-center text-lg-start">

@@ -15,7 +15,10 @@ import VideoModal from './VideoModal';
 import ScrollProgressBtn from './ScrollProgressBtn';
 import CustomCursor from './CustomCursor';
 import SplitType from 'split-type';
-
+import phoneIcon from 'public/phone.gif';
+import Image from 'next/image';
+import calculation from '@/lib/calculation';
+import Link from 'next/link';
 type LayoutProps = {
   children: React.ReactNode;
   handleMouseEnterTitle?: any;
@@ -33,6 +36,7 @@ const Layout = ({
   handleMouseLeaveTitle,
   video,
 }: LayoutProps) => {
+  const [buttonApprove, setButtonApprove] = useState(false);
   // tilt effect
   useEffect(() => {
     const tiltElements = document.querySelectorAll('.topy-tilt');
@@ -46,15 +50,26 @@ const Layout = ({
     });
   }, []);
 
+  const calculationViaApproveSubmitButton = (e: any) => {
+    const finalNumber = calculation.firstNumber + calculation.secondNumber;
+    const approveSignal = calculation.getCalculation(
+      Number(e.target.value),
+      finalNumber
+    );
+    setButtonApprove(approveSignal);
+  };
   // navbar
   const [openNav, setOpenNav] = useState(false);
   const [popupForm, setPopupForm] = useState(false);
   const [popupFormShow, setPopupFormShow] = useState(false);
+  const [username, setUserName] = useState('');
+  const [phonenNumber, setPhonenNumber] = useState('+1');
+  const [textArea, setTextArea] = useState('');
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       setPopupForm(true);
-    }, 5000);
+    }, 15000);
 
     return () => {
       clearInterval(intervalId); // Cleanup: clear the interval when component unmounts
@@ -183,6 +198,19 @@ const Layout = ({
   const setpopupHandeler = () => {
     setPopupFormShow(true);
   };
+  const handelSubmit = (e: any) => {
+    e.preventDefault();
+
+    // try {
+    //   const sendEmail = fetch('http://localhost:5000', {
+    //     cache: 'no-cache',
+    //   });
+    // } catch (error) {
+    //   console.log(error);
+    // }
+    router.push('/thank-you');
+    return false;
+  };
 
   return (
     <Fragment>
@@ -211,6 +239,19 @@ const Layout = ({
               target="_blank"
             >
               <i className="fa-brands fa-whatsapp fa-bounce fs-2 px-3 py-3"></i>
+            </a>
+          </div>
+          <div className="left-icon-tow">
+            <a href="tel:" target="_blank" className="py-3">
+              <Image
+                src={phoneIcon}
+                alt="Phone Icon"
+                className="ps-2"
+                style={{
+                  objectFit: 'cover',
+                  width: '40px',
+                }}
+              />
             </a>
           </div>
           {/* && !popupForm  */}
@@ -257,18 +298,78 @@ const Layout = ({
                   </div>
                 </div>
 
-                <form action="">
-                  <input type="text" placeholder="Enter Your Name " />
-                  <input type="text" placeholder="Enter Your Phone Number" />
+                <form action="" onSubmit={handelSubmit}>
+                  <input
+                    required
+                    className="input"
+                    type="text"
+                    value={username}
+                    onChange={e => setUserName(e.target.value)}
+                    placeholder="Enter Your Name "
+                  />
+                  <input
+                    required
+                    className="input"
+                    type="text"
+                    value={phonenNumber}
+                    onChange={e => setPhonenNumber(e.target.value)}
+                    placeholder="Enter Your Phone Number"
+                  />
                   <textarea
+                    required
+                    className="textarea"
                     name=""
                     placeholder="I Want Disciuss On..."
                     id=""
                     rows={5}
+                    value={textArea}
+                    onChange={e => setTextArea(e.target.value)}
                   ></textarea>
+                  <div className="d-flex justify-content-center gap-3 mt-2">
+                    <div className="border p-3 rounded-4">
+                      <span
+                        className="text-black fw-bold "
+                        dangerouslySetInnerHTML={{
+                          __html: calculation.firstNumber,
+                        }}
+                      ></span>
+                    </div>
+                    <div className=" p-3">
+                      <span className="text-black fw-bold ">+</span>
+                    </div>
+                    <div className="border p-3 rounded-4">
+                      <span
+                        className="text-black fw-bold "
+                        dangerouslySetInnerHTML={{
+                          __html: calculation.secondNumber,
+                        }}
+                      ></span>
+                    </div>
+                    <div className=" p-3">
+                      <span className="text-black fw-bold ">=</span>
+                    </div>
+                    <div className="mt-1">
+                      <input
+                        onChange={calculationViaApproveSubmitButton}
+                        accept="number"
+                        type="text"
+                        className="text-black fw-bold rounded-4 border py-3 px-2  "
+                        style={{
+                          background: 'none',
+                          maxWidth: '100px',
+                          width: '40%',
+                        }}
+                      />
+                    </div>
+                  </div>
                   <button
+                    disabled={!buttonApprove}
                     type={'submit'}
-                    className="btn btn--primary d-block mt-3 m-auto  py-2  w-75  "
+                    className="btn btn--primary  w-75 d-block mt-3 m-auto  py-2  "
+                    style={{
+                      border: !buttonApprove ? '2px solid #000' : '',
+                      color: !buttonApprove ? '#000' : '',
+                    }}
                   >
                     {' '}
                     Submit

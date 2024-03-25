@@ -134,7 +134,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                       <Link href="/service/packageing">Packaging Design</Link>
                     </li>
                     <li>
-                      <Link href="/service/custome-logo">
+                      <Link href="/service/custom-logo">
                         Custome Logo Design
                       </Link>
                     </li>
@@ -164,8 +164,6 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     Blog 
                   </Link>
                 </li>
-
-
               </ul>
             </div>
           </div>
@@ -184,20 +182,21 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
             >
               <i className="fa-brands fa-facebook-f"></i>
             </Link>
-            <Link href="#" target="_blank" aria-label="share us on twitter">
+            <Link
+              href="https://twitter.com/anygraphics2day"
+              target="_blank"
+              aria-label="share us on twitter"
+            >
               <i className="fa-brands fa-twitter"></i>
             </Link>
-            <Link href="#" target="_blank" aria-label="share us on pinterest">
+            <Link
+              href="https://www.linkedin.com/company/any-graphics-today/"
+              target="_blank"
+              aria-label="share us on pinterest"
+            >
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
-            <Link href="#" target="_blank" aria-label="share us on instagram">
-              <i className="fa-brands fa-instagram"></i>
-            </Link>
-          </div>
-        </nav>
-      </div>
-    </div>
-  );
-};
-
-export default Offcanvas;
+            <Link
+              href="https://www.instagram.com/anygraphicstoday/"
+              target="_blank"
+              aria-label="share 

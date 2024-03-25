@@ -85,19 +85,14 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single">
-                      <Image src={one} alt="Image" />
-                    </Link>
+                    <Image src={one} alt="Image" />
+
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="intro">
-                        <h5>
-                          <Link href="team-single">
-                            Same Day Custom Made Graphics
-                          </Link>
-                        </h5>
+                        <h5>Same Day Custom Made Graphics</h5>
                         <p> High Skilled Designers</p>
                       </div>
                       <hr />
@@ -172,11 +167,7 @@ const TeamMembers = () => {
                   </div>
                   <div className="content">
                     <div className="intro">
-                      <h5>
-                        <Link href="team-single">
-                          Same Day Custom Made Graphics
-                        </Link>
-                      </h5>
+                      <h5>Same Day Custom Made Graphics</h5>
                       <p> High Skilled Designers</p>
                     </div>
                     <hr />
@@ -256,19 +247,14 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single">
-                      <Image src={two} alt="Image" />
-                    </Link>
+                    <Image src={two} alt="Image" />
+
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="intro">
-                        <h5>
-                          <Link href="team-single">
-                            Same Day Custom Made Graphics
-                          </Link>
-                        </h5>
+                        <h5>Same Day Custom Made Graphics</h5>
                         <p> High Skilled Designers</p>
                       </div>
                       <hr />
@@ -343,11 +329,7 @@ const TeamMembers = () => {
                   </div>
                   <div className="content">
                     <div className="intro">
-                      <h5>
-                        <Link href="team-single">
-                          Same Day Custom Made Graphics
-                        </Link>
-                      </h5>
+                      <h5>Same Day Custom Made Graphics</h5>
                       <p> High Skilled Designers</p>
                     </div>
                     <hr />
@@ -427,19 +409,14 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single">
-                      <Image src={three} alt="Image" />
-                    </Link>
+                    <Image src={three} alt="Image" />
+
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="intro">
-                        <h5>
-                          <Link href="team-single">
-                            Same Day Custom Made Graphics
-                          </Link>
-                        </h5>
+                        <h5>Same Day Custom Made Graphics</h5>
                         <p> High Skilled Designers</p>
                       </div>
                       <hr />
@@ -606,11 +583,7 @@ const TeamMembers = () => {
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="intro">
-                        <h5>
-                          <Link href="team-single">
-                            Same Day Custom Made Graphics
-                          </Link>
-                        </h5>
+                        <h5>Same Day Custom Made Graphics</h5>
                         <p> High Skilled Designers</p>
                       </div>
                       <hr />
@@ -777,11 +750,7 @@ const TeamMembers = () => {
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="intro">
-                        <h5>
-                          <Link href="team-single">
-                            Same Day Custom Made Graphics
-                          </Link>
-                        </h5>
+                        <h5>Same Day Custom Made Graphics</h5>
                         <p> High Skilled Designers</p>
                       </div>
                       <hr />
@@ -940,19 +909,13 @@ const TeamMembers = () => {
               <div className="team-s__slider-single">
                 <div className="team-wrap">
                   <div className="thumb">
-                    <Link href="team-single">
-                      <Image src={six} alt="Image" />
-                    </Link>
+                    <Image src={six} alt="Image" />
                     <div
                       className="thumb__content"
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="intro">
-                        <h5>
-                          <Link href="team-single">
-                            Same Day Custom Made Graphics
-                          </Link>
-                        </h5>
+                        <h5>Same Day Custom Made Graphics</h5>
                         <p> High Skilled Designers</p>
                       </div>
                       <hr />
@@ -1119,11 +1082,7 @@ const TeamMembers = () => {
                       style={{ backgroundImage: "url('/images/teams/bg.png')" }}
                     >
                       <div className="intro">
-                        <h5>
-                          <Link href="team-single">
-                            Same Day Custom Made Graphics
-                          </Link>
-                        </h5>
+                        <h5>Same Day Custom Made Graphics</h5>
                         <p> High Skilled Designers</p>
                       </div>
                       <hr />

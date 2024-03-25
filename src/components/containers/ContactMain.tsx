@@ -1,12 +1,25 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import phone from "public/images/phone.png";
-import mail from "public/images/mail.png";
-import location from "public/images/location.png";
-import time from "public/images/time.png";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import phone from 'public/images/phone.png';
+import mail from 'public/images/mail.png';
+import location from 'public/images/location.png';
+import time from 'public/images/time.png';
+import calculation from '@/lib/calculation';
+import { useRouter } from 'next/navigation';
 
 const ContactMain = () => {
+  const [buttonApprove, setButtonApprove] = useState(false);
+  const calculationViaApproveSubmitButton = (e: any) => {
+    const finalNumber = calculation.firstNumber + calculation.secondNumber;
+    const approveSignal = calculation.getCalculation(
+      Number(e.target.value),
+      finalNumber
+    );
+
+    setButtonApprove(approveSignal);
+  };
+  const router = useRouter();
   return (
     <section className="section contact-m fade-wrapper py-1">
       <div className="container">
@@ -69,10 +82,57 @@ const ContactMain = () => {
                           placeholder="Message"
                         ></textarea>
                       </div>
-                      <div className="form-cta justify-content-start">
-                        <button type="submit" className="btn btn--primary">
-                          Send Message
-                        </button>
+                      <div className="d-flex justify-content-center gap-3 mt-2">
+                        <div className="border p-3 rounded-4">
+                          <span
+                            className="text-black fw-bold "
+                            dangerouslySetInnerHTML={{
+                              __html: calculation.firstNumber,
+                            }}
+                          ></span>
+                        </div>
+                        <div className=" p-3">
+                          <span className="text-black fw-bold ">+</span>
+                        </div>
+                        <div className="border p-3 rounded-4">
+                          <span
+                            className="text-black fw-bold "
+                            dangerouslySetInnerHTML={{
+                              __html: calculation.secondNumber,
+                            }}
+                          ></span>
+                        </div>
+                        <div className=" p-3">
+                          <span className="text-black fw-bold ">=</span>
+                        </div>
+                        <div className="mt-1">
+                          <input
+                            onChange={calculationViaApproveSubmitButton}
+                            accept="number"
+                            type="text"
+                            className="text-black fw-bold rounded-4 border py-3 px-2  "
+                            style={{
+                              background: 'none',
+                              maxWidth: '100px',
+                              width: '40%',
+                            }}
+                          />
+                        </div>
+                      </div>
+                      <div className="form-cta d-flex justify-content-center">
+                        <Link href="/thank-you">
+                          <button
+                            disabled={!buttonApprove}
+                            style={{
+                              border: !buttonApprove ? '2px solid #000' : '',
+                              color: !buttonApprove ? '#000' : '',
+                            }}
+                            type="submit"
+                            className="btn btn--primary"
+                          >
+                            Send Message
+                          </button>
+                        </Link>
                       </div>
                     </form>
                   </div>

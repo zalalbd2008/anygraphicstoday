@@ -119,8 +119,8 @@ const Header = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="/service/custome-logo">
-                              Custome Logo Design
+                            <Link href="/service/custom-logo">
+                              Custom Logo Design
                             </Link>
                           </li>
                         </ul>

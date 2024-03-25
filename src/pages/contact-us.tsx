@@ -15,7 +15,7 @@ const ContactUs = () => {
           content="Discover expert graphic designers in your area. Contact now for top-quality design services. Enhance your branding today!"
         />
       </Head>
-      <CmnBanner title="Contact Us" navigation="Contact Us" />
+      <CmnBanner title="Contact Us" navigation="Contact Us"  />
       <ContactMain />
     </Layout>
   );

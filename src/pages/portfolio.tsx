@@ -12,6 +12,7 @@ const OurPortfolio = () => {
       <CmnBanner title="Portfolio " navigation="Portfolio " />
       <PortfolioMain />
       <PortfolioText show={false} />
+      <TeamMembers />
       <CtaTwo />
     </Layout>
   );

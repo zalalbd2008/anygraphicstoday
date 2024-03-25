@@ -5,8 +5,9 @@ import thumbtwo from 'public/images/service/thumb-two.png';
 import HeaderImage from 'public/images/service/thumb-two.png';
 import Link from 'next/link';
 
-const ServiceDetailsMain = ({ blogData, path, miniPath }: any) => {
+import TeamMembersTwo from '../TeamMembersTwo';
 
+const ServiceDetailsMain = ({ blogData, path, miniPath, serviceName }: any) => {
   return (
     <section className=" mb-5 service-details fade-wrapper">
       <div className="container">
@@ -36,7 +37,19 @@ const ServiceDetailsMain = ({ blogData, path, miniPath }: any) => {
                     book a designer now
                   </Link>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      {/* <TeamMembersTwo serviceName={serviceName} /> */}
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-12 col-xl-10">
+            <div className="service-details__slider">
+              <div className="service-details__slider-single">
+                
                 {blogData.map(
                   (blog: any, index: React.Key | null | undefined) =>
                     blog.areaHalfWidth &&
