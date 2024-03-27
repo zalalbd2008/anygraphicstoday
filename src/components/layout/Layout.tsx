@@ -276,7 +276,7 @@ const Layout = ({
                     onClick={setpopupHandeler}
                   ></i>
                 </div>
-                <div className="d-flex justify-content-between py-3">
+                <div className="d-flex flex-column flex-md-row justify-content-between py-3">
                   <div>
                     <i
                       className="fa-duotone fa-paper-plane fa-bounce icon"

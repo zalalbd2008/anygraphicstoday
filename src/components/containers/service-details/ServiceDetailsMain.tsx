@@ -43,13 +43,12 @@ const ServiceDetailsMain = ({ blogData, path, miniPath, serviceName }: any) => {
         </div>
       </div>
 
-      {/* <TeamMembersTwo serviceName={serviceName} /> */}
+      <TeamMembersTwo serviceName={serviceName} />
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-xl-10">
             <div className="service-details__slider">
               <div className="service-details__slider-single">
-                
                 {blogData.map(
                   (blog: any, index: React.Key | null | undefined) =>
                     blog.areaHalfWidth &&

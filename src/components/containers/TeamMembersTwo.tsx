@@ -15,7 +15,7 @@ import eight from 'public/images/teams/eight.jpg';
 import nine from 'public/images/teams/nine.jpg';
 import ten from 'public/images/teams/ten.jpg';
 
-const TeamMembersTwo = ({ serviceName = [] }: any) => {
+const TeamMembersTwo = ({ serviceName = [one, two, three, four, five, six, seven] }: any) => {
   const [thunkImage, setThunkImage] = useState([one]);
 
   return (
@@ -55,12 +55,14 @@ const TeamMembersTwo = ({ serviceName = [] }: any) => {
             slidesPerView={1}
             spaceBetween={30}
             slidesPerGroup={1}
-            speed={500}
+            speed={800}
             loop={true}
-            centeredSlides={false}
-            modules={[Autoplay, Navigation]}
+            roundLengths={true}
+            centeredSlides={true}
+            centeredSlidesBounds={false}
+            modules={[Autoplay]}
             autoplay={{
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
@@ -70,11 +72,7 @@ const TeamMembersTwo = ({ serviceName = [] }: any) => {
             }}
             className="team-s__slider"
             breakpoints={{
-              1500: {
-                slidesPerView: 6,
-                centeredSlides: true,
-              },
-              768: {
+              868: {
                 slidesPerView: 3,
                 centeredSlides: true,
               },
@@ -83,177 +81,22 @@ const TeamMembersTwo = ({ serviceName = [] }: any) => {
               },
             }}
           >
-            {serviceName.map((image: any) => (
-              <SwiperSlide>
-                <div className="team-s__slider-single">
+            {serviceName.map((image: any, index: number) => (
+              <SwiperSlide key={index}>
+                <div className="team-s__slider-single ">
                   <div className="team-wrap">
-                    <div className="thumb">
-                      <Image
-                        src={two}
-                        alt="Image"
-                       
-                      />
-                      <div
-                        className="thumb__content"
-                        style={{
-                          backgroundImage: "url('/images/teams/bg.png')",
-                        }}
-                      >
-                        <div className="intro">
-                          <h5>Same Day Custom Made Graphics</h5>
-                          <p> High Skilled Designers</p>
-                        </div>
-                        <hr />
-                        <div className="inner">
-                          <p>
-                            From Logo and Branding/Identity Design to Web and
-                            UI/UX Design, plus Print, Packaging, Advertising,
-                            and Publication, we cover a wide spectrum of graphic
-                            design services.
-                          </p>
-                          <div className="skill-wrap">
-                            <div className="skill-bar-single">
-                              <div className="skill-bar-title">
-                                <p>Wireframe</p>
-                              </div>
-                              <div
-                                className="skill-bar-wrapper"
-                                data-percent="75%"
-                              >
-                                <div className="skill-bar">
-                                  <div className="skill-bar-percent">
-                                    <span className="percent-value"></span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="skill-bar-single">
-                              <div className="skill-bar-title">
-                                <p>Visual Design</p>
-                              </div>
-                              <div
-                                className="skill-bar-wrapper"
-                                data-percent="90%"
-                              >
-                                <div className="skill-bar">
-                                  <div className="skill-bar-percent">
-                                    <span className="percent-value"></span>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <p>
-                            Get your logo and small graphic designs in just 5 to
-                            7 hours with Any Graphics Today.
-                          </p>
-                        </div>
-                        <div className="social-alt">
-                          <Link
-                            href="https://www.facebook.com/"
-                            target="_blank"
-                            aria-label="share us on facebook"
-                          >
-                            <i className="fa-brands fa-facebook-f"></i>
-                          </Link>
-                          <Link
-                            href="https://www.twitter.com/"
-                            target="_blank"
-                            aria-label="share us on twitter"
-                          >
-                            <i className="fa-brands fa-twitter"></i>
-                          </Link>
-                          <Link
-                            href="https://www.pinterest.com/"
-                            target="_blank"
-                            aria-label="share us on pinterest"
-                          >
-                            <i className="fa-brands fa-linkedin-in"></i>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="content">
-                      <div className="intro">
-                        <h5>Same Day Custom Made Graphics</h5>
-                        <p> High Skilled Designers</p>
-                      </div>
-                      <hr />
-                      <div className="inner">
-                        <p>
-                          From Logo and Branding/Identity Design to Web and
-                          UI/UX Design, plus Print, Packaging, Advertising, and
-                          Publication, we cover a wide spectrum of graphic
-                          design services.
-                        </p>
-                        <div className="skill-wrap">
-                          <div className="skill-bar-single">
-                            <div className="skill-bar-title">
-                              <p>Wireframe</p>
-                            </div>
-                            <div
-                              className="skill-bar-wrapper"
-                              data-percent="75%"
-                            >
-                              <div className="skill-bar">
-                                <div className="skill-bar-percent">
-                                  <span className="percent-value"></span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="skill-bar-single">
-                            <div className="skill-bar-title">
-                              <p>Visual Design</p>
-                            </div>
-                            <div
-                              className="skill-bar-wrapper"
-                              data-percent="90%"
-                            >
-                              <div className="skill-bar">
-                                <div className="skill-bar-percent">
-                                  <span className="percent-value"></span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <p>
-                          Get your logo and small graphic designs in just 5 to 7
-                          hours with Any Graphics Today.
-                        </p>
-                      </div>
-                      <div className="social">
-                        <Link
-                          href="https://www.facebook.com/"
-                          target="_blank"
-                          aria-label="share us on facebook"
-                        >
-                          <i className="fa-brands fa-facebook-f"></i>
-                        </Link>
-                        <Link
-                          href="https://www.twitter.com/"
-                          target="_blank"
-                          aria-label="share us on twitter"
-                        >
-                          <i className="fa-brands fa-twitter"></i>
-                        </Link>
-                        <Link
-                          href="https://www.pinterest.com/"
-                          target="_blank"
-                          aria-label="share us on pinterest"
-                        >
-                          <i className="fa-brands fa-linkedin-in"></i>
-                        </Link>
-                        <Link
-                          href="https://www.instagram.com/"
-                          target="_blank"
-                          aria-label="share us on instagram"
-                        >
-                          <i className="fa-brands fa-instagram"></i>
-                        </Link>
-                      </div>
-                    </div>
+                    <Image
+                      className="rounded-4"
+                      placeholder="blur"
+                      src={image}
+                      alt="Image"
+                      height={600}
+                      // width={800}
+                      style={{
+                        objectFit: 'cover',
+                        height: '400px',
+                      }}
+                    />
                   </div>
                 </div>
               </SwiperSlide>

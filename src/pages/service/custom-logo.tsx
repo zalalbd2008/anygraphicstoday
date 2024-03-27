@@ -10,7 +10,8 @@ import { serviceCustomeLogoBlog } from '@/constant/inedex';
 import HeaderImage from 'public/images/service/logo.jpg';
 import HeaderMINIImage from 'public/images/service/minilogo.jpg';
 import Head from 'next/head';
-import TeamMembers from '@/components/containers/TeamMembers';
+import { LogoImageChunk } from '@/constant/serviceImagePath';
+
 const ServiceDetails = () => {
   return (
     <Layout header={2} footer={1} video={false}>
@@ -31,9 +32,10 @@ const ServiceDetails = () => {
         blogData={serviceCustomeLogoBlog}
         path={HeaderImage}
         miniPath={HeaderMINIImage}
+        serviceName={LogoImageChunk}
       />
       <UxProcess stepWorkData={serviceCustomeLogoBlog} />
-  
+
       <CtaTwo />
     </Layout>
   );

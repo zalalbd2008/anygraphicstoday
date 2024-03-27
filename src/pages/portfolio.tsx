@@ -5,6 +5,8 @@ import PortfolioMain from '@/components/containers/PortfolioMain';
 import TeamMembers from '@/components/containers/TeamMembers';
 import PortfolioText from '@/components/containers/home/PortfolioText';
 import CtaTwo from '@/components/containers/service-details/CtaTwo';
+import TeamMembersTwo from '@/components/containers/TeamMembersTwo';
+import { LogoImageChunk } from '@/constant/serviceImagePath';
 
 const OurPortfolio = () => {
   return (
@@ -12,7 +14,8 @@ const OurPortfolio = () => {
       <CmnBanner title="Portfolio " navigation="Portfolio " />
       <PortfolioMain />
       <PortfolioText show={false} />
-      <TeamMembers />
+      {/* <TeamMembers /> */}
+      <TeamMembersTwo serviceName={LogoImageChunk} />
       <CtaTwo />
     </Layout>
   );

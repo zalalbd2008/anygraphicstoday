@@ -31,7 +31,7 @@ const ServiceDetails = () => {
         miniPath={motionMINIImage}
       />
       <UxProcess stepWorkData={serviceMotiononBlog} />
-      <TeamMembers />
+      {/* <TeamMembers /> */}
       <CtaTwo />
     </Layout>
   );
